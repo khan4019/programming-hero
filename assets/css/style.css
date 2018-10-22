@@ -1709,6 +1709,11 @@ body[data-fade_in="on-load"],
   align-items: center;
   height: 40px;
 }
+.social-icon a{
+    font-size: 22px;
+    border: 1px solid;
+    background: transparent;
+}
 
 @media (max-width: 739px) {
   .ui-footer .footer-copyright ul.footer-nav {
