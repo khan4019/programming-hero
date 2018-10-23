@@ -302,11 +302,17 @@ body[data-fade_in="on-load"],
 * 18. Drop-downs
 * ----------------------------------------------------------------------- *
 */
+.ui-navigation ul li a{
+font-size: 19px;
+}
+#let-start{
+  font-size: 1rem;
+  box-shadow: 0px 7px 30px 0px rgba(64, 53, 92, 0.48);
+}
 .dropdown .dropdown-header {
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .dropdown .dropdown-menu li a {
   font-weight: 600;
 }
