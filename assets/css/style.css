@@ -424,7 +424,7 @@ font-size: 19px;
 
 @media (min-width: 768px) {
   .ui-hero.hero-lg .heading, .ui-hero.hero-lg .paragraph {
-    max-width: 500px;
+    /* max-width: 500px; */
   }
 }
 
@@ -441,7 +441,7 @@ font-size: 19px;
 }
 
 .ui-hero .heading, .ui-hero .paragraph {
-  max-width: 500px;
+     /* max-width: 500px; */
 }
 
 .ui-hero.hero-center {
@@ -495,7 +495,7 @@ font-size: 19px;
 @media (min-width: 768px) {
   .ui-hero .heading {
     margin-bottom: 1.25rem;
-    font-size: 3.6rem;
+    font-size: 60px;
   }
 }
 
@@ -592,7 +592,7 @@ font-size: 19px;
   background-size: cover;
   background-image: url("../img/svg-layers/svg-layer-1.svg");
   background-position: center center;
-  opacity: 0.4;
+      opacity: 0.1;
 }
 
 .ui-hero.hero-svg-layer-2::before {
@@ -600,7 +600,7 @@ font-size: 19px;
   right: -10%;
   background-image: url("../img/svg-layers/svg-layer-2.svg");
   background-position: top center;
-  opacity: 0.4;
+  opacity: 0.1;
 }
 
 .ui-hero.hero-svg-layer-3::before {
@@ -608,7 +608,7 @@ font-size: 19px;
   background-repeat: repeat;
   background-image: url("../img/svg-layers/svg-layer-3.svg");
   background-position: center center;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .ui-hero.hero-svg-layer-4::before {
@@ -751,7 +751,6 @@ font-size: 19px;
   bottom: -1px;
   left: -20%;
   right: -20%;
-  z-index: 1;
 }
 
 @media (min-width: 768px) {
@@ -1313,6 +1312,7 @@ font-size: 19px;
   position: relative;
   padding: 8rem 0;
   z-index: 1;
+  background-color: #f2f4fe;
 }
 
 .section.section-sm {

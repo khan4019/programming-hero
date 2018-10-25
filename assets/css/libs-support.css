@@ -10689,8 +10689,8 @@ a:hover, .btn:hover {
 .ui-gradient-purple {
 
    /** background: -webkit-linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%); **/
-   background: -webkit-linear-gradient(45deg, #6A11CB 0%, #7c58ff 50%, #2575FC 100%);
-    background: linear-gradient(45deg, #6A11CB 0%, #7c58ff 50%, #2575FC 100%);
+   background: -webkit-linear-gradient(50deg, #6A11CB 0%, #2575FC 100%);
+   background: linear-gradient(50deg, #6A11CB 0%, #2575FC 100%);
 }
 
 .hero-bg.ui-gradient-purple::before {
