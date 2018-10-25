@@ -1661,6 +1661,13 @@ font-size: 19px;
   padding-bottom: 8px;
   font-size: 1.3rem;
 }
+.footer-lit ul li a{
+ color: #f2f4fe;
+}
+.footer-li ul li a{
+  color: #f2f4fe;
+}
+
 .footer-lit{
   padding-left: 2px;
 }
@@ -1854,6 +1861,17 @@ font-size: 19px;
 
 .ui-footer.ui-waves {
   margin-top: -2rem;
+  display: block;
+  background: url(../img/svg-layers/footer-bg.png) top no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.heading a{
+  color: #f2f4fe;
+}
+
+.ui-gradient-none {
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .ui-footer.ui-waves.subscribe-footer, .ui-footer.ui-waves.contact-footer {
@@ -1866,20 +1884,14 @@ font-size: 19px;
 }
 
 .ui-footer.ui-waves .footer-bg {
-  padding: 16rem 0 8rem 0;
+      padding: 14rem 0px 5rem 0px;
+    display: block;
 }
 
-.ui-footer.ui-waves::after {
-  display: block;
-  content: '';
-  height: 100%;
-  background: url(../img/svg-layers/waves2.svg) top no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: -5px;
-  left: -1px;
-  right: -1px;
-  z-index: 1;
+@media only screen and (max-width: 1920PX) and (min-width: 1445PX) {
+.ui-footer.ui-waves .footer-bg {
+    padding: 20rem 0px 7rem 0px;
+  }
 }
 
 .ui-footer.mini-footer .footer-bg {
