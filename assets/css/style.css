@@ -731,13 +731,15 @@ font-size: 19px;
 
 @media (min-width: 1200px) {
   .ui-hero.ui-waves {
-    padding: 5rem 0 13rem 0;
+        /* padding: 5rem 0 13rem 0; */
+    padding: 5rem 0 11rem 0;
   }
 }
 
 @media (min-width: 1681px) {
   .ui-hero.ui-waves {
-    padding: 8rem 0 14rem 0;
+    /* padding: 8rem 0 14rem 0; */
+    padding: 8rem 0 10rem 0;
   }
 }
 
