@@ -1134,6 +1134,7 @@ font-size: 19px;
 
 .navbar.transparent:not(.text-dark) .navbar-nav > li > a, .navbar.transparent.dark:not(.text-dark) .navbar-nav > li > a, .navbar.transparent.light:not(.text-dark) .navbar-nav > li > a, .navbar.transparent.bg-primary:not(.text-dark) .navbar-nav > li > a {
   color: #FFF;
+  text-decoration: none;
 }
 
 .navbar.transparent:not(.text-dark) .navbar-nav > li > a:hover, .navbar.transparent.dark:not(.text-dark) .navbar-nav > li > a:hover, .navbar.transparent.light:not(.text-dark) .navbar-nav > li > a:hover, .navbar.transparent.bg-primary:not(.text-dark) .navbar-nav > li > a:hover {
