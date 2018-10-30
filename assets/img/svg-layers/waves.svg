@@ -1,26 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 310">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 296">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-Artboard_1);
+        clip-path: url(#clip-Web_1920_1);
       }
 
       .cls-2 {
-        fill: #f1f3fe;
+        fill: none;
       }
 
-      .cls-3 {
+      .cls-3, .cls-4 {
         fill: #fff;
+      }
+
+      .cls-4 {
         opacity: 0.05;
       }
     </style>
-    <clipPath id="clip-Artboard_1">
-      <rect width="1920" height="310"/>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="296"/>
     </clipPath>
   </defs>
-  <g id="Artboard_1" data-name="Artboard – 1" class="cls-1">
-    <path id="Path_325" data-name="Path 325" class="cls-2" d="M2280,1293.333c220.606-169.7,504.242-256.97,821.818-206.061s484.848,111.515,703.03,75.151,472.728-160,669.091-152.727,145.455,172.121,145.455,172.121l-48.485,169.7-130.91,70.3-892.121,16.97L2280,1421.818Z" transform="translate(-2430 -888)"/>
-    <path id="Path_324" data-name="Path 324" class="cls-3" d="M4568.484,1215.834c-145.454-106.813-349.091-306.2-770.909-318.064s-693.333,206.5-1020.606,218.372-482.425-189.889-526.061-234.988-43.636,491.338-43.636,491.338l2383.031-33.23Z" transform="translate(-2315 -882.462)"/>
-    <path id="Path_323" data-name="Path 323" class="cls-3" d="M4568.484,1223.03C4423.03,1113.939,4219.394,910.3,3797.575,898.182s-693.333,210.909-1020.606,223.03-482.425-193.939-526.061-240-43.636,501.818-43.636,501.818L4590.3,1349.091Z" transform="translate(-3006 -821)"/>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <path id="_039_Deep_Blue" data-name="039 Deep Blue" class="cls-2" d="M0,0H1920V527H0Z"/>
+    <path id="Path_4" data-name="Path 4" class="cls-3" d="M2280,1293.333c220.606-169.7,504.242-256.97,821.818-206.061s484.848,111.515,703.03,75.151,472.728-160,669.091-152.727,145.455,172.121,145.455,172.121l-48.485,169.7-130.91,70.3-892.121,16.97L2280,1421.818Z" transform="translate(-2451 -895)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-4" d="M4568.484,1215.834c-145.454-106.813-349.091-306.2-770.909-318.064s-693.333,206.5-1020.606,218.372-482.425-189.889-526.061-234.988-43.636,491.338-43.636,491.338l2383.031-33.23Z" transform="translate(-2336 -889.462)"/>
+    <path id="Path_3" data-name="Path 3" class="cls-4" d="M4568.484,1223.03C4423.03,1113.939,4219.394,910.3,3797.575,898.182s-693.333,210.909-1020.606,223.03-482.425-193.939-526.061-240-43.636,501.818-43.636,501.818L4590.3,1349.091Z" transform="translate(-3027 -828)"/>
   </g>
 </svg>
