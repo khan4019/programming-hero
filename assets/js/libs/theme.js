@@ -22,9 +22,9 @@
             });  
         };
     };   
-  
-     
+    
     /*Function Calls*/ 
     new WOW().init();
     navbarFixed ();  
 })(jQuery);
+

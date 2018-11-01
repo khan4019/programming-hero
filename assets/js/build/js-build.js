@@ -88,7 +88,7 @@
             });
         });
     };
-   
+
     $(".navbar").ui_navbar();
     if ($("[data-uhd]").length) {
         $("[data-uhd]").ui_uhd_images();
@@ -109,3 +109,5 @@
         }, 450);
     });
 })(jQuery);
+
+
