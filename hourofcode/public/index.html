@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous" />
+    <script src="/socket.io/socket.io.js"></script>
+
+    <title>Programming Hero</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 relative particle-show" id="particles-js">
+                    <div class="media">
+                        <img class="mr-3" src="logo.png" width="200px" height="200px" alt="logo" />
+
+                        <div class="media-body center-verticle">
+                            <h3 class="mt-1"><b>Hour Of Code</b></h3>
+                            <h4>Programming Hero</h4>
+                        </div>
+                    </div>
+                    <!-- media relative -->
+                </div>
+
+                <div class="col-md-12">
+                    <div class="text-right mb-3">
+                        <input class="form-control" id="in" type="text" placeholder="Add Your Key" onkeyup="fetchKey()" />
+                        <button class="btn btn-success">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Row -->
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="challange-list">
+                    <!-- Data will be loaded -->
+                </div>
+            </div>
+        </div>
+        <!-- End of Row -->
+    </div>
+    <!-- End of Container Fluid -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="particle.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            var list = $("#challange-list");
+            var val = $("input").val();
+
+            var socket = io.connect();
+
+
+            socket.on("get users", function (data) {
+                list.html('')
+                console.log(data)
+                for (i = 0; i < data.length; i++) {
+                    var value = (data[i].level * 100) / 10;
+                    list.append(`  
+                <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                    <span>
+                      <b>${(i + 1) + '. '}</b>  ${data[i].name}
+                      </span> 
+                      <span>Current Level: ${data[i].lname}</span>
+                    <span id="progress-level">Level: 10</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="progress">
+                      <span class="level-indicator" id="${i}"
+                      >${data[i].level}</span>
+                      <div class="progress-bar progress-bar-success"  id="${10 + i}" role="progressbar" aria-valuenow="${data[i].level}"
+                        aria-valuemin="0" aria-valuemax="10" style="width: ${value}%">
+                        ${value}% Complete 
+                      </div>
+                    </div>
+                    <div class="badges">
+                    <div class="challenge">
+                      <img src="donut.png" class="img-fluid" />
+                    </div>
+                    <div class="challenge">
+                      <img src="icecream.png" class="img-fluid" />
+                    </div>
+                  </div>
+    
+                  </div>
+                </div>
+              `);
+                    var progressBar = $(`#${10 + i}`).outerWidth();
+                    $(`#${i}`).css({
+                        left: progressBar - 20 + 'px'
+                    });
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
