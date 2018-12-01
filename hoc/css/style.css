@@ -101,8 +101,21 @@ body {
     background-image: url(../img/planet/planet6.png);
    background-size: contain;
 }
-
-    
+.planet7{
+    position: relative;
+    background-image: url(../img/planet/planet7.png);
+   background-size: contain;
+}
+.planet8{
+    position: relative;
+    background-image: url(../img/planet/planet8.png);
+   background-size: contain;
+}
+.planet9{
+    position: relative;
+    background-image: url(../img/planet/planet9.png);
+   background-size: contain;  
+}
 
 .btCustomCarousel .carousel-indicators li i {
     font-size: 48px;
