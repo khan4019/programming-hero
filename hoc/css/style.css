@@ -74,6 +74,7 @@ body {
     position: relative;
     background-image: url(../img/planet/planet1.png);
    background-size: contain;
+
 }
 .planet2 {
     position: relative;
@@ -124,6 +125,16 @@ body {
     padding: 10px 0px 0px 8px;}
 .btCustomCarousel .carousel-indicators li.active {
     color: #fff;
+        animation-name: wiggle;
+    -webkit-animation-name: wiggle; 
+
+    animation-duration: 2.5s;   
+    -webkit-animation-duration: 2.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+    visibility: visible !important; 
 }
 
 .btCustomCarousel .carousel-indicators li.active i {
