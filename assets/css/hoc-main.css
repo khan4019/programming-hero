@@ -17,6 +17,18 @@ body {
     color: #57307b;
     font-family: "Roboto", sans-serif;
 }
+#planetMenu{
+    float: right;
+}
+.planetMenuIcon{
+    float: right;
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 26px !important;
+    line-height: 55px !important;
+    text-align: center;
+    padding-left: 3px;
+    cursor: pointer;}
 .btCustomCarousel {
     position: absolute;
     background-color: transparent;
@@ -163,6 +175,8 @@ body {
 
 .carouselSliderItems {
     text-align: center;
+    display: none;
+    left: -100px;
 }
 
 .carouselSliderItems img {}

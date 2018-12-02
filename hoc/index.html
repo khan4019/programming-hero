@@ -20,55 +20,60 @@
         <div class="container">
         <div class="introTitle">
             <div class="row">
-                <div class="section-intro">
-                    <h2>Game Start!</h2>
-                    <p>Build Your Own Game!</p>
-                </div>
+                    <div id="headerArea" class="col-md-6 col-sm-6">
+                        <div class="section-intro">
+                                <h2>Game Start!</h2>
+                                <p>Build Your Own Game!</p>
+                        </div> 
+                    </div>
+                    <div id="planetMenu" class="col-md-6 col-sm-6">
+                           <i class="glyphicon glyphicon-th itemIcon animated rubberBand planetMenuIcon"></i>
+                    </div>
             </div>
         </div>
             <div id="transitionsDemo" class="carousel slide" data-ride="carousel">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6">
+                    <div id="planetArea fadeIn" class="col-md-6 col-sm-6">
                         <ol class="carousel-indicators">
-                            <li data-target="#transitionsDemo" data-slide-to="0" class="wiggle planet1 active">
+                            <li data-target="#transitionsDemo" data-slide-to="0" id="btnPlanet1" class="planet1 active">
                                 <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/start.png" class="animated rubberBand" style="width: 44px" alt="lock.png"></a><p class="lessonName">Lesson 1</p></div>
+                                <img id="L0img" src="../assets/img/hoc/planet/start.png" class="animated rubberBand" style="width: 44px" alt="lock.png"></a><p class="lessonName">Lesson 1</p></div>
                             </li>
                             <li class="planet2" data-target="#transitionsDemo" data-slide-to="1">
                               <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 2</p></div>
+                                <img id="L1img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 2</p></div>
                             </li>
                             <li class="planet3" data-target="#transitionsDemo" data-slide-to="2">
                               <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 3</p></div>
+                                <img id="L2img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 3</p></div>
                             </li>
                             <li class="planet4" data-target="#transitionsDemo" data-slide-to="3">
                                 <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 4</p></div>
+                                <img id="L3img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 4</p></div>
                             </li>
                             <li class="planet5" data-target="#transitionsDemo" data-slide-to="4">
                                 <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 5</p></div>
+                                <img id="L4img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 5</p></div>
                             </li>
                             <li class="planet6" data-target="#transitionsDemo" data-slide-to="5">
                                 <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 6</p></div>
+                                <img id="L5img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 6</p></div>
                             </li>
                             <li class="planet7" data-target="#transitionsDemo" data-slide-to="24">
                                 <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 7</p></div>
+                                <img id="L6img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 7</p></div>
                             </li>
                             <li class="planet8" data-target="#transitionsDemo" data-slide-to="28">
                                 <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 8</p></div>
+                                <img id="L7img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 8</p></div>
                             </li>
                             <li class="planet9" data-target="#transitionsDemo" data-slide-to="32">
                                 <div class="level"><a href="#">
-                                <img src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 9</p></div>
+                                <img id="L8img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a><p class="lessonName">Lesson 9</p></div>
                             </li>
                         </ol>
 
-                        <div style="float: right;">
+                        <div id="btnNextPrev" style="float: right;">
                             <a class="left carousel-control" href="#transitionsDemo" role="button" data-slide="prev">
                                 <span class="glyphicon glyphicon-menu-left"></span>
                             </a>
@@ -78,7 +83,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-6 carouselSliderItems">
+                    <div class="col-md-6 col-sm-6 slideUp carouselSliderItems">
                         <img src="../assets/img/hoc/mobile-device.png" alt="mobile device">
 
                         <div class="carousel-inner" role="listbox">
@@ -231,7 +236,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="33" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="33" id="btnFinishL1" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +258,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="2" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="2" id="btnFinishL2" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -362,7 +367,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="3" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="3" id="btnFinishL3" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -405,7 +410,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="4" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="4" id="btnFinishL4" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -489,7 +494,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="5" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="5" id="btnFinishL5" id="btnFinishL6" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -592,7 +597,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="24" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="24" id="btnFinishL5" class="btn btn-primary btnNext">Finish</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
                                         </div>
                                     </div>
                                 </div>
@@ -686,7 +691,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                           <a href="#transitionsDemo" data-slide-to="28" class="btn btn-primary btnNext">Finish</a>
+                                           <a href="#transitionsDemo" data-slide-to="28" id="btnFinishL7" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -779,7 +784,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                           <a href="#transitionsDemo" data-slide-to="32" class="btn btn-primary btnNext">Finish</a>
+                                           <a href="#transitionsDemo" data-slide-to="32" id="btnFinishL8" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -795,12 +800,12 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell lessonPageContent">
-                                            <b><font color=\"#078ef9\">while</font></b> loop needs a loop variable and a stopping condition.
+                                            <p>You are Finished The All Lesson. Now your next step to download Programming Hero & build your own Game. </p>
                                         </div>
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank" class="btn btn-primary btnNext" >Download Now</a>
+                                            <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank" id="btnFinishL9" class="btn btn-primary btnNext" >Download Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -828,10 +833,6 @@
                                 </div>
                             </div>
 
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -842,7 +843,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../assets/js/libs/bootstrap.min.js"></script>
-
+    <script src="../assets/js/build/hoc-App.js"></script>
 
     <script>
         $('#transitionsDemo').carousel({
