@@ -3,13 +3,17 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     border: 0;
+    background: linear-gradient(#2f234e, rgb(104, 54, 143), #4e286b)no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .h4, h4 {
     font-size: 19px;
@@ -30,11 +34,10 @@ body {
     padding-left: 3px;
     cursor: pointer;}
 .btCustomCarousel {
-    position: absolute;
     background-color: transparent;
     padding: 50px 0;
     width: 100%;
-    background: linear-gradient(#2f234e, rgb(104, 54, 143), #4e286b);
+    height: 100%;
 }
 .item{background-color: #fff;}
 
@@ -177,13 +180,15 @@ body {
     text-align: center;
     display: none;
 }
+.mobileDevice{
+    display: none;
+}
 
 .carouselSliderItems img {}
 
 .carouselSliderItems .carousel-inner {
     position: absolute;
-    top: 65px;
-    width: 285px;
+    width: 290px;
     left: 50%;
     height: 490px;
     margin-left: -143px;
