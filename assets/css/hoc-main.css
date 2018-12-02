@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -15,16 +15,20 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-.h4, h4 {
+
+.h4,
+h4 {
     font-size: 19px;
     font-weight: 500;
     color: #57307b;
     font-family: "Roboto", sans-serif;
 }
-#planetMenu{
+
+#planetMenu {
     float: right;
 }
-.planetMenuIcon{
+
+.planetMenuIcon {
     float: right;
     width: 55px !important;
     height: 55px !important;
@@ -32,14 +36,19 @@ body {
     line-height: 55px !important;
     text-align: center;
     padding-left: 3px;
-    cursor: pointer;}
+    cursor: pointer;
+}
+
 .btCustomCarousel {
     background-color: transparent;
     padding: 50px 0;
     width: 100%;
     height: 100%;
 }
-.item{background-color: #fff;}
+
+.item {
+    background-color: #fff;
+}
 
 .btCustomCarousel>.container {
     position: relative;
@@ -56,9 +65,11 @@ body {
     content: '';
     z-index: 0;
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
     background-color: transparent;
 }
+
 .btCustomCarousel .carousel-indicators {
     position: static;
     width: auto;
@@ -82,54 +93,64 @@ body {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+
 .carousel-indicators li {
     border: 4px solid #67368e;
 }
+
 .planet1 {
     position: relative;
     background-image: url(../img/hoc/planet/planet1.png);
-   background-size: contain;
+    background-size: contain;
 
 }
+
 .planet2 {
     position: relative;
     background-image: url(../img/hoc/planet/planet2.png);
-   background-size: contain;
+    background-size: contain;
 }
+
 .planet3 {
     position: relative;
     background-image: url(../img/hoc/planet/planet3.png);
-   background-size: contain;
+    background-size: contain;
 }
+
 .planet4 {
     position: relative;
     background-image: url(../img/hoc/planet/planet4.png);
-   background-size: contain;
+    background-size: contain;
 }
+
 .planet5 {
     position: relative;
     background-image: url(../img/hoc/planet/planet5.png);
-   background-size: contain;
+    background-size: contain;
 }
+
 .planet6 {
     position: relative;
     background-image: url(../img/hoc/planet/planet6.png);
-   background-size: contain;
+    background-size: contain;
 }
-.planet7{
+
+.planet7 {
     position: relative;
     background-image: url(../img/hoc/planet/planet7.png);
-   background-size: contain;
+    background-size: contain;
 }
-.planet8{
+
+.planet8 {
     position: relative;
     background-image: url(../img/hoc/planet/planet8.png);
-   background-size: contain;
+    background-size: contain;
 }
-.planet9{
+
+.planet9 {
     position: relative;
     background-image: url(../img/hoc/planet/planet9.png);
-   background-size: contain;  
+    background-size: contain;
 }
 
 .btCustomCarousel .carousel-indicators li i {
@@ -142,24 +163,31 @@ body {
     margin: 20px auto 15px;
     border-radius: 100px;
     color: #3378ff;
-     -webkit-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
-.level{position: relative;margin-top: 37px;}
-.lessonName{
+
+.level {
+    position: relative;
+    margin-top: 37px;
+}
+
+.lessonName {
     margin: 0px !important;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    padding: 10px 0px 0px 8px;}
+    padding: 10px 0px 0px 8px;
+}
+
 .btCustomCarousel .carousel-indicators li.active {
     color: #fff;
     animation-name: wiggle;
-    -webkit-animation-name: wiggle; 
-    animation-duration: 2.5s;   
+    -webkit-animation-name: wiggle;
+    animation-duration: 2.5s;
     -webkit-animation-duration: 2.5s;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
-    visibility: visible !important; 
+    visibility: visible !important;
 }
 
 .btCustomCarousel .carousel-indicators li.active i {
@@ -180,7 +208,8 @@ body {
     text-align: center;
     display: none;
 }
-.mobileDevice{
+
+.mobileDevice {
     display: none;
 }
 
@@ -193,7 +222,8 @@ body {
     height: 490px;
     margin-left: -143px;
 }
-.lessonPageContent{
+
+.lessonPageContent {
     text-align: left;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -228,9 +258,9 @@ body {
     margin: 0 auto;
     border-radius: 100px;
     color: #fff;
-    
+
     -webkit-animation-delay: 0.5s;
-    
+
     animation-delay: 0.5s;
 }
 
@@ -240,13 +270,23 @@ body {
     margin-bottom: 30px;
     color: #fafafa;
 }
-.btnNext{background-color: #5D4D7A;    padding: 6px 20px 7px 20px;  display: inline-block;
-  transition-duration: 0.3s;
-  transition-property: transform;
-  -webkit-tap-highlight-color: transparent;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px transparent;}
-.btnNext:hover{background-color: #5D4D7A;   transform: scale(1.1);}
+
+.btnNext {
+    background-color: #5D4D7A;
+    padding: 6px 20px 7px 20px;
+    display: inline-block;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.btnNext:hover {
+    background-color: #5D4D7A;
+    transform: scale(1.1);
+}
+
 .section-intro:after {
     position: absolute;
     left: 0;
@@ -273,9 +313,11 @@ body {
     .btCustomCarousel .carousel-indicators li {
         margin: 0;
     }
+
     .carouselSliderItems {
         margin-top: 120px;
     }
+
     .carouselSliderItems .carousel-inner {
         margin-left: -129px;
     }
@@ -285,23 +327,29 @@ body {
     .btCustomCarousel:after {
         display: none;
     }
+
     .btCustomCarousel {
         text-align: center;
     }
+
     .section-intro:after {
         left: 50%;
         margin-left: -50px;
     }
+
     .btCustomCarousel .carousel-indicators {
         white-space: nowrap;
         overflow: auto;
     }
+
     .btCustomCarousel .carousel-indicators li {
         float: none;
     }
+
     .btCustomCarousel .carousel-control {
         display: none;
     }
+
     .carouselSliderItems {
         float: left;
         width: 100%;
@@ -312,11 +360,13 @@ body {
     .carouselSliderItems img {
         display: none;
     }
+
     .sliderTableContent,
     .carouselSliderItems .carousel-inner {
         height: auto;
         position: relative;
     }
+
     .carouselSliderItems .carousel-inner {
         top: 0;
     }
