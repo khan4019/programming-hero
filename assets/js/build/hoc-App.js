@@ -7,19 +7,19 @@ $('.planetMenuIcon').on('click', function () {
         $('.carouselSliderItems').show();
     }
 });
-$('#btnPlanet1').on('click', function () {
-    if ($('.carouselSliderItems').css('display') === 'none') {
-        $('.carouselSliderItems').show();
-        $('.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9,#btnNextPrev').hide();
-        $("#L0img").attr('src', "../assets/img/hoc/planet/completed.png");
-        $("#L1img").attr('src', "../assets/img/hoc/planet/start.png");
-    }
-});
+// $('#btnPlanet1').on('click', function () {
+//     if ($('.carouselSliderItems').css('display') === 'none') {
+//         $('.carouselSliderItems').show();
+//         $('.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9,#btnNextPrev').hide();
+//         $("#L0img").attr('src', "../assets/img/hoc/planet/completed.png");
+//         $("#L1img").attr('src', "../assets/img/hoc/planet/start.png");
+//     }
+// });
 $('.planet2').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
         $('.planet1,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9,#btnNextPrev').hide();
-        $("#L1img").attr('src', "../assets/img/hoc/planet/completed.png");
+        $("#L0img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L2img").attr('src', "../assets/img/hoc/planet/start.png");
     }
 });
