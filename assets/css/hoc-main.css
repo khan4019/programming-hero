@@ -176,7 +176,6 @@ body {
 .carouselSliderItems {
     text-align: center;
     display: none;
-    left: -100px;
 }
 
 .carouselSliderItems img {}
