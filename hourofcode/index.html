@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <title>Programming Hero</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </link>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    body {
+      margin-top: 30px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="well">
+          <h3>Online User</h3>
+          <ul class="list-group" id="users"></ul>
+        </div>
+      </div>
+      <div class="col-md-8">
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(function () {
+      var socket = io.connect();
+      var $users = $('#users');
+
+      socket.on("get users", function (data) {
+        var html = ''
+        for (i = 0; i < data.length; i++) {
+          html += '<li class="list-group-item"><strong>' + data[i].name + '</strong></li>'
+        }
+        $users.html(html);
+      })
+
+    });
+  </script>
+</body>
+
+</html>
+
+<!-- <h1>User Connected <span id="user"></span></h1>
+      <p id="userid"></p>
+      <script>
+        var socket = io();
+        socket.emit("demo", {
+          name: "hello",
+          age: 15
+        });
+
+        socket.on("userdata", data => {
+          document.getElementById("userid").innerHTML += socket.id + "<br>";
+        });
+
+        socket.on("join", dt => {
+          document.getElementById("user").innerHTML = dt.n;
+        });
+    </script>
+  </head>
+</html> -->

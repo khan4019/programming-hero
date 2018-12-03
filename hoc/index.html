@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOC</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/hoc-main.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/wickedcss.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="btCustomCarousel">
+        <div class="container">
+            <div class="introTitle">
+                <div class="row">
+                    <div id="headerArea" class="col-md-6 col-sm-6">
+                        <div class="section-intro">
+                            <h2>Hour Of Code</h2>
+                            <!-- <p>Build Your Own Game!</p> -->
+                        </div>
+                    </div>
+                    <div id="planetMenu" class="col-md-6 col-sm-6">
+                        <i class="glyphicon glyphicon-th itemIcon animated rubberBand planetMenuIcon"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="transitionsDemo" class="carousel slide" data-ride="carousel">
+                <div class="row">
+                    <div id="planetArea fadeIn" class="col-md-6 col-sm-6">
+                        <ol class="carousel-indicators">
+                            <!-- <li data-target="#transitionsDemo" data-slide-to="0" id="btnPlanet1" class="planet1">
+                                <div class="level"><a href="#">
+                                        <img id="L0img" src="../assets/img/hoc/planet/start.png" class="animated rubberBand"
+                                            style="width: 44px" alt="lock.png"></a>
+                                    <p class="lessonName">Lesson 1</p>
+                                    <p class="lessonName">Coding Just <br>Got Fun</p>
+                                </div>
+                            </li> -->
+                            <li class="planet2 active" data-target="#transitionsDemo" data-slide-to="1">
+                                <div class="level"><a href="#">
+                                        <img id="L0img" src="../assets/img/hoc/planet/start.png" class="animated rubberBand"
+                                        style="width: 38px" alt="start.png"></a>
+                                    <!-- <p class="lessonName">Lesson 2</p> -->
+                                    <p class="lessonName">Display Output</p>
+                                </div>
+                            </li>
+                            <li class="planet3" data-target="#transitionsDemo" data-slide-to="2">
+                                <div class="level"><a href="#">
+                                        <img id="L2img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
+                                    <!-- <p class="lessonName">Lesson 3</p> -->
+                                    <p class="lessonName">Things That <br>Change</p>
+                                </div>
+                            </li>
+                            <li class="planet4" data-target="#transitionsDemo" data-slide-to="3">
+                                <div class="level"><a href="#">
+                                        <img id="L3img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
+                                    <!-- <p class="lessonName">Lesson 4</p> -->
+                                    <p class="lessonName">Shake it Baby</p>
+                                </div>
+                            </li>
+                            <li class="planet5" data-target="#transitionsDemo" data-slide-to="4">
+                                <div class="level"><a href="#">
+                                        <img id="L4img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
+                                    <!-- <p class="lessonName">Lesson 5</p> -->
+                                    <p class="lessonName">User Input</p>
+                                </div>
+                            </li>
+                            <li class="planet6" data-target="#transitionsDemo" data-slide-to="5">
+                                <div class="level"><a href="#">
+                                        <img id="L5img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
+                                    <!-- <p class="lessonName">Lesson 6</p> -->
+                                    <p class="lessonName">Do Some Work</p>
+                                </div>
+                            </li>
+                            <li class="planet7" data-target="#transitionsDemo" data-slide-to="24">
+                                <div class="level"><a href="#">
+                                        <img id="L6img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
+                                    <!-- <p class="lessonName">Lesson 7</p> -->
+                                    <p class="lessonName">Things Together</p>
+                                </div>
+                            </li>
+                            <li class="planet8" data-target="#transitionsDemo" data-slide-to="28">
+                                <div class="level"><a href="#">
+                                        <img id="L7img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
+                                    <!-- <p class="lessonName">Lesson 8</p> -->
+                                    <p class="lessonName">Doing Again <br>and Again</p>
+                                </div>
+                            </li>
+                            <li class="planet9" data-target="#transitionsDemo" data-slide-to="32">
+                                <div class="level"><a href="#">
+                                        <img id="L8img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
+                                    <p class="lessonName">Explore More</p>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div id="btnNextPrev" style="float: right; display: none;">
+                            <a class="left carousel-control" href="#transitionsDemo" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-menu-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#transitionsDemo" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-menu-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 slideUp carouselSliderItems">
+                        <img class="mobileDevice" src="../assets/img/hoc/mobile-device.png" alt="mobile device">
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Become a Programmer</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>It’s fun and easy to become a programmer. </p>
+                                            <p>his hour of code will show you the fun and entertaining side of coding</p>
+                                            <img src="../assets/img/hoc/lesson1p1.png" alt="mobile device">
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="6" class="btn btn-primary pulse btnNext"
+                                                style="background: #3a89ff;">Start Game</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item active">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Show Output</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>When you use a software website/app, you expect it to do something and
+                                                show you output. To display output you need to use a special keyword <b>
+                                                    <font color=\"#078ef9\">print</font>
+                                                </b>.</p>
+                                            <img src="../assets/img/hoc/1_s1.png" alt="mobile device">
+                                            <code>print(“Emma Watson”)</code>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="7" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Profile Picture</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Think about your Facebook profile picture for a second. You can change
+                                                it at any time. This means your profile pic could vary or change.<br><br></p>
+                                            <img src="../assets/img/hoc/2_1_s1.png" alt="mobile device">
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="8" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-random itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Simple Questions</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>If someone asks you-</p>
+                                            <p>1. Is it hot today?<br>2. Is he crazy?<br>3. Is this Jacket expensive?<br>4.
+                                                Is this cat drunk? 😾</p>
+                                            <p>The answers to these questions are either True or False. A variable
+                                                whose value could be either True or False is called a <b>
+                                                    <font color=\"#078ef9\">boolean</font>
+                                                </b> type variable. </p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="13" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>User Account</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>While creating your user account in Facebook, youtube, or any other
+                                                website/app you need to provide your name, email address, password,
+                                                etc.</p>
+                                            <img src="../assets/img/hoc/Facebook_login_is_not_working_768x445.png" alt="facebook- png">
+                                            <p style="padding-top: 10px;">This means, the website/app needs to take
+                                                user input from you. </p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="15" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Brush your Teeth</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Most of the time, your morning starts with one command from your mom-
+                                                brush your teeth. That’s all she tells you, and you know what you have
+                                                to do.</p>
+                                            <img src="../assets/img/hoc/11_1_s1.png" alt="a boy brush her teeth- png">
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="19" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ---------------------------------------- -->
+
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-flash itemIcon animated rubberBand"></i>
+                                            <h4>Build Your Own Game</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Let's make learning fun by building your own game while learning to
+                                                code.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="33" id="btnFinishL1" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 7 This is End 1st sub Lesson Content-->
+                            <div id="L2Page2" class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-thumbs-up itemIcon animated rubberBand" style="background: #9d68d8;"></i>
+                                            <h4>Take Away</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Use <b>
+                                                    <font color=\"#078ef9\">print()</font>
+                                                </b> to show output.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="1" id="btnFinishL2" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 8 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Vary or Change</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Similarly, the number of likes is not same for everything you see on
+                                                facebook or youtube.</p>
+                                            <p>Sometimes it’s higher, and sometimes it’s lower. This means numbers of
+                                                likes could vary or change. </p>
+                                            <p>In fact, a lot of things you see around you could vary or change.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="9" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 9 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Variable</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Now you know there are a lot of things that could change. They could
+                                                vary.</p>
+                                            <p>For simplicity, you can think <br /><br /><b>
+                                                    <font color=\"#078ef9\">Variable = Vary + able</font>
+                                                </b><br /><br />Hence, variable is something that could vary.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="10" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 10 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Three things</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>As a programmer, you will write variables every day. And it’s very
+                                                simple to write a variable. You will need just three things- <br><br>1.
+                                                A name <br>2. An equal sign(=) <br>3. A value</p>
+                                            <img src="../assets/img/hoc/2.2_s2.png" alt="2.2_s2.png">
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="11" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 11 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>String Type Variable</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>When the value of a variable contains one or more characters or words,
+                                                it is called a <b>
+                                                    <font color=\"#078ef9\">string</font>
+                                                </b>. type variable.</p>
+                                            <p>When you write the value of a string type variable, you put them inside
+                                                double quotes</p>
+                                            <code>name = "Mark Zuckerberg" <br>sports = "football" <br> food = "noddles</code>
+
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="12" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 12 This is End 1st sub Lesson Content-->
+                            <div id="L2Page2" class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-thumbs-up itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Take Away</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Use double quotes for string type variable.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="3" id="btnFinishL3" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 13 This is End 1st sub Lesson Content-->
+                            <div id="L2Page2" class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Boolean</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Writing a boolean type variable is very simple. First, you write the
+                                                variable name and then equals sign and then True or False.</p>
+                                            <p>For example, if you are rich, you will write-</p>
+                                            <code>isRich = True <br> isScared = False</code>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="14" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 14 This is End 1st sub Lesson Content-->
+                            <div id="L2Page2" class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-thumbs-up itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Take Away</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Boolean values will be <b>
+                                                    <font color=\"#078ef9\">True</font>
+                                                </b> or <b>
+                                                    <font color=\"#078ef9\">False</font>
+                                                </b></p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="4" id="btnFinishL4" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 15 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>User input</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>To ask for any information in the Python programming language is very
+                                                simple. Just type input(). This will ask the user to provide some
+                                                information.</p><br><br>
+                                            <p style="font-weight: bold;">input()</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="16" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 16 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>What info you need</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>While asking for user input, you can add extra info to tell the user
+                                                what information they should provide </p>
+                                            <br>
+                                            <p>input("Tell me your favorite food:")</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="17" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 17 This is End 1st sub Lesson Content-->
+                            <div id="L2Page2" class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Input in variable</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Besides, you can store user input in a variable and then use that
+                                                variable.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="18" class="btn btn-primary btnNext">Almost
+                                                Done!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 18 This is End 1st sub Lesson Content-->
+                            <div id="L2Page2" class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-thumbs-up itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Take Away</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Use <b>
+                                                    <font color=\"#078ef9\">input()</font>
+                                                </b> to take user input.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="5" id="btnFinishL5" id="btnFinishL6"
+                                                class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 19 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Brush every day</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Similarly, if she tells you to <b>clean the dishes, do the laundry,
+                                                    throw out the garbage, or take a shower</b>, you know all the steps
+                                                you need to perform to finish these tasks. </p><br><br>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="20" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 20 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Do Some Task</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>These tasks have three unique properties- <ol>
+                                                    <li> There are one or more subtasks/steps inside</li>
+                                                    <li> Collectively, they have a name</li>
+                                                    <li> Call the task name to perform the sub-tasks </li>
+                                                </ol>
+                                            </p>
+                                            <p>These tasks are called <b>
+                                                    <font color=\"#078ef9\">functions</font>
+                                                </b>. This means, you are doing some tasks or performing a function.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="21" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 21 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Declare a function</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Let’s declare your first function. And give it the name <b>brush_teeth</b>.
+                                                Inside the function, you will do few things.
+                                                <br\ />
+                                                <br\ />You will call this function by writing the function’s name and
+                                                then two parentheses like below as if you are giving a command to
+                                                perform the task.</p>
+                                            <code>def brush_teeth():<br> print("brush")<br> brush_teeth()</code>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="22" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 22 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-thumbs-up itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Take Away</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Use a <b>
+                                                    <font color=\"#078ef9\">function</font>
+                                                </b> to do one or more sub-tasks when needed.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="23" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 23 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Fantastic!</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>You are doing great. Keep going.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="24" id="btnFinishL5" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 24 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-random itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Things Together</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>You can put more than one value in a variable in a unique way.</p>
+                                            <p>When you put more than one values in a variable, that variable is called
+                                                a list or collection or array.</p>
+                                            <p>We will refer to it as a list.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="25" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- 25 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Declare list</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Each item in a list is called an element of the list. </p>
+                                            <p>While declaring a list, you need to do two things- </p>
+                                            <ol>
+                                                <li> You put multiple values inside third brackets.</li>
+                                                <li> Use a comma between elements to separate them.</li>
+                                            </ol>
+                                            <code>friends_age = [17, 19, 21, 15, 16]</code>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="26" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 26 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>List of strings</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>You are on a bus with your superhero friends. Since there is more than
+                                                one person on the bus, you can create a list with their names.</p>
+                                            <p>To create a list with names, you have to write names inside third
+                                                brackets and a comma between two elements. Also, names are a string.
+                                                Thus, you have to enclose each name with quotation marks.</p>
+                                            <code>friends = [ "Batman", "Cat Man", "Fat Man", "Cockroach Man"]</code>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="27" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- 27 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-random itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Take Away</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Use a <b>
+                                                    <font color=\"#078ef9\">list</font>
+                                                </b> to have more than one values.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="28" id="btnFinishL7" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- 28 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Need for friend</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>You are desperate to have a friend. That's why you keep sending messages
+                                                to strangers until thery reply or block you. This means you are sending
+                                                messages until a condition is fulfilled. Untill they block you.</p>
+                                            <img src="../assets/img/hoc/10_1_s1.png" alt="condition.png">
+                                            <p style="padding-top: 10px;">You are doing something multiple times based
+                                                on a condition.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="29" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 29 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>While loop</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>While doing something based on a condition, you can use a loop. This
+                                                loop is called a <b>
+                                                    <font color=\"#078ef9\">while</font>
+                                                </b> loop.</p>
+                                            <p>You can write a while loop as follows. (Don’t worry if you do not get
+                                                it, we will explain it later.)</p>
+                                            <code>count = 0 <br>while count < 5:<br> print (count)<br> count = count +
+                                                    1</code>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="30" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 30 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>While Loop Structure</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>To write a while loop you have to do five things</p>
+                                            <p>
+                                                <ol>
+                                                    <li> Declare a loop variable.</li>
+                                                    <li> Write the <b>while</b> keyword.</li>
+                                                    <li> Add a stopping condition after the <b>
+                                                            <font color=\"#078ef9\">while</font>
+                                                        </b>.</li>
+                                                    <li> Underneath while, write the repeating work.</li>
+                                                    <li> Update the loop variable.</li>
+                                                </ol>
+                                            </p>
+                                            <br>
+                                            <p>If the loop condition becomes True, the loop will continue. If the
+                                                condition becomes False the loop will stop running. </p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="31" class="btn btn-primary btnNext">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 31 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-random itemIcon animated rubberBand" style="background: #3cd68e;"></i>
+                                            <h4>Take Away</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Use a <b>
+                                                    <font color=\"#078ef9\">list</font>
+                                                </b> to have more than one values.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="32" id="btnFinishL8" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 32 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Genius!</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>You are Finished The All Lesson. Now your next step to download
+                                                Programming Hero & build your own Game. </p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"
+                                                target="_blank" id="btnFinishL9" class="btn btn-primary btnNext">Download
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--********** This is lesson more slide content -->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <i class="glyphicon glyphicon-print itemIcon animated rubberBand"></i>
+                                            <h4>Display Output</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>Lesson 2</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" data-slide-to="2" class="btn btn-primary btnNext">Start
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../assets/js/libs/bootstrap.min.js"></script>
+    <script src="../assets/js/build/hoc-App.js"></script>
+
+    <script>
+        $('#transitionsDemo').carousel({
+            interval: false
+        });
+    </script>
+</body>
+
+</html>
