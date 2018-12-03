@@ -12,22 +12,64 @@
     <link href="../assets/css/hoc-main.css" rel="stylesheet">
     <link href="../assets/css/animate.css" rel="stylesheet">
     <link href="../assets/css/wickedcss.min.css" rel="stylesheet">
+    
 
 </head>
 
-<body>
+<body class="ui-transparent-nav">
+
+    <!-- Navbar Fixed + Default -->
+    <nav class="navbar navbar-fixed-top transparent navbar-light bg-white">
+        <div class="container">
+
+            <!-- Navbar Logo -->
+            <a class="ui-variable-logo navbar-brand" href="index.html" title="Programming-Hero">
+                <!-- Default Logo -->
+                <img class="logo-default" src="../assets/img/logo/Programming-hero-demo-logo-white.png" alt="Programming-Hero LOGO"
+                    data-uhd>
+                <!-- Transparent Logo -->
+                <img class="logo-transparent" src="../assets/img/logo/Programming-hero-demo-logo.png" alt="LOGO" data-uhd>
+            </a><!-- .navbar-brand -->
+
+            <!-- Navbar Navigation -->
+            <div class="ui-navigation navbar-center">
+                <ul class="nav navbar-nav">
+                    <!-- Nav Item -->
+                    <li>
+                            <a href="http://www.programming-hero.com/" data-toggle="modal" data-target="#exModal">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#exModal">Paths be a Hero</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#exModal">Top Heros</a>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#exModal">Playground</a>
+                    </li>
+
+                </ul>
+                <!--.navbar-nav -->
+            </div>
+            <!--.ui-navigation -->
+
+            <!-- Navbar Button -->
+            <i class="glyphicon glyphicon-th itemIcon animated rubberBand planetMenuIcon"></i>
+
+            <!-- Navbar Toggle -->
+            <a href="#" class="ui-mobile-nav-toggle pull-right"></a>
+
+        </div><!-- .container -->
+    </nav> <!-- nav -->
+
     <section class="btCustomCarousel">
         <div class="container">
             <div class="introTitle">
                 <div class="row">
                     <div id="headerArea" class="col-md-6 col-sm-6">
                         <div class="section-intro">
-                            <h2>Hour Of Code</h2>
+                            <h2>Hour of Code</h2>
                             <!-- <p>Build Your Own Game!</p> -->
                         </div>
-                    </div>
-                    <div id="planetMenu" class="col-md-6 col-sm-6">
-                        <i class="glyphicon glyphicon-th itemIcon animated rubberBand planetMenuIcon"></i>
                     </div>
                 </div>
             </div>
@@ -46,7 +88,7 @@
                             <li class="planet2 active" data-target="#transitionsDemo" data-slide-to="1">
                                 <div class="level"><a href="#">
                                         <img id="L0img" src="../assets/img/hoc/planet/start.png" class="animated rubberBand"
-                                        style="width: 38px" alt="start.png"></a>
+                                            style="width: 38px" alt="start.png"></a>
                                     <!-- <p class="lessonName">Lesson 2</p> -->
                                     <p class="lessonName">Display Output</p>
                                 </div>
@@ -425,7 +467,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="3" id="btnFinishL3" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="2" id="btnFinishL3" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -473,7 +515,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="4" id="btnFinishL4" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="3" id="btnFinishL4" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -564,7 +606,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="5" id="btnFinishL5" id="btnFinishL6"
+                                            <a href="#transitionsDemo" data-slide-to="4" id="btnFinishL5" id="btnFinishL6"
                                                 class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
@@ -641,12 +683,33 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="22" class="btn btn-primary btnNext">Next</a>
+                                            <a href="#transitionsDemo" data-slide-to="23" class="btn btn-primary btnNext">Next</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- 22 This is End 1st sub Lesson Content-->
+                            <div class="item">
+                                <div class="sliderTableContent">
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <h4>Fantastic!</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell lessonPageContent">
+                                            <p>You are doing great. Keep going.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sliderTableRow">
+                                        <div class="sliderTableCell">
+                                            <a href="#transitionsDemo" class="btn btn-primary btnNext">Finish</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 23 This is End 1st sub Lesson Content-->
                             <div class="item">
                                 <div class="sliderTableContent">
                                     <div class="sliderTableRow">
@@ -664,27 +727,7 @@
                                     </div>
                                     <div class="sliderTableRow">
                                         <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="23" class="btn btn-primary btnNext">Finish</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- 23 This is End 1st sub Lesson Content-->
-                            <div class="item">
-                                <div class="sliderTableContent">
-                                    <div class="sliderTableRow">
-                                        <div class="sliderTableCell">
-                                            <h4>Fantastic!</h4>
-                                        </div>
-                                    </div>
-                                    <div class="sliderTableRow">
-                                        <div class="sliderTableCell lessonPageContent">
-                                            <p>You are doing great. Keep going.</p>
-                                        </div>
-                                    </div>
-                                    <div class="sliderTableRow">
-                                        <div class="sliderTableCell">
-                                            <a href="#transitionsDemo" data-slide-to="24" id="btnFinishL5" class="btn btn-primary btnNext">Finish</a>
+                                            <a href="#transitionsDemo" data-slide-to="23" id="btnFinishL5" class="btn btn-primary btnNext">Finish</a>
                                         </div>
                                     </div>
                                 </div>
@@ -713,7 +756,6 @@
                                     </div>
                                 </div>
                             </div>
-
 
                             <!-- 25 This is End 1st sub Lesson Content-->
                             <div class="item">
@@ -768,7 +810,6 @@
                                 </div>
                             </div>
 
-
                             <!-- 27 This is End 1st sub Lesson Content-->
                             <div class="item">
                                 <div class="sliderTableContent">
@@ -792,8 +833,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
 
                             <!-- 28 This is End 1st sub Lesson Content-->
                             <div class="item">
@@ -965,6 +1004,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../assets/js/libs/bootstrap.min.js"></script>
     <script src="../assets/js/build/hoc-App.js"></script>
+    <script type="text/javascript" src="../assets/js/build/js-build.js"></script>
+
 
     <script>
         $('#transitionsDemo').carousel({
