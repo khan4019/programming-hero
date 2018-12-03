@@ -732,6 +732,7 @@ h4 {
   .navbar.transparent.bg-primary {
     box-shadow: none;
     background-color: transparent;
+    padding: 15px;
   }
   
   .navbar.transparent:not(.text-dark) .navbar-brand,
@@ -1076,12 +1077,12 @@ h4 {
 
 .planetMenuIcon {
     float: right;
-    width: 45px !important;
-    height: 45px !important;
-    font-size: 21px !important;
-    line-height: 44px !important;
+    width: 40px !important;
+    height: 39px !important;
+    font-size: 20px !important;
+    line-height: 37px !important;
     text-align: center;
-    padding-left: 3px;
+    padding-left: 2px;
     cursor: pointer;
 }
 
@@ -1119,7 +1120,7 @@ h4 {
 .btCustomCarousel .carousel-indicators {
     position: static;
     width: auto;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 8px;
     text-align: left;
     width: 100%;
     float: left;
@@ -1127,8 +1128,8 @@ h4 {
 
 .btCustomCarousel .carousel-indicators li {
     text-indent: 0;
-    width: 170px;
-    height: 170px;
+    width: 155px;
+    height: 155px;
     margin: 0;
     border-radius: 50%;
     text-align: center;
@@ -1222,7 +1223,7 @@ h4 {
     margin: 0px !important;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15.5px;
     padding: 10px 0px 0px 0px;
 }
 
@@ -1385,12 +1386,10 @@ h4 {
     }
 
     .btCustomCarousel .carousel-indicators {
-        white-space: nowrap;
         overflow: auto;
     }
 
     .btCustomCarousel .carousel-indicators li {
-        float: none;
     }
 
     .btCustomCarousel .carousel-control {
