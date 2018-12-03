@@ -91,6 +91,17 @@
             });
         });
     };
+    var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
+    if(mobile) {
+        $('.letstart').hide();
+    }
+    $('.pull-right').on('click', function () {
+        if ($('.ui-variable-logo').css('display') != 'none') {
+            $('.ui-variable-logo').hide(); 
+        }else{
+            $('.ui-variable-logo').show(); 
+        }
+    });
 
     $(".navbar").ui_navbar();
     if ($("[data-uhd]").length) {

@@ -1371,18 +1371,48 @@ h4 {
   }
 }
 
-@media (max-width: 767px) {
+@media all and (max-width: 320px) {
+  .btCustomCarousel .carousel-indicators li {
+    text-indent: 0;
+    width: 135px;
+    height: 135px;
+    margin: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 14px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.section-intro {
+  text-align: center;
+}
+.lessonName {
+  margin: 0px !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 10px 0px 0px 0px;
+}
+.level {
+  position: relative;
+  margin-top: 23px;
+}
+ }
+ @media only screen and (max-width: 40em) {   
+   .section-intro h2 {
+  text-align: center !important;
+ }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
   .btCustomCarousel:after {
       display: none;
   }
 
   .btCustomCarousel {
       text-align: center;
-  }
-
-  .section-intro:after {
-      left: 50%;
-      margin-left: -50px;
   }
 
   .btCustomCarousel .carousel-indicators {
