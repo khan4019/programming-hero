@@ -1156,6 +1156,7 @@ body[data-fade_in="on-load"],
 .navbar.transparent.bg-primary {
   box-shadow: none;
   background-color: transparent;
+  padding: 10px;
 }
 
 .navbar.transparent:not(.text-dark) .navbar-brand,
