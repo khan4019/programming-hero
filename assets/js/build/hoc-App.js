@@ -4,8 +4,9 @@ $('.planetMenuIcon').on('click', function () {
         $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').show();
         $('.carouselSliderItems').hide();
     } else {
-        $('.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
+        $('.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
     }
 });
 // $('#btnPlanet1').on('click', function () {
@@ -19,6 +20,7 @@ $('.planetMenuIcon').on('click', function () {
 $('.planet2').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L0img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L2img").attr('src', "../assets/img/hoc/planet/start.png");
@@ -29,6 +31,7 @@ $('.planet2').on('click', function () {
 $('.planet3').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L2img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L3img").attr('src', "../assets/img/hoc/planet/start.png");
@@ -39,6 +42,7 @@ $('.planet3').on('click', function () {
 $('.planet4').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L3img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L4img").attr('src', "../assets/img/hoc/planet/start.png");
@@ -49,6 +53,7 @@ $('.planet4').on('click', function () {
 $('.planet5').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet4,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L4img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L5img").attr('src', "../assets/img/hoc/planet/start.png");
@@ -59,6 +64,7 @@ $('.planet5').on('click', function () {
 $('.planet6').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet5,.planet4,.planet7,.planet8,.planet9').hide();
         $("#L5img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L6img").attr('src', "../assets/img/hoc/planet/start.png");
@@ -69,6 +75,7 @@ $('.planet6').on('click', function () {
 $('.planet7').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet4,.planet8,.planet9').hide();
         $("#L6img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L7img").attr('src', "../assets/img/hoc/planet/start.png");
@@ -79,6 +86,7 @@ $('.planet7').on('click', function () {
 $('.planet8').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet7,.planet4,.planet9').hide();
         $("#L7img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L8img").attr('src', "../assets/img/hoc/planet/start.png");
@@ -89,6 +97,7 @@ $('.planet8').on('click', function () {
 $('.planet9').on('click', function () {
     if ($('.carouselSliderItems').css('display') === 'none') {
         $('.carouselSliderItems').show();
+        $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet7,.planet8,.planet4').hide();
         $("#L8img").attr('src', "../assets/img/hoc/planet/completed.png");
     }if (mobileDevices) { 
@@ -99,12 +108,14 @@ var $finish = $("#btnFinishL1, #btnFinishL2, #btnFinishL3, #btnFinishL4, #btnFin
 $($finish).on('click', function () {
     if ($('.carouselSliderItems').css('display') != 'none') {
         $('.carouselSliderItems').hide();
-        $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').addClass('fadeIn').show();
+        $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').show();
+        $('#planetDiv').removeClass('col-md-4 col-sm-4');
     }
 });
 $('#btnFinishL9').on('click', function () {
     if ($('.carouselSliderItems').css('display') != 'none') {
         $('.carouselSliderItems').hide();
+        $('#planetDiv').removeClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').addClass('fadeIn').show();
     } 
 });
