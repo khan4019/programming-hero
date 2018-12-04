@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="fav icon" href="../assets/img/favicon.ico" type="img/favicon" />
+    <link rel="fav icon" href="../assets/img/favicon.ico" type="img/favicon" />
     <title>Hour of Code | Friendly way to learn programmming</title>
 
     <!-- Bootstrap -->
@@ -16,6 +16,7 @@
 
 
 </head>
+
 <body class="ui-transparent-nav">
 
     <!-- Navbar Fixed + Default -->
@@ -68,10 +69,10 @@
             </div>
             <div id="transitionsDemo" class="carousel slide" data-ride="carousel">
                 <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                    <div class="planetArea fadeIn">
-                        <ol class="carousel-indicators">
-                            <!-- <li data-target="#transitionsDemo" data-slide-to="0" id="btnPlanet1" class="planet1">
+                    <div id="planetDiv" class="col-md-8 col-sm-8">
+                        <div class="planetArea fadeIn">
+                            <ol class="carousel-indicators">
+                                <!-- <li data-target="#transitionsDemo" data-slide-to="0" id="btnPlanet1" class="planet1">
                                 <div class="level"><a href="#">
                                         <img id="L0img" src="../assets/img/hoc/planet/start.png" class="animated rubberBand"
                                             style="width: 44px" alt="lock.png"></a>
@@ -79,74 +80,81 @@
                                     <p class="lessonName">Coding Just <br>Got Fun</p>
                                 </div>
                             </li> -->
-                            <li class="planet2 active" data-target="#transitionsDemo" data-slide-to="1">
-                                <div class="level"><a href="#">
-                                        <img id="L0img" src="../assets/img/hoc/planet/start.png" class="animated rubberBand"
-                                            style="width: 38px" alt="start.png"></a>
-                                    <!-- <p class="lessonName">Lesson 2</p> -->
-                                    <p class="lessonName">Display Output</p>
-                                </div>
-                            </li>
-                            <li class="planet3" data-target="#transitionsDemo" data-slide-to="2">
-                                <div class="level"><a href="#">
-                                        <img id="L2img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
-                                    <!-- <p class="lessonName">Lesson 3</p> -->
-                                    <p class="lessonName">Things That <br>Change</p>
-                                </div>
-                            </li>
-                            <li class="planet4" data-target="#transitionsDemo" data-slide-to="3">
-                                <div class="level"><a href="#">
-                                        <img id="L3img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
-                                    <!-- <p class="lessonName">Lesson 4</p> -->
-                                    <p class="lessonName">Shake it Baby</p>
-                                </div>
-                            </li>
-                            <li class="planet5" data-target="#transitionsDemo" data-slide-to="4">
-                                <div class="level"><a href="#">
-                                        <img id="L4img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
-                                    <!-- <p class="lessonName">Lesson 5</p> -->
-                                    <p class="lessonName">User Input</p>
-                                </div>
-                            </li>
-                            <li class="planet6" data-target="#transitionsDemo" data-slide-to="5">
-                                <div class="level"><a href="#">
-                                        <img id="L5img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
-                                    <!-- <p class="lessonName">Lesson 6</p> -->
-                                    <p class="lessonName">Do Some Work</p>
-                                </div>
-                            </li>
-                            <li class="planet7" data-target="#transitionsDemo" data-slide-to="24">
-                                <div class="level"><a href="#">
-                                        <img id="L6img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
-                                    <!-- <p class="lessonName">Lesson 7</p> -->
-                                    <p class="lessonName">Things Together</p>
-                                </div>
-                            </li>
-                            <li class="planet8" data-target="#transitionsDemo" data-slide-to="28">
-                                <div class="level"><a href="#">
-                                        <img id="L7img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
-                                    <!-- <p class="lessonName">Lesson 8</p> -->
-                                    <p class="lessonName">Doing Again <br>and Again</p>
-                                </div>
-                            </li>
-                            <li class="planet9" data-target="#transitionsDemo" data-slide-to="32">
-                                <div class="level"><a href="#">
-                                        <img id="L8img" src="../assets/img/hoc/planet/lock.png" style="width: 30px" alt="lock.png"></a>
-                                    <p class="lessonName">Explore More</p>
-                                </div>
-                            </li>
-                        </ol>
+                                <li class="planet2 active" data-target="#transitionsDemo" data-slide-to="1">
+                                    <div class="level"><a href="#">
+                                            <img id="L0img" src="../assets/img/hoc/planet/start.png" class="animated rubberBand"
+                                                style="width: 38px" alt="start.png"></a>
+                                        <!-- <p class="lessonName">Lesson 2</p> -->
+                                        <p class="lessonName">Display Output</p>
+                                    </div>
+                                </li>
+                                <li class="planet3" data-target="#transitionsDemo" data-slide-to="2">
+                                    <div class="level"><a href="#">
+                                            <img id="L2img" src="../assets/img/hoc/planet/lock.png" style="width: 30px"
+                                                alt="lock.png"></a>
+                                        <!-- <p class="lessonName">Lesson 3</p> -->
+                                        <p class="lessonName">Things That <br>Change</p>
+                                    </div>
+                                </li>
+                                <li class="planet4" data-target="#transitionsDemo" data-slide-to="3">
+                                    <div class="level"><a href="#">
+                                            <img id="L3img" src="../assets/img/hoc/planet/lock.png" style="width: 30px"
+                                                alt="lock.png"></a>
+                                        <!-- <p class="lessonName">Lesson 4</p> -->
+                                        <p class="lessonName">Shake it Baby</p>
+                                    </div>
+                                </li>
+                                <li class="planet5" data-target="#transitionsDemo" data-slide-to="4">
+                                    <div class="level"><a href="#">
+                                            <img id="L4img" src="../assets/img/hoc/planet/lock.png" style="width: 30px"
+                                                alt="lock.png"></a>
+                                        <!-- <p class="lessonName">Lesson 5</p> -->
+                                        <p class="lessonName">User Input</p>
+                                    </div>
+                                </li>
+                                <li class="planet6" data-target="#transitionsDemo" data-slide-to="5">
+                                    <div class="level"><a href="#">
+                                            <img id="L5img" src="../assets/img/hoc/planet/lock.png" style="width: 30px"
+                                                alt="lock.png"></a>
+                                        <!-- <p class="lessonName">Lesson 6</p> -->
+                                        <p class="lessonName">Do Some Work</p>
+                                    </div>
+                                </li>
+                                <li class="planet7" data-target="#transitionsDemo" data-slide-to="24">
+                                    <div class="level"><a href="#">
+                                            <img id="L6img" src="../assets/img/hoc/planet/lock.png" style="width: 30px"
+                                                alt="lock.png"></a>
+                                        <!-- <p class="lessonName">Lesson 7</p> -->
+                                        <p class="lessonName">Things Together</p>
+                                    </div>
+                                </li>
+                                <li class="planet8" data-target="#transitionsDemo" data-slide-to="28">
+                                    <div class="level"><a href="#">
+                                            <img id="L7img" src="../assets/img/hoc/planet/lock.png" style="width: 30px"
+                                                alt="lock.png"></a>
+                                        <!-- <p class="lessonName">Lesson 8</p> -->
+                                        <p class="lessonName">Doing Again <br>and Again</p>
+                                    </div>
+                                </li>
+                                <li class="planet9" data-target="#transitionsDemo" data-slide-to="32">
+                                    <div class="level"><a href="#">
+                                            <img id="L8img" src="../assets/img/hoc/planet/lock.png" style="width: 30px"
+                                                alt="lock.png"></a>
+                                        <p class="lessonName">Explore More</p>
+                                    </div>
+                                </li>
+                            </ol>
 
-                        <div id="btnNextPrev" style="float: right; display: none;">
-                            <a class="left carousel-control" href="#transitionsDemo" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-menu-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#transitionsDemo" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-menu-right"></span>
-                            </a>
+                            <div id="btnNextPrev" style="float: right; display: none;">
+                                <a class="left carousel-control" href="#transitionsDemo" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-menu-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#transitionsDemo" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-menu-right"></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
                     <div class="col-md-4 col-sm-4 slideUp carouselSliderItems">
                         <img class="mobileDevice" src="../assets/img/hoc/mobile-device.png" alt="mobile device">
