@@ -1060,13 +1060,18 @@ h4 {
     color: #fff;
   }
 }
-.nav>li>a:focus, .nav>li>a:hover {
+
+.nav>li>a:focus,
+.nav>li>a:hover {
   text-decoration: none;
-   background-color: transparent;
+  background-color: transparent;
 }
-.navbar .nav>li>a:hover, .navbar .nav>li>a:active {
+
+.navbar .nav>li>a:hover,
+.navbar .nav>li>a:active {
   color: #9d68d8 !important;
 }
+
 .bg-white {
   background-color: #fff;
 }
@@ -1269,6 +1274,7 @@ h4 {
   left: 50%;
   height: 490px;
   margin-left: -143px;
+  top: -75px;
 }
 
 .lessonPageContent {
@@ -1349,26 +1355,26 @@ h4 {
   font-size: 40px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
-  text-shadow: 0px 10px 12px rgba(0,0,0,0.05), 10px 15px 5px rgba(0,0,0,0.05), -10px 10px 5px rgba(0,0,0,0.05);
+  text-shadow: 0px 10px 12px rgba(0, 0, 0, 0.05), 10px 15px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
   .carouselSliderItems {
-      margin-top: 120px;
+    margin-top: 120px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
   .btCustomCarousel .carousel-indicators li {
-      margin: 0;
+    margin: 0;
   }
 
   .carouselSliderItems {
-      margin-top: 120px;
+    margin-top: 120px;
   }
 
   .carouselSliderItems .carousel-inner {
-      margin-left: -129px;
+    margin-left: -129px;
   }
 }
 
@@ -1386,39 +1392,45 @@ h4 {
     margin-bottom: 14px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+  }
+
+  .section-intro {
+    text-align: center;
+  }
+
+  .lessonName {
+    margin: 0px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .level {
+    position: relative;
+    margin-top: 23px;
+  }
 }
-.section-intro {
-  text-align: center;
-}
-.lessonName {
-  margin: 0px !important;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  padding: 10px 0px 0px 0px;
-}
-.level {
-  position: relative;
-  margin-top: 23px;
-}
- }
- @media only screen and (max-width: 40em) {   
-   .section-intro h2 {
-     font-size: 26px;
-  text-align: center !important;
- }
- .btCustomCarousel {
-  background-color: transparent;
-  padding: 75px 0;
-  width: 100%;
-  height: 100%;
-}
-.section-intro {
-  position: relative;
-  padding-bottom: 26px;
-  margin: 0px;
-  color: #fafafa;
-}
+
+@media only screen and (max-width: 40em) {
+  .section-intro h2 {
+    font-size: 26px;
+    text-align: center !important;
+  }
+
+  .btCustomCarousel {
+    background-color: transparent;
+    padding: 75px 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-intro {
+    position: relative;
+    padding-bottom: 26px;
+    margin: 0px;
+    color: #fafafa;
+  }
 }
 
 @media screen and (max-device-width: 480px) and (orientation:portrait) {
@@ -1435,21 +1447,24 @@ h4 {
     margin-bottom: 14px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-}
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
   .btCustomCarousel:after {
-      display: none;
+    display: none;
   }
+
   .btCustomCarousel {
-      text-align: center;
+    text-align: center;
   }
+
   .btCustomCarousel .carousel-indicators {
-      overflow: auto;
-      width: 100%;
-      margin:0px auto;
+    overflow: auto;
+    width: 100%;
+    margin: 0px auto;
   }
+
   .btCustomCarousel .carousel-indicators li {
     text-indent: 0;
     width: 135px;
@@ -1463,44 +1478,45 @@ h4 {
     margin-bottom: 14px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-}
-.lessonName {
-  margin: 0px !important;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  padding: 10px 0px 0px 0px;
-}
-.level {
-  position: relative;
-  margin-top: 23px;
-}
-
-  .btCustomCarousel .carousel-indicators li {
   }
 
+  .lessonName {
+    margin: 0px !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .level {
+    position: relative;
+    margin-top: 23px;
+  }
+
+  .btCustomCarousel .carousel-indicators li {}
+
   .btCustomCarousel .carousel-control {
-      display: none;
+    display: none;
   }
 
   .carouselSliderItems {
-      float: left;
-      width: 100%;
+    float: left;
+    width: 100%;
   }
 }
 
 @media (max-width: 400px) {
   .carouselSliderItems img {
-      display: none;
+    display: none;
   }
 
   .sliderTableContent,
   .carouselSliderItems .carousel-inner {
-      height: auto;
-      position: relative;
+    height: auto;
+    position: relative;
   }
 
   .carouselSliderItems .carousel-inner {
-      top: 0;
+    top: 0;
   }
 }
