@@ -1,4 +1,4 @@
-var mobileDevices = (/iphone|ipod|android|blackberry|mini|\sce|palm/i.test(navigator.userAgent.toLowerCase())); 
+var mobileDevices = (/iphone|ipod|android|blackberry|mini|\sce|palm/i.test(navigator.userAgent.toLowerCase()));
 $('.planetMenuIcon').on('click', function () {
     if ($('.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').css('display') === 'none') {
         $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').show();
@@ -24,7 +24,8 @@ $('.planet2').on('click', function () {
         $('.planet1,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L0img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L2img").attr('src', "../assets/img/hoc/planet/start.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet2').hide();
     }
 });
@@ -35,7 +36,8 @@ $('.planet3').on('click', function () {
         $('.planet1,.planet2,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L2img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L3img").attr('src', "../assets/img/hoc/planet/start.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet3').hide();
     }
 });
@@ -46,7 +48,8 @@ $('.planet4').on('click', function () {
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L3img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L4img").attr('src', "../assets/img/hoc/planet/start.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet4').hide();
     }
 });
@@ -57,7 +60,8 @@ $('.planet5').on('click', function () {
         $('.planet1,.planet2,.planet3,.planet4,.planet6,.planet7,.planet8,.planet9').hide();
         $("#L4img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L5img").attr('src', "../assets/img/hoc/planet/start.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet5').hide();
     }
 });
@@ -68,7 +72,8 @@ $('.planet6').on('click', function () {
         $('.planet1,.planet2,.planet3,.planet5,.planet4,.planet7,.planet8,.planet9').hide();
         $("#L5img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L6img").attr('src', "../assets/img/hoc/planet/start.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet6').hide();
     }
 });
@@ -79,7 +84,8 @@ $('.planet7').on('click', function () {
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet4,.planet8,.planet9').hide();
         $("#L6img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L7img").attr('src', "../assets/img/hoc/planet/start.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet7').hide();
     }
 });
@@ -90,7 +96,8 @@ $('.planet8').on('click', function () {
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet7,.planet4,.planet9').hide();
         $("#L7img").attr('src', "../assets/img/hoc/planet/completed.png");
         $("#L8img").attr('src', "../assets/img/hoc/planet/start.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet8').hide();
     }
 });
@@ -100,7 +107,8 @@ $('.planet9').on('click', function () {
         $('#planetDiv').addClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet5,.planet6,.planet7,.planet8,.planet4').hide();
         $("#L8img").attr('src', "../assets/img/hoc/planet/completed.png");
-    }if (mobileDevices) { 
+    }
+    if (mobileDevices) {
         $('.planet9').hide();
     }
 });
@@ -117,15 +125,12 @@ $('#btnFinishL9').on('click', function () {
         $('.carouselSliderItems').hide();
         $('#planetDiv').removeClass('col-md-4 col-sm-4');
         $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').addClass('fadeIn').show();
-    } 
+    }
 });
 $('.pull-right').on('click', function () {
     if ($('.ui-variable-logo').css('display') != 'none') {
-        $('.ui-variable-logo').hide(); 
-    }else{
-        $('.ui-variable-logo').show(); 
+        $('.ui-variable-logo').hide();
+    } else {
+        $('.ui-variable-logo').show();
     }
 });
-
-
-
