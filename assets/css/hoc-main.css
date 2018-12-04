@@ -1328,6 +1328,7 @@ h4 {
 .btnNext {
   background-color: #5D4D7A;
   padding: 6px 20px 7px 20px;
+  margin-top: 10px;
   display: inline-block;
   transition-duration: 0.3s;
   transition-property: transform;
@@ -1504,19 +1505,9 @@ h4 {
     width: 100%;
   }
 }
-
 @media (max-width: 400px) {
-  .carouselSliderItems img {
-    display: none;
-  }
-
-  .sliderTableContent,
-  .carouselSliderItems .carousel-inner {
-    height: auto;
-    position: relative;
-  }
 
   .carouselSliderItems .carousel-inner {
-    top: 0;
+    top: -55px;
   }
 }
