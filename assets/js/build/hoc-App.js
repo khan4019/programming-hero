@@ -1,7 +1,9 @@
+var $allPlanet = $('.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9')
+var $finish = $("#btnFinishL1, #btnFinishL2, #btnFinishL3, #btnFinishL4, #btnFinishL5, #btnFinishL6, #btnFinishL7, #btnFinishL8");
 var mobileDevices = (/iphone|ipod|android|blackberry|mini|\sce|palm/i.test(navigator.userAgent.toLowerCase()));
 $('.planetMenuIcon').on('click', function () {
-    if ($('.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').css('display') === 'none') {
-        $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').show();
+    if ($($allPlanet).css('display') === 'none') {
+        $($allPlanet).show();
         $('.carouselSliderItems').hide();
     } else {
         $('.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').hide();
@@ -112,11 +114,11 @@ $('.planet9').on('click', function () {
         $('.planet9').hide();
     }
 });
-var $finish = $("#btnFinishL1, #btnFinishL2, #btnFinishL3, #btnFinishL4, #btnFinishL5, #btnFinishL6, #btnFinishL7, #btnFinishL8");
 $($finish).on('click', function () {
     if ($('.carouselSliderItems').css('display') != 'none') {
         $('.carouselSliderItems').hide();
-        $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').show();
+        $($allPlanet).show();
+        $(".section-intro").css({opacity:'1'})
         $('#planetDiv').removeClass('col-md-4 col-sm-4');
     }
 });
@@ -124,13 +126,23 @@ $('#btnFinishL9').on('click', function () {
     if ($('.carouselSliderItems').css('display') != 'none') {
         $('.carouselSliderItems').hide();
         $('#planetDiv').removeClass('col-md-4 col-sm-4');
-        $('.planet1,.planet2,.planet3,.planet4,.planet5,.planet6,.planet7,.planet8,.planet9').addClass('fadeIn').show();
+        $($allPlanet).addClass('fadeIn').show();
     }
 });
+$('#btnFinishL2').on('click', function () {
+    $("#L0img").attr('src', "../assets/img/hoc/planet/completed.png");
+    $("#L2img").attr('src', "../assets/img/hoc/planet/start.png");
+});
 $('.pull-right').on('click', function () {
-    if ($('.ui-variable-logo').css('display') != 'none') {
-        $('.ui-variable-logo').hide();
+    if ($('.planetMenuIcon').css('display') != 'none' && mobileDevices) {
+        $('.planetMenuIcon').hide();
     } else {
-        $('.ui-variable-logo').show();
+        $('.planetMenuIcon').show();
     }
+});
+$($allPlanet).on('click', function () {
+    if ($($allPlanet).css('display') === 'none' && mobileDevices) {
+    $(".section-intro").css({opacity:'0'})
+	.fadeIn("slow");
+ }
 });
