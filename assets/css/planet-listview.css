@@ -1,0 +1,349 @@
+
+/*-------- Lesson item ------*/
+
+.awsm-timeline-style-11{
+    color: #000;
+  }
+  .listview-mobile{
+padding-top: 18px;
+  }
+  .awsm-timeline-content li{
+    list-style-type: none;
+  }
+  .awsm-timeline-style-11 .awsm-timeline-block::before{
+    width: 3.5px;
+    background: #d7e3e5;
+    margin-left: -2px;
+  }
+  .awsm-timeline-style-11 .awsm-timeline-block:last-child::before{
+    display: block;
+    height: calc(100% - 50px);
+  }
+  
+  .awsm-timeline-style-11.awsm-right-align .awsm-timeline-block::before{
+    margin-right: -2px;
+  }
+  .awsm-timeline-block{
+    padding-bottom: 22px;
+  }
+  .awsm-timeline-style-11 .awsm-timeline-img{
+    margin-left: -18px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    top: calc(50% - 14px);
+    margin-top: -15px;
+    vertical-align: middle;
+    font-size: 22px;
+  }
+  .awsm-timeline-style-11.awsm-right-align .awsm-timeline-img{
+    margin-right: -18px;
+  }
+  
+  .awsm-timeline-style-11 .awsm-timeline-img span{
+    display: inline-block;
+    min-width: 16px;
+    min-height: 16px;
+    padding: 7px;
+    background: #50b9f3;
+    box-shadow: 0 0 0 3px #eff4f5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    vertical-align: middle;
+  }
+  
+  
+  .awsm-timeline-style-11 .awsm-timeline-content{
+    
+  }
+  .awsm-timeline-content-inner span{
+      color: #393939;
+      letter-spacing: 0.5px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 15.5px;
+  }
+  
+  .awsm-timeline-style-11 .lesson-num{
+    color: #b7b7b7;
+    font-weight: 600;
+  }
+  .awsm-timeline-style-11 h2{
+    font-size: 18px;
+    margin: 20px 0 5px;
+    font-weight: 800;
+  }
+  .lesson-num-opposite.awsm-timeline-style-11 h2{
+    margin-top: 0;
+  }
+  .awsm-timeline-style-11 p{
+    margin: 0;
+  }
+  .awsm-timeline-style-11 .awsm-labels span{
+    position: relative;
+    left: -37px;
+    background: #50b9f3;
+    color: #fff;
+    padding: 8px 20px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .awsm-timeline-style-11.awsm-right-align .awsm-labels span{
+    left: auto;
+    right: -37px
+  }
+  
+  .awsm-timeline-style-11 .awsm-timeline-content-inner {
+    background: #fff;
+    padding: 18px 0 6px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 6px 5px 0 rgba(0, 0, 0, 0.17);
+}
+  
+  
+  /*---------- Responsive part ------------*/
+  @media only screen and (min-width: 679px) {
+    .awsm-timeline-style-11.awsm-alternate .awsm-timeline-content{
+      width: calc(50% - 32px);
+    }
+    .awsm-timeline-style-11.lesson-num-opposite .lesson-num{
+      left: -225px;
+      line-height: 20px;
+      width: 160px;
+      top: 50%;
+      margin-top: -10px;
+    }
+    .awsm-timeline-style-11.lesson-num-opposite.awsm-right-align .lesson-num,
+    .awsm-timeline-style-11.lesson-num-opposite.awsm-alternate .awsm-timeline-block.awsm-odd-item .lesson-num{
+      right: -225px;
+      left: auto;
+      text-align: left;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 678px) {
+  
+    .awsm-timeline-style-11.awsm-responsive-right .awsm-timeline-block::before{
+      margin-right: -2px;
+    }
+    .awsm-timeline-style-11.awsm-responsive-right .awsm-timeline-img{
+      margin-right: -18px;
+    }
+    .awsm-timeline-style-11.awsm-responsive-right .awsm-labels span{
+      left: auto;
+      right: -37px
+    }
+  
+  
+  }
+  
+  
+  .awsm-container {
+  
+    /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 10px; */
+  }
+  
+  .awsm-container::after {
+  
+    /* clearfix */
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  /* -------------------------------- 
+  
+  Main components 
+  
+  -------------------------------- */
+  .awsm-timeline {
+    position: relative;
+  }
+  
+  .awsm-right-align {
+    text-align: right;
+  }
+  
+  /*.lesson-num-opposite{
+  padding: 0;
+  }*/
+  
+  
+  .awsm-timeline-block {
+      position: relative;
+      min-height: 16px;
+      padding-left: 25px;
+  }
+  .awsm-timeline-block::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .awsm-timeline-block:last-child::before{
+    display: none;
+  }
+  .awsm-left-align .awsm-timeline-block::before {
+  }
+  
+  .awsm-right-align .awsm-timeline-block::before {
+    right: 0;
+    left: auto !important;
+    margin-left: 0 !important;
+  }
+  .awsm-timeline-block::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .awsm-timeline-img {
+    position: absolute;
+    min-width: 1px;
+    min-height: 1px;
+    left: 0;
+    top: 0;
+  }
+  .awsm-timeline-img i{
+    display: block;
+  }
+  
+  .awsm-right-align .awsm-timeline-img {
+    margin-left: 0 !important;
+    left: auto !important;
+    right: 0;
+  }
+  .awsm-last-empty-item .awsm-timeline-img span{
+    vertical-align: top;
+  }
+  
+  .awsm-timeline-content-inner {
+    position: relative;
+  }
+  
+  .lesson-num {
+    display: block;
+  }
+  
+  .cssanimations .awsm-timeline-content.is-hidden {
+    visibility: hidden;
+  }
+  
+  .cssanimations .awsm-timeline-content.animated {
+    visibility: visible;
+  }
+  
+  .awsm-labels span{
+    display: inline-block;
+  }
+  
+  .awsm-labels{
+    padding: 20px 0;
+  }
+  .awsm-labels.awsm-start-label{
+    padding-top: 0 !important;
+  }
+  .awsm-labels.awsm-end-label{
+    margin-bottom: 0  !important;
+  }
+  
+  
+  @media only screen and (min-width:679px) {
+    .lesson-num-opposite {
+      margin-left: 190px;
+    }
+    .awsm-left-align.lesson-num-opposite {
+      margin-left: 190px;
+    }
+  
+    .awsm-right-align.lesson-num-opposite {
+      margin-right: 190px;
+      margin-left: 0;
+      text-align: right;
+    }
+    .lesson-num-opposite.awsm-alternate{
+      margin: 0;
+    }
+  
+  
+    .awsm-timeline.awsm-alternate.awsm-left-align .awsm-timeline-content,
+    .awsm-timeline.lesson-num-opposite.awsm-left-align .awsm-timeline-content,
+    .awsm-timeline.awsm-alternate.awsm-right-align .awsm-timeline-content,
+    .awsm-timeline.lesson-num-opposite.awsm-right-align .awsm-timeline-content {
+      width: 100%;
+    }
+  
+    .awsm-alternate .awsm-timeline-block::before {
+      left: 50%;
+    }
+  
+    .awsm-alternate .awsm-timeline-img {
+      left: 50% !important;
+    }
+  
+    .awsm-alternate .awsm-timeline-block.awsm-even-item .awsm-timeline-content {
+      float: right;
+    }
+    .awsm-alternate .awsm-timeline-block.awsm-odd-item .awsm-timeline-content {
+      float: left;
+    }
+  
+    .lesson-num-opposite .lesson-num {
+      position: absolute;
+      top: 0;
+      text-align: right;
+    }
+  
+    .awsm-alternate .awsm-timeline-block.awsm-odd-item .awsm-timeline-content,
+    .awsm-alternate.lesson-num-oppositee .awsm-timeline-block.awsm-even-item .lesson-num,
+    .lesson-num-opposite.awsm-left-align .lesson-num,
+    .awsm-right-align {
+      text-align: right;
+    }
+  
+    .awsm-alternate.lesson-num-opposite .awsm-timeline-block.awsm-odd-item .awsm-timeline-content .lesson-num,
+    .lesson-num-opposite.awsm-right-align .lesson-num {
+      text-align: left;
+    }
+    .awsm-alternate .awsm-timeline-label-block{
+      text-align: center;
+    }
+    .awsm-alternate .awsm-timeline-label-block .awsm-labels span{
+      left: 0;
+      right: 0;
+    }
+  
+  }
+  
+  @media only screen and (max-width:678px) {
+    .awsm-timeline{
+      margin-left: 10px;
+    }
+    .awsm-timeline.awsm-right-align, 
+    .awsm-timeline.awsm-responsive-right {
+      margin-right: 20px;
+      margin-left: 0;
+    }
+    .awsm-responsive-right .awsm-timeline-block::before {
+      right: 0;
+      left: auto !important;
+      margin-left: 0 !important;
+    }
+    .awsm-responsive-right {
+      text-align: right;
+    }
+    .awsm-responsive-right .awsm-timeline-img {
+      margin-left: 0 !important;
+      left: auto !important;
+      right: 0;
+    }
+    .lesson-num{
+      margin-bottom: 10px;
+    }
+  }
