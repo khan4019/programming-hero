@@ -1,0 +1,195 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+  /* Particle JS */
+  .particle-show{
+    height: auto;
+    position: relative;
+  }
+  
+  .particle-show .particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+  }
+.background {
+  padding: 0 25px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.background::after {
+  content: '';
+  background: #60a9ff;
+  background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
+  background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
+      background: linear-gradient(#2f234e, rgb(104, 54, 143), #4e286b)no-repeat center center;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: 960px;
+  width: 100%;
+}
+.top-heros-header{
+   padding-top: 16px;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+}
+.top-heros-header h3{
+      font-size: 50px;
+    color: #fff;
+}
+.top-heros-header h6{
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-left: 25px;
+}
+.panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  top: 60px;
+}
+.top3-heros{
+  display: flex;
+  padding-bottom: 30px;
+
+}
+.top1::before{
+    content: '';
+    background: url(../../img/leaderboard/top1.png);
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+}
+.top2::before{
+    content: '';
+    background: url(../../img/leaderboard/second.png);
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 0.9;
+}
+.top3::before{
+    content: '';
+    background: url(../../img/leaderboard/third.png);
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 0.9;
+}
+
+.ranking-table {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .ranking-table {
+    flex-direction: row;
+  }
+}
+
+.ranking-table * {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.top-heros {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+}
+
+.top-heros:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .top-heros {
+    border-bottom: none;
+    border-right: 1px solid #f3f3f3;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .top-heros:last-child {
+    border-right: none;
+  }
+}
+
+.top-heros-img {
+  margin-bottom: 25px;
+  max-width: 41%;
+}
+
+.heros-header {
+  color: #66358d;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin: 0px auto;
+  padding-bottom: 10px;
+}
+
+.heros-points {
+  color: #016FF9;
+  font-weight: 600;
+  letter-spacing: 1px;
+    margin: 20px 0 25px;
+}
+.rank-num{
+display: inline-block;
+    border: 2px solid #dadada;
+    border-radius: 50%;
+    padding: 3px;
+    min-width: 35px;
+    height: 35px;
+}
+.medal{
+  width: 26px;
+  padding-left: 10px;
+}
+.heros-points-item {
+  border-top: 1px solid #e1f1ff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+.heros-points-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
