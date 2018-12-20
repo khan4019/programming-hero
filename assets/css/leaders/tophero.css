@@ -90,7 +90,7 @@ html {
     position: absolute;
     background-repeat: no-repeat;
     display: block;
-    left: 100px;
+
 }
 .top2::before{
     content: '';
@@ -101,7 +101,6 @@ html {
     background-repeat: no-repeat;
     display: block;
     opacity: 0.9;
-    left: 100px;
 }
 .top3::before{
     content: '';
@@ -111,8 +110,7 @@ html {
     position: absolute;
     background-repeat: no-repeat;
     display: block;
-    opacity: 0.9;    
-    left: 100px;
+    opacity: 0.9;
 }
 
 .ranking-table {
