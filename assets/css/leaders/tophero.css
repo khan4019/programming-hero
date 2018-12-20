@@ -16,6 +16,7 @@ html {
     position: absolute;
     top: 0;
     z-index: 2;
+    left: 0;
   }
 .background {
   padding: 0 25px 25px;
@@ -84,8 +85,8 @@ html {
 .top1::before{
     content: '';
     background: url(../../img/leaderboard/top1.png);
-    width: 100px;
-    height: 100%;
+    width: 40px;
+    height: 48px;
     position: absolute;
     background-repeat: no-repeat;
     display: block;
@@ -93,8 +94,8 @@ html {
 .top2::before{
     content: '';
     background: url(../../img/leaderboard/second.png);
-    width: 100px;
-    height: 100%;
+    width: 40px;
+    height: 48px;
     position: absolute;
     background-repeat: no-repeat;
     display: block;
@@ -103,8 +104,8 @@ html {
 .top3::before{
     content: '';
     background: url(../../img/leaderboard/third.png);
-    width: 100px;
-    height: 100%;
+    width: 40px;
+    height: 48px;
     position: absolute;
     background-repeat: no-repeat;
     display: block;
@@ -164,7 +165,9 @@ html {
   margin: 0px auto;
   padding-bottom: 10px;
 }
-
+.user-thumb{
+  width: 35px;
+}
 .heros-points {
   color: #016FF9;
   font-weight: 600;
@@ -193,3 +196,76 @@ display: inline-block;
 .heros-points-item:last-child {
   border-bottom: 1px solid #e1f1ff;
 }
+.points-fields{
+    display: inline-flex;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width:320px) and (max-width:640px) {
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 14px 0 14px 8px;
+}
+tr {
+     border: none; 
+}
+.ranking-table * {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.top-heros {
+    border: none;
+}
+.top3-heros {
+    display: block;
+    padding-bottom: 30px;
+}
+.top-heros-img {
+    margin-bottom: 25px;
+    max-width: 38%;
+}
+.top1::before {
+    left: 65px;
+}
+.top2::before {
+    left: 65px;
+}
+.top3::before {
+    left: 65px;
+}
+.heros-header {
+    font-size: 15px;
+}
+.panel {
+    padding: 15px 0px;
+}
+.rank-data{
+  padding: 0px;
+}
+.user-thumb{
+  width: 30px;
+}
+.leaders-title{
+  text-align: center !important;
+    padding-left: 0px !important;
+
+}
+.rank{
+    font-size: 15px;
+}
+.rank-num {
+    min-width: 30px;
+    height: 30px; 
+}
+.points-fields{
+  padding-right: 15px;
+}
+.diamond {
+    width: 26px;
+    margin-right: 7px;
+}
+}
+
