@@ -162,7 +162,7 @@ html {
   color: #66358d;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 16px;
+    font-size: 16px !important;
   margin: 0px auto;
   padding-bottom: 10px;
 }
@@ -218,7 +218,6 @@ tr {
 .ranking-table * {
     text-align: center;
     text-transform: uppercase;
-
 }
 .top-heros {
     border: none;
@@ -227,9 +226,12 @@ tr {
     display: block;
     padding-bottom: 10px;
 }
+.heros-header {
+    font-size: 15px !important;
+}
 .top-heros-img {
     margin-bottom: 18px;
-    max-width: 35%;
+    max-width: 33%;
 }
 .top1::before {
     left: 80px;
