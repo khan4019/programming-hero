@@ -206,6 +206,9 @@ display: inline-block;
 
 /* Portrait and Landscape */
 @media screen and (min-width:320px) and (max-width:640px) {
+.background {
+    padding: 0 15px 25px;
+}
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
     padding: 14px 0 14px 8px;
 }
@@ -242,9 +245,6 @@ tr {
 }
 .panel {
     padding: 15px 0px;
-}
-.rank-data{
-  padding: 0px;
 }
 .ranking-table * {
     font-size: 12.5px;
