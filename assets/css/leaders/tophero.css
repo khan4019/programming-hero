@@ -90,6 +90,7 @@ html {
     position: absolute;
     background-repeat: no-repeat;
     display: block;
+    left: 100px;
 }
 .top2::before{
     content: '';
@@ -100,6 +101,7 @@ html {
     background-repeat: no-repeat;
     display: block;
     opacity: 0.9;
+    left: 100px;
 }
 .top3::before{
     content: '';
@@ -109,7 +111,8 @@ html {
     position: absolute;
     background-repeat: no-repeat;
     display: block;
-    opacity: 0.9;
+    opacity: 0.9;    
+    left: 100px;
 }
 
 .ranking-table {
@@ -228,13 +231,13 @@ tr {
     max-width: 35%;
 }
 .top1::before {
-    left: 65px;
+    left: 80px;
 }
 .top2::before {
-    left: 65px;
+    left: 80px;
 }
 .top3::before {
-    left: 65px;
+    left: 80px;
 }
 .heros-header {
     font-size: 15px;
