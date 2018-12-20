@@ -64,9 +64,9 @@ html {
 .top-heros-header h6{
     font-size: 22px;
     color: #fff;
-    letter-spacing: 12px;
-    text-align: center;
-    padding-left: 25px;
+    letter-spacing: 11px;
+    margin: 0px auto;
+    padding-left: 17px;
 }
 .panel {
   background-color: #fff;
