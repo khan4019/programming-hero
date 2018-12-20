@@ -260,6 +260,10 @@ tr {
 .rank{
     font-size: 15px;
 }
+.rank-data{
+  padding-right: 12px;
+    padding-left: 12px;
+}
 .rank-num {
     min-width: 30px;
     height: 30px; 
