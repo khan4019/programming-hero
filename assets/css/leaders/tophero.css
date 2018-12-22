@@ -372,6 +372,9 @@ tr {
 /* Media Queries */
 
 @media (max-width: 600px) {
+  .footer-distributed {
+    margin-top: 85px;
+}
   .footer-distributed .footer-left, .footer-distributed .footer-right {
     text-align: center;
   }
@@ -382,4 +385,5 @@ tr {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
+
 }
