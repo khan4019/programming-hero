@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+
+/*-----------------------------
+    Features Style4
+-------------------------------*/
+.tc-services-style4 .services-item {
+    padding: 30px 20px 25px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    margin-top: 66px;
+    border: 1px solid #eee;
+    box-shadow: 6px 4px 18px rgba(0,0,0,.08);
+}
+.container {
+    margin: 0 auto;
+    padding: 50px 0 0;
+    max-width: 1170px !important;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+    
+    .top-heros-header {
+        padding-top: 40px;
+        position: relative;
+        z-index: 9;
+        text-align: center;
+    }
+    .top-heros-header h3 {
+        font-size: 28px;
+        color: #fff;
+    }
+    .top-heros-header h6 {
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: #fff;
+        margin: 0px auto;
+    }
+    b, strong {
+        font-weight: 500;
+    }
+    .tc-services-style4 .services-item {
+    margin-top: 70px;
+    padding-top: 35px;
+}
+    }
+
+    
+
+
+.endROW{
+    padding: 0px 0 0;
+}
+.rocket{
+    width: 43px;
+    -webkit-transform: rotate(320deg);
+    transform: rotate(320deg);
+    padding-right: 12px;
+    margin-bottom: 10px;
+}
+.planet{
+    width: 79px;
+    -webkit-transform: rotate(320deg);
+    transform: rotate(320deg);
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+.tc-services-style4 .services-icon {
+    position: absolute;
+    top: -39px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    height: 82px;
+    width: 82px;
+    font-size: 26px;
+    color: #bbb;
+    text-align: center;
+    z-index: 11;
+    margin-bottom: 15px;
+    line-height: 70px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 50%;
+    margin-left: -35px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 18px rgba(0,0,0,.08);
+}
+
+.tc-services-style4 .services-icon i {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.tc-services-style4{
+    padding-bottom: 80px;
+}
+.tc-services-style4 .services-title {
+    font-size: 19px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.tc-services-style4 .services-desc p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #777;
+}
+
+.tc-services-style4 .services-desc a {
+    position: relative;
+    display: inline-block;
+    color: #777;
+    font-size: 13px;
+    line-height: normal;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    text-decoration: none !important;
+    padding: 2px 12px;
+    margin-top: 20px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.tc-services-style4 .services-desc a:hover {
+    color: #222;
+    border-color: #222;
+}
