@@ -8,6 +8,7 @@ p{
     background-color: #eff1ff;
     padding: 20px 30px;
     width: 100%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
  }
  .colMD6{ width: 100%;margin: 0px;}
  .testimonial-content {
@@ -100,4 +101,16 @@ p{
  }
  .owl-carousel {
   width: 100%;
-  cursor: move;}
+  cursor: move;
+}
+.owl-theme .owl-controls .owl-page span{
+  border: 2px solid #2A3D7D;
+  background: #fff !important;
+  border-radius:0 !important;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span{
+  background: #b8c3fb !important;
+  border-color: #9fb5ff;
+}
