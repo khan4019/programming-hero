@@ -1,16 +1,22 @@
-.testimonials-area{ background-color: white}
+p{     
+  font-family: 'Rubik', sans-serif;
+}
+.testimonials-area{ background-color: white;padding-bottom: 12rem;}
 .user_review_title{ text-align: center; font-size: 32px;}
 .title_bar{padding: 0px 0px 60px 0px;}
 .testimonial-item {
     background-color: #eff1ff;
     padding: 20px 30px;
+    width: 100%;
  }
+ .colMD6{ width: 100%;margin: 0px;}
  .testimonial-content {
      position: relative;
      padding-bottom: 30px;
-     line-height: 1.8;
+     font-family: 'Rubik', sans-serif;
+     font-weight: 400;
+     line-height: 2;
      color: #384047;
-     font-weight: normal;
  }
  .testimonial-content:before {
      content: "";
@@ -92,3 +98,6 @@
      margin-top: 10px;
      margin-bottom: 5px !important;
  }
+ .owl-carousel {
+  width: 100%;
+  cursor: move;}
