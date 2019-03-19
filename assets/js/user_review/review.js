@@ -6,9 +6,9 @@
     $("#client-caro").owlCarousel({
       navigation: false,
       pagination: true,
-      slideSpeed: 800,
-      paginationSpeed: 800,
-      smartSpeed: 500,
+      slideSpeed: 1800,
+      paginationSpeed: 1800,
+      smartSpeed: 1500,
       autoplay: true,
       singleItem: true,
       loop: true,
