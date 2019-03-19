@@ -1,0 +1,116 @@
+p{     
+  font-family: 'Rubik', sans-serif;
+}
+.testimonials-area{ background-color: white;padding-bottom: 12rem;}
+.user_review_title{ text-align: center; font-size: 32px;}
+.title_bar{padding: 0px 0px 60px 0px;}
+.testimonial-item {
+    background-color: #eff1ff;
+    padding: 20px 30px;
+    width: 100%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+ }
+ .colMD6{ width: 100%;margin: 0px;}
+ .testimonial-content {
+     position: relative;
+     padding-bottom: 30px;
+     font-family: 'Rubik', sans-serif;
+     font-weight: 400;
+     line-height: 2;
+     color: #384047;
+ }
+ .testimonial-content:before {
+     content: "";
+     position: absolute;
+     width: 219px;
+     height: 14px;
+     background-image: url(../img/testimonial/blockquote-footer.png);
+     background-repeat: no-repeat;
+     bottom: 0;
+     left: 0;
+ }
+ .testimonial-footer {
+     position: relative;
+     padding: 3px 0 10px 80px;
+ }
+ .testimonial-footer .author-img {
+   position: absolute;
+     display: block;
+   top: 0;
+   left: 0;
+   height: 60px;
+   width: 60px;
+   padding-top: 9px;
+ }
+ .author-img img {
+     border-radius: 100%;
+ }
+ .user_name{
+   font-size: 15px;
+   font-weight: bold;
+   padding-bottom: 0px !important;
+ }
+ img {
+     display: inline-block;
+     max-width: 100%;
+     height: auto;
+     -ms-interpolation-mode: bicubic;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+ 
+ .row.row-tb-15 > [class*="col-xs"], .row.row-tb-15 > [class*="col-sm"], .row.row-tb-15 > [class*="col-md"], .row.row-tb-15 > [class*="col-lg"] {
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+ 
+ 
+ /* Breadcrumb */
+ .breadcrumb {
+   background-color: transparent;
+   font-size: 15px;
+ }
+ .breadcrumb > li + li:before {
+   color: #f1f1f1;
+ }
+ .breadcrumb > li a {
+   color: #f1f1f1;
+ }
+ .breadcrumb > li a:hover,
+ .breadcrumb > .active {
+   color: #fff;
+ }
+ 
+ .rating {
+   margin-left: -2px;
+ }
+ .rating li {
+   padding-right: 2px !important;
+   padding-left: 2px !important;
+   color: #e1e1e1;
+ }
+ .rating li.active {
+   color: #ff9c1c;
+ }
+ 
+ h4, .h4, h5, .h5, h6, .h6 {
+     margin-top: 10px;
+     margin-bottom: 5px !important;
+ }
+ .owl-carousel {
+  width: 100%;
+  cursor: move;
+}
+.owl-theme .owl-controls .owl-page span{
+  border: 2px solid #2A3D7D;
+  background: #fff !important;
+  border-radius:0 !important;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span{
+  background: #b8c3fb !important;
+  border-color: #9fb5ff;
+}
