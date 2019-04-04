@@ -44,8 +44,8 @@
 
 .overlay {
 	background: rgba(0, 0, 0, 0)
-		linear-gradient(to right, rgba(30, 87, 153, .8) 0%, rgba(46, 105, 246, 0.91) 0%, rgba(95, 46, 246, 0.96) 100%)
-		repeat scroll 0 0;
+		linear-gradient(to right, rgba(30, 87, 153, .8) 0%, rgba(46, 105, 246, 0.91) 0%, rgb(95, 46, 246) 100%) repeat
+		scroll 0 0;
 	width: 100%;
 	height: 100%;
 }
