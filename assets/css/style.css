@@ -1,22 +1,5 @@
 @charset "UTF-8";
 
-/*!
- * CSS Table of contents
- *  Animations
- *  Base
- * --- UI Components
- *  Buttons
- *  Footer
- *  responsive
- *  Nav Bar
- *  Section
- *  Showcase Blocks
-
-
-/**
-* 13. Base
-* ----------------------------------------------------------------------- *
-*/
 html {
 	font-size: 14px;
 	font-weight: 400;
@@ -102,6 +85,9 @@ body[data-fade_in="on-load"],
 .heading {
 	color: #f2f4fe;
 	font-family: "Work Sans", sans-serif;
+}
+.navbar.transparent .ui-variable-logo .brand-logo {
+	left: -58px;
 }
 
 /**
@@ -1608,7 +1594,7 @@ body[data-fade_in="on-load"],
    Special featured item styles
 ================================================================== */
 .featured-section-2 {
-  padding-bottom: 150px;
+	padding-bottom: 150px;
 }
 
 .featured-section .section-title p {
