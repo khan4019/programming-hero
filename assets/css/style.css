@@ -485,7 +485,8 @@ body[data-fade_in="on-load"],
 
 .ui-hero .heading {
 	margin-bottom: 2rem;
-	font-size: 2.6rem;
+	line-height: 1.3em;
+	font-family: Montserrat, sans-serif;
 }
 
 @media (min-width: 576px) {
@@ -498,7 +499,7 @@ body[data-fade_in="on-load"],
 @media (min-width: 768px) {
 	.ui-hero .heading {
 		margin-bottom: 1.25rem;
-		font-size: 60px;
+		font-size: 55px;
 	}
 }
 
@@ -1012,6 +1013,8 @@ body[data-fade_in="on-load"],
 .navbar .nav {
 	display: flex;
 	flex-direction: row;
+	float: right;
+	padding-left: 5%;
 }
 
 .navbar .nav > li > a {
@@ -1982,14 +1985,14 @@ body[data-fade_in="on-load"],
 
 .headingf {
 	color: #f2f4fe;
-	font-family: Baloo da;
+	font-family: Montserrat, sans-serif;
 	font-size: 25px;
 	padding-bottom: 8px;
 }
 
 .headingf a {
 	color: #f2f4fe;
-	font-family: Baloo da;
+	font-family: Montserrat, sans-serif;
 	font-size: 25px;
 	text-decoration: none;
 }
