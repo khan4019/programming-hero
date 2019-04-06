@@ -1014,7 +1014,7 @@ body[data-fade_in="on-load"],
 	display: flex;
 	flex-direction: row;
 	float: right;
-	padding-left: 5%;
+	margin-left: 20px;
 }
 
 .navbar .nav > li > a {
