@@ -296,7 +296,9 @@ body[data-fade_in="on-load"],
 * ----------------------------------------------------------------------- *
 */
 .ui-navigation ul li a {
-	font-size: 19px;
+	font-size: 18.5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
 }
 
 #let-start {
@@ -1021,8 +1023,8 @@ body[data-fade_in="on-load"],
 
 @media (min-width: 992px) {
 	.navbar .nav > li > a {
-		padding-left: 16px;
-		padding-right: 16px;
+		padding-left: 14px;
+		padding-right: 14px;
 	}
 }
 
@@ -1121,7 +1123,7 @@ body[data-fade_in="on-load"],
 		align-items: center;
 		flex-direction: row;
 		justify-content: center;
-		float: none;
+		float: right;
 	}
 }
 
