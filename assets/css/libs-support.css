@@ -4136,7 +4136,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: -3px;
   list-style: none;
 }
 
