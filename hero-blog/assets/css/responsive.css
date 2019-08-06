@@ -1,0 +1,424 @@
+@media (min-width: 1300px) {
+	
+}
+
+@media (max-width: 1600px) {
+	.leaf-left{
+		display: none;
+	}
+	.leaf-right{
+		display: none;
+	}
+	.footer-area{
+		background: #6C62FF;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+@media (max-width: 1200px) {
+	.secendary-menu-area .secendary-menu nav ul li a {
+		padding: 30px 15px 35px 15px;
+		margin-right: 0px;
+	}
+	.banner-area .banner-content .banner-title h1 {
+		font-size: 55px;
+	}
+	.banner-area .banner-content {
+		padding-top: 60px;
+	}
+	
+	
+}
+@media  (max-width: 1024px){
+	.recent-post-list .single-post {
+		padding: 0;
+	}
+	.from-left {
+		margin-bottom: 30px;
+	}
+	.sidebar-widget {
+		margin-top: 50px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p.midden {
+		margin-left: 30px;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p.midden {
+		margin-left: 30px;
+	}
+	.profile-area .single-resume.language-resume {
+		margin-top: 110px;
+	}
+	.menu-area{
+		display: none;
+	}
+}
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+	.footer-right.text-right {
+		text-align: center;
+	}
+	.copyright-area {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.footer-area .footer-top .footer-widget.widget-text {
+		padding-right: 0;
+	}
+	.pagination-area .pagination ul li.page {
+		margin: 0 2px;
+	}
+	.pagination-area .pagination ul li.prev a {
+		margin-right: 8px;
+	}
+	.post-area .single-post .inner-post .post-info .blog-meta .meta-left ul li {
+		margin-right: 20px;
+	}
+	.banner-area .banner-content .banner-title h1 {
+		font-size: 45px;
+	}
+	.secendary-menu-area .secendary-menu nav ul li a {
+		letter-spacing: 1px;
+	}
+	.portfolio-area .portfolio .filtering-button a {
+		margin: 5px 0;
+	}
+	.contact-area .contact-info .single-info {
+		margin-bottom: 30px;
+	}
+	.post-two-area .single-post .inner-post .post-info .blog-meta .meta-left ul li {
+		margin-right: 15px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p.midden {
+		margin-left: 0;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p.midden {
+		margin-left: 0;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education .text-right{
+		text-align: left !important;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p {
+		margin: 10px 0;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work .text-right{
+		text-align: left !important;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p{
+		margin: 10px 0;
+	}
+	.breadcrumb-sibtitle.text-right {
+		text-align: left;
+	}
+	.breadcrumb-title.text-right {
+		text-align: left;
+	}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .profile-area .profile-info .counter-list .single-counter {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.post-area .single-post .inner-post .post-img {
+		float: none;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.post-area .single-post .inner-post .post-info {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+	}
+	.post-area .single-post .inner-post .post-info .blog-meta .meta-left ul li p {
+		font-size: 16px;
+	}
+	.post-area .single-post .inner-post .post-info .blog-meta .post-readmore .readmore-btn {
+		font-size: 16px;
+	}
+	.post-area .single-post .inner-post .post-info .blog-meta .meta-left ul li {
+		margin-right: 10px;
+	}
+	.table-responsive{
+		border:none;
+	}
+	.profile-area .profile-info .counter-list .single-counter::after {
+		display: none;
+	}
+	
+	.mt-30{
+		margin-top:30px;
+	}
+	.blog-details-area .comment-area .comment-list .single-comment .member-image {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.blog-details-area .comment-area .comment-list .single-comment .comment-info {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+	}
+	.banner-area .banner-content .banner-title h1 {
+		font-size: 38px;
+	}
+	.pagination-area .pagination ul li.prev a{
+		width:100px;
+	}
+	.pagination-area .pagination ul li.next a{
+		width:100px;
+	}
+	.secendary-menu-area .secendary-menu nav ul li a {
+		padding: 30px 10px 35px 10px;
+	}
+	.pagination-area .pagination ul li.page a {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.pagination-area .pagination ul li.prev a {
+		width: 60px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.pagination-area .pagination ul li.next a {
+		width: 60px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.post-two-area .single-post .inner-post .post-info .blog-meta .meta-left ul li {
+		margin-right: 5px;
+	}
+	.post-two-area .single-post .inner-post .post-info .blog-meta .post-readmore.pull-right{
+		float: left !important;
+		margin-top: 15px;
+	}
+	.post-two-area .single-post .inner-post .post-info .blog-meta .meta-left ul li{
+		margin-right: 15px;
+	}
+	.sidebar-menu .main-menu ul li a{
+		padding:10px 30px;
+	}
+	.sidebar-menu{
+		padding-top: 70px;
+		padding-bottom: 0px;
+	}
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.banner-area .banner-content .banner-info p br{
+		display: none;
+	}
+	.post-two-area .pagination-area .pagination ul li{
+		margin: 5px 10px;
+	}
+	.breadcrumb-area {
+		padding-top: 180px;
+		padding-bottom: 130px;
+	}
+	.profile-area .single-resume .resume-title h3 {
+		font-size: 18px;
+		letter-spacing: 2px;
+	}
+	.blog-details-area .single-post .blog-meta ul li {
+		margin-bottom: 10px;
+	}
+	.blog-details-area .single-post .blog-meta {
+		margin-bottom: 15px;
+	}
+	.single-comment.pl-100 {
+		padding-left: 0px;
+	}
+	.contact-area .contact-info .single-info .info-iiner .info-content {
+		float: none;
+	}
+	.contact-area .contact-info .single-info .info-iiner .info-incon {
+		float: none;
+	}
+	.contact-area .contact-info .single-info {
+		text-align: center;
+	}
+	.post-two-area .single-post .inner-post .post-img {
+		float: none;
+		width: 100%;
+		margin-bottom:25px;
+	}
+	.post-two-area .single-post .inner-post .post-info {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+	}
+	.post-two-area .single-post .inner-post .post-info .blog-meta .meta-left ul li {
+		margin-right: 10px;
+	}
+	.post-three-area .post-list .single-post .inner-post .blog-meta ul li {
+		margin-bottom: 10px;
+	}
+	.banner-img{
+		margin-top:30px;
+	}
+	.post-area .single-post .inner-post .post-info .blog-meta .meta-left ul li {
+		margin-bottom: 10px;
+	}
+	.post-readmore.pull-right {
+		float: left !important;
+		margin-top: 15px;
+	}
+	.pagination-area .pagination ul li.page {
+		margin: 5px 10px;
+	}
+	.blog-details-area .single-post .social-share .share-title h4 {
+		margin-bottom: 20px;
+	}
+	.share-media.pull-right {
+		float: left !important;
+	}
+	.post-three-area .pagination-area .pagination ul li.page{
+		margin: 5px 10px;
+	}
+	.related-post-two .related-slidetwo-post .single-blog .blog-info .blog-meta .meta-left.pull-left{
+		float: none !important;
+		display:block;
+	}
+	.related-post .related-slide-post .single-blog .blog-info .blog-meta .meta-left.pull-left{
+		float: none !important;
+		display:block;
+	}
+}
+
+@media (max-width: 375px) {
+	.profile-area .single-resume.work-resume .work-list .single-work p{
+		padding-left: 40px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p{
+		padding-left: 40px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p span {
+		font-size: 14px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p span:before {
+		font-size: 14px;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p span{
+		font-size: 14px;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p span:before{
+		font-size: 14px;
+	}
+	.banner-area .banner-content .banner-title h1 {
+		font-size: 34px;
+		line-height: 46px;
+	}
+	.banner-img {
+		margin-top: 30px;
+	}
+	.banner-area .banner-content {
+		padding-top: 0;
+	}
+	.breadcrumb-area .breadcrumb-sibtitle h4 {
+		letter-spacing: 5px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p span {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		margin-right: 10px;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p span {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		margin-right: 10px;
+	}
+	.sidebar-widget .single-widget.profile-widget .widget-inner .profile-name p {
+		letter-spacing: 1px;
+	}
+	.blog-details-area .single-post .post-thumnile .slide-thumbnile .single-image .post-date span {
+		width: 60px;
+		height: 60px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.post-area .single-post .post-date span{
+		width: 60px;
+		height: 60px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.post-two-area .single-post .post-date span{
+		width: 60px;
+		height: 60px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.post-three-area .post-list .single-post .inner-post .post-thumnile .post-date span{
+		width: 60px;
+		height: 60px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.blog-details-area .single-post .social-share .share-title h4 {
+		margin-bottom: 20px;
+	}
+	.share-media .social-media ul li{
+		margin-right: 8px;
+	}
+	.blog-details-area .comment-area .section-title h3{
+		font-size: 22px;
+	}
+	.post-two-area .single-post .inner-post .post-info .blog-meta .meta-left ul li {
+		margin-bottom: 10px;
+	}
+	.post-two-area .pagination-area .pagination ul li.page {
+		margin: 5px 10px;
+	}
+	.post-three-area .pagination-area .pagination ul li.page {
+		margin: 5px 10px;
+	}
+	.secendary-menu-area .secendary-menu nav ul li a {
+		padding: 30px 10px 35px 10px;
+	}
+	.breadcrumb-area .breadcrumb-title h2 {
+		font-size: 50px;
+	}
+	.share-media.pull-right {
+		float: left !important;
+	}
+	.sidebar-widget .single-widget.profile-widget .widget-inner .social-media ul li {
+		margin-right: 5px;
+	}
+	.banner-area .banner-content .banner-info p br{
+		display: none;
+	}
+}
+@media (max-width: 320px) {
+	.profile-area .single-resume.education-resume .education-list .single-education p.left span{
+		top: 0px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p.midden span{
+		top:0px;
+	}
+	.profile-area .single-resume.education-resume .education-list .single-education p.one span{
+		top:-6px;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p.left span{
+		top:0px;
+	}
+	.profile-area .single-resume.work-resume .work-list .single-work p.midden span{
+		top:0px;
+	}
+	.sidebar-widget .single-widget.recent-post-widget .single-post .posty-img {
+		float: none;
+		width: 100%;
+		height: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+}
