@@ -118,6 +118,24 @@
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+.header-logo h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.banner-area.banner-two {
+    padding-top: 95px;
+    padding-bottom: 15px;
+}
+.header-area .humbargar-area .menu-icon span:before {
+    font-size: 32px;
+}
+.header-area {padding: 14px 0;}
+.header-area.stick {padding: 5px 0;}
+.footer-area .footer-top {padding-top: 18px;}
+.post-area {padding-bottom: 20px;padding-top: 80px;}
+
+
     .profile-area .profile-info .counter-list .single-counter {
 		width: 100%;
 		margin-bottom: 30px;
@@ -213,16 +231,32 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+	.section {
+    padding: 80px 0;
+}
 	.banner-area .banner-content .banner-info p br{
 		display: none;
 	}
 	.post-two-area .pagination-area .pagination ul li{
 		margin: 5px 10px;
 	}
-	.breadcrumb-area {
-		padding-top: 180px;
-		padding-bottom: 130px;
-	}
+.breadcrumb-area {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.post-title h1 {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.owl-buttons .fa{
+padding-left: 15px;
+}
+
+.blog-details-area .single-post .blog-content h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
 	.profile-area .single-resume .resume-title h3 {
 		font-size: 18px;
 		letter-spacing: 2px;
@@ -323,7 +357,10 @@
 		padding-top: 0;
 	}
 	.breadcrumb-area .breadcrumb-sibtitle h4 {
-		letter-spacing: 5px;
+    font-size: 20px;
+        padding-top: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
 	}
 	.profile-area .single-resume.education-resume .education-list .single-education p span {
 		width: 30px;
@@ -386,7 +423,7 @@
 		padding: 30px 10px 35px 10px;
 	}
 	.breadcrumb-area .breadcrumb-title h2 {
-		font-size: 50px;
+    font-size: 30px;
 	}
 	.share-media.pull-right {
 		float: left !important;
