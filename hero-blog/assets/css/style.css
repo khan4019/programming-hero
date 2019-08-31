@@ -1174,13 +1174,15 @@ ul {
     padding-top: 185px;
     padding-bottom: 120px;
   background-attachment: fixed; }
+  .owl-buttons{display: none;}
   .breadcrumb-area .breadcrumb-title h2 {
     font-size: 45px;
     font-weight: 600;
     color: #ffffff;
     letter-spacing: 1px;
     text-transform: capitalize;
-    margin-bottom: 15px; }
+    line-height: 1.2em;
+    margin-bottom: 25px; }
   .breadcrumb-area .breadcrumb-sibtitle h4 {
     font-size: 24px;
     font-weight: 600;
@@ -1633,6 +1635,9 @@ ul {
       .blog-details-area .single-post .post-thumnile:hover .owl-controls .owl-buttons div.owl-next {
         right: -4px;
         opacity: 1; }
+        .single-image{
+          height: 420px;
+        }
       .blog-details-area .single-post .post-thumnile .slide-thumbnile .single-image:hover .post-date span {
         background: #665cf2; }
       .blog-details-area .single-post .post-thumnile .slide-thumbnile .single-image:hover .post-date.two span {
@@ -1679,6 +1684,7 @@ ul {
           -moz-transition: all 0.5s;
           -ms-transition: all 0.5s;
           transition: all 0.5s; }
+
       .blog-details-area .single-post .post-thumnile .owl-controls .owl-buttons div {
         width: 60px;
         height: 60px;
@@ -1801,6 +1807,14 @@ ul {
       border-left: 5px solid #6c62ff; }
       .blog-details-area .single-post .blog-content .blockquote p {
         margin: 0px; }
+ .blog-details-area .single-post .blog-content .blockquote p, ol, li {
+    position: relative;
+    margin-left: 1em;
+    padding-bottom: .7em;
+    font-size: 17px;
+ }
+
+
     .blog-details-area .single-post .social-share .share-title h4 {
       font-size: 16px;
       color: #333333;
@@ -2159,6 +2173,7 @@ ul {
         background: #665cf2; }
       .related-post .related-slide-post .single-blog .post-thumbnile {
         position: relative;
+            height: 280px;
         overflow: hidden; }
         .related-post .related-slide-post .single-blog .post-thumbnile a {
           display: block;
@@ -2780,13 +2795,13 @@ ul {
 */
 .leaf-left {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 0; }
 
 /*leaf-right*/
 .leaf-right {
   position: absolute;
-  top: 70%;
+  top: 45%;
   right: 0; }
 
 

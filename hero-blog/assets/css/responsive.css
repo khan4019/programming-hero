@@ -12,6 +12,10 @@
 	.footer-area{
 		background: #6C62FF;
 	}
+		.footer-area .footer-top {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
 }
 
 /* Portrait tablets and medium desktops */
@@ -29,7 +33,6 @@
 	.banner-area .banner-content {
 		padding-top: 60px;
 	}
-	
 	
 }
 @media  (max-width: 1024px){
