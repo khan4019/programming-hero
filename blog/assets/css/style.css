@@ -1809,11 +1809,11 @@ ul {
         margin: 0px; }
  .blog-details-area .single-post .blog-content .blockquote p, ol, li {
     position: relative;
-    margin-left: 1em;
-    padding-bottom: .7em;
+    padding-bottom: .9em;
     font-size: 17px;
+    list-style: disc;
  }
-
+.ullist li{margin-left: 2em;}
 
     .blog-details-area .single-post .social-share .share-title h4 {
       font-size: 16px;
