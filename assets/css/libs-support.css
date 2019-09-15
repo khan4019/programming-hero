@@ -9908,15 +9908,7 @@ body {
   color: #708198;
 }
 
-.heading,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #414c5a;
-}
+
 
 .section-heading .paragraph,
 .lead {
@@ -11353,17 +11345,10 @@ a:hover,
   color: #fff;
 }
 
-.ui-gradient-purple {
 
-  /** background: -webkit-linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%); **/
-  /** background: -webkit-linear-gradient(50deg, #6A11CB 0%, #2575FC 100%);
-   background: linear-gradient(50deg, #6A11CB 0%, #2575FC 100%); **/
-  background-image: url(../img/svg-layers/header-bg.png);
-  background-size: cover;
-}
 
 .headerbg{
-	background-image: linear-gradient(220deg, rgb(39, 113, 250) 0%, rgb(138, 31, 255) 100%);
+  /**	background-image: linear-gradient(220deg, rgb(39, 113, 250) 0%, rgb(138, 31, 255) 100%); **/
 }
 
 .hero-bg.ui-gradient-purple::before {
@@ -11689,11 +11674,6 @@ a:hover,
 
 .ui-icon-blocks .ui-icon-block>.icon.ui-gradient-peach {
   color: #FFF;
-}
-
-.ui-gradient-green {
-  background: -moz-linear-gradient(45deg, #19d9b4 0%, #92d275 100%);
-  background: linear-gradient(45deg, #19d9b4 0%, #92d275 100%);
 }
 
 .hero-bg.ui-gradient-green::before {
