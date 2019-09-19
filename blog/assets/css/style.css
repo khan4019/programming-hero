@@ -1809,7 +1809,7 @@ ul {
         margin: 0px; }
  .blog-details-area .single-post .blog-content .blockquote p, ol, li {
     position: relative;
-    padding-bottom: .9em;
+    padding-bottom: 1.1em;
     font-size: 17px;
     list-style: disc;
  }
@@ -2160,7 +2160,7 @@ ul {
     padding-left: 15px; }
   .related-post .related-slide-post {
     position: relative;
-    padding-bottom: 70px; }
+    padding-bottom: 0px; }
     .related-post .related-slide-post .single-blog {
       margin: 0 15px; }
       .related-post .related-slide-post .single-blog:hover .post-thumbnile a img {
