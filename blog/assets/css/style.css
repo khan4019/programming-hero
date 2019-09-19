@@ -578,10 +578,14 @@ ul {
 .header-logo a{
     color: #fff;
 }
+.header-logo img{
+    position: relative;
+    bottom: -14px;
+}
     .header-logo h2{
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     }
       .footer-area .footer-top .footer-widget .footer-logo h2 a {
         color: #ffffff; }
