@@ -311,12 +311,20 @@ body[data-fade_in="on-load"],
 	color: #8089ff;
 }
 
+
+.moc-up{
+	    animation: swing ease-in-out 4s infinite alternate;
+
+}
+@keyframes swing {
+    0% { transform: rotate(1deg); }
+    100% { transform: rotate(-1deg); }
+}
+
 /**
 * 18. Drop-downs
 * ----------------------------------------------------------------------- *
 */
-
-
 
 .hero-text {
 background: -webkit-linear-gradient(left, #1E1C42, #790054,#910061);
@@ -348,7 +356,6 @@ background: -webkit-linear-gradient(left, #1E1C42, #790054,#910061);
     background-position: 1600px 0;
   }
 }
-
 
 #let-start {
 	font-size: 1rem;
