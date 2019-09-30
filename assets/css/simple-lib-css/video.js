@@ -6,3 +6,7 @@ $('.modal').on('hidden.bs.modal', function(e) {
     closestIframe[0].src = "";
     closestIframe[0].src = rawVideoURL;
   });
+
+$('.pull-right').click(function() {
+    $('.load').hide();
+});
