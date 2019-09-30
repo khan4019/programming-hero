@@ -400,16 +400,19 @@ background: -webkit-linear-gradient(left, #1E1C42, #790054,#910061);
     text-shadow: -1px -1px #333;
 }
 
-.load:after,
-.load:before {
-  display: inline-block;
-  margin: auto;
-  position: absolute;
-  content: "";
-  width: 45px;
-  height: 45px;
-  border-radius: 30px;
-  background: linear-gradient(45deg, #4289FF 0%, #07F8C3 100%);
+.load:after, .load:before {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    bottom: 0;
+    top: 0;
+    left: 0px;
+    right: 0;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #4289FF 0%, #07F8C3 100%);
 }
 
 .load:after {
@@ -1611,6 +1614,9 @@ background: linear-gradient(45deg, #4289FF 0%, #07F8C3 100%);
 		flex: 1;
 		width: 100%;
 		opacity: 0;
+        background: #f8f8f8;
+    margin: 4px 0px;
+    padding: 6px 0px;
 	}
 
 	.navbar .ui-navigation .nav.navbar-nav a {
