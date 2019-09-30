@@ -32,3 +32,8 @@
 .watchmore{display: inherit;}
 .letsstart{display: inherit;}
 } 
+.modal-backdrop{
+  opacity:0; transition:opacity .2s;
+}
+.modal-backdrop.in{
+  opacity:.8;
