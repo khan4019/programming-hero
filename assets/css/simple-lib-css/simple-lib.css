@@ -1,0 +1,39 @@
+.modal-header .close {
+    margin-top: -2px;
+    color: white;
+    opacity: 1;
+    padding-right: 10px;
+}
+.modal-header {
+    border-bottom: 0;
+    padding: 5px;
+	background: linear-gradient(45deg, #4f4af0 0%, #312564 100%)!important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.modal{padding-top: 70px;}
+.watchmore{display: none;}
+.letsstart{display: none;}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (orientation: portrait) {
+.modal-body{padding: 10px;}
+.load{display: none;}
+
+.watchmore{display: inherit;}
+.letsstart{display: inherit;}
+}
+@media (max-width: 480px) { 
+.modal-body{padding: 10px;} 
+.load{display: none;}
+
+.watchmore{display: inherit;}
+.letsstart{display: inherit;}
+} 
+.modal-backdrop{
+  opacity:0; transition:opacity .2s;
+}
+.modal-backdrop.in{
+  opacity:.8;
