@@ -6,15 +6,15 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="author" content="Programming Hero">
-    <meta name="description" content="12 function related exercise every python developer should learn">
-    <meta name="og:title" property="Programming Hero - Blog" content="12 function related exercise every python developer should learn">
+    <meta name="description" content="Python Indentation: Everything you need to know">
+    <meta name="og:title" property="Programming Hero - Blog" content="Python Indentation: Everything you need to know">
     <meta property="og:url" content="http://www.programming-hero.com/hero-blog" />
     <meta property="og:image" content="assets/images/blog/12-function-related-exercise-every-python-developer-should-learn.png" />
-    <meta name="twitter:card" content="12 function related exercise every python developer should learn">
+    <meta name="twitter:card" content="Python Indentation: Everything you need to know">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- title here -->
-    <title>12 function related exercise every python developer should learn</title>
+    <title>Python Indentation: Everything you need to know</title>
     <!-- Favicon and Touch Icons -->
     <link rel="shortcut icon" href="assets/images/logo/programming-hero-fav.png">
     <!-- Fonts -->
@@ -91,10 +91,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="breadcrumb-title">
-                        <h2>12 function related exercise every python developer should learn</h2>
+                        <h2>Python Indentation: Everything you need to know</h2>
                     </div>
                     <div class="breadcrumb-sibtitle">
-                        <h4>12 function-related exercises/concepts</h4>
+                        <h4>As a beginner, indentation will bite you a little bit. Don’t worry... you're not the only one.</h4>
                     </div>
                 </div>
             </div>
@@ -109,13 +109,13 @@
                         <div class="post-thumnile">
                             <div class="slide-thumbnile">
                                 <div class="single-image">
-                                    <img src="assets/images/blog/12-function-related-exercise-every-python-developer-should-learn.png" alt="blog">
+                                    <img src="assets/images/blog/Learn-Python-In-A-Week.png" alt="blog">
                                     <div class="post-date">
                                         <span>01</span>
                                     </div>
                                 </div>
                                 <div class="single-image">
-                                    <img src="assets/images/blog/Learn-Python-In-A-Week.png" alt="blog">
+                                    <img src="assets/images/blog/12-function-related-exercise-every-python-developer-should-learn.png" alt="blog">
                                     <div class="post-date two">
                                         <span>02</span>
                                     </div>
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="post-title">
-                            <h1>12 function related exercise every python developer should learn</h1>
+                            <h1>Python Indentation: Everything you need to know</h1>
                         </div>
                         <div class="blog-meta">
                             <ul>
@@ -131,7 +131,7 @@
                                     <p>By <a href="#">Jhankar Mahbub</a> </p>
                                 </li>
                                 <li> <span class="flaticon-calendar clendar"></span>
-                                    <p>3 Aug 2019</p>
+                                    <p>5 Nov 2019</p>
                                 </li>
                                 <li> <span class="flaticon-chat comment"></span>
                                     <p></p>
@@ -141,161 +141,111 @@
                        
                     <div class="blog-content">
 
-                        <p class="">I am taking all the examples from the Python learning app called <span><a href="http://bit.ly/progHero" target="_blank">Programming Hero: Coding Just Got Fun</a></span></p>
+                        <p class="">As a beginner, indentation will bite you a little bit. Don’t worry...you're not the only one. Every Python developer faces it. As you keep coding, indentation confusion will go away...I promise!</p>
+                        <p>Where to indent: You will need to indent after these 11 Python keywords:</p>
 
-                        <h2>12 function-related exercises/concepts:</h2>
-
-                        <ol>
-                            <li>Use parameter</li>
-                            <li>Use return</li>
-                            <li>Default parameter value</li>
-                            <li>Keyword Arguments</li>
-                            <li>Built-in function</li>
-                            <li>Use docstring</li>
-                            <li>Anonymous function</li>
-                            <li>Access global variable</li>
-                            <li>return more than one value</li>
-                            <li>Variable-length argument</li>
-                            <li>Pass by reference vs value</li>
-                            <li>using main() function</li>
-                        </ol>
-
-                        <p><b>Use Parameter:</b></p>
-
-                        <p>Know how to declare parameters. How you can pass values to get different result based on the parameters</p>
-
-<pre><code>def add (a, b):
-    sum = a + b
-    print(sum)
- 
-add(2,3)
+<pre><code>
+if, else, elif
+for, while
+def
+class
+try, except, finally 
+with
 </code></pre>
 
-                        <p><b>Use Return:</b></p>
+<h2> Indentation Rule-1: </h2>
 
-                        <p>
-                            Practice how to use the return keyword. So that you can do something with the result. If needed, you can use the result of the function again.
-                        </p>
+<p>One general rule (not always true, but good to remember as a beginner): <strong>
+If you use a colon sign at the end of a line, you will need to indent the following line/lines.</strong>
 
-<pre><code>def add (a, b):
-    return a + b
- 
-x = add(2,3)
-y = add(5,10)
-total = add(x,y)
-print(total)
-</code></pre>
+In the code below, you have a colon after the second line. That’s why, the third line is indented.  </p>
+<pre><code>
+price = 7
+if price < 10:
+    print("I want the food")
+</code></pre>   
+<p>If you don’t indent the line after the colon, you will get an indentation error. </p>
+<pre><code>
+price = 7
+if price < 10:
+print("I want the food")
+</code></pre> 
 
-                        <p><b>Default Parameter:</b></p>
+<h2>Why you need to Indent:</h2>
+<p>Did you notice how replies of a comment align?</p>
+<p>If you can’t remember, look at the reply below...l <br>
+It goes a little right side than the actual comment. So, you can acknowledge that it’s a reply to that comment.</p>
 
-                        <p>Learn how can you avoid passing specific parameters. If one or more parameters are not passed, you can have a default value.</p>
+<img src="assets/images/blog/Python-Indentation/Python-Indentation.png" alt="blog">
+<p>All other comments don’t get indented. Only the reply to a comment indents. This is the way you can identify which one is a regular comment and which is a reply to a specific comment. Isn't it?</p>
+<img src="assets/images/blog/Python-Indentation/Python-Indentation2.png" alt="blog">
+<p>The same thing is true in coding. If something is under something else, you will need to indent it. </p>
+<h2>Indentation Rule-2: </h2>
+<p><strong>If you have multiple lines inside the if block, all the lines will need to be indented. And the indentation has to be the same. </strong></p>
 
-<pre><code>def add (a, b = 5):
-    return a + b
- 
-x = add(2,3)
-print(x) # 5
- 
-y = add(7)
-print(y) #112
- 
-total = add(x,y)
-print(total)
-</code></pre>
+<p>For example, you want to indent the line 3 and 4. If you give four whitespaces on line 3, you have to give four whitespaces for line 4 as well. </p>
 
-                        <h2>Keyword Arguments</h2>
-                        <p>If you are not sure about the order of the parameters (arguments), you can pass arguments by their name and you don’t have to maintain their order.</p>
+<p>In the code below, we gave four whitespaces for the first line and two whitespaces for the second line inside the if block. You will get indentation error:</p>
 
-<pre><code>def add (a, b):
-    return a + b
- 
-x = add(a = 2, b =3)
-print(x) # 5
- 
-y = add(b = 7, a=11)
-print(y) #16
- 
-total = add(b=x,a=y)
-print(total)
-</code></pre>
+<pre><code>
+price = 7
+if price < 10:
+    print("I want the food")
+  print("I want the drinks")
+</code></pre> 
 
-                        <h2>Built-in function</h2>
-                        <p>Python has tons of built-in function. Like min, list, pow, len, etc. Here is the list of all <span><a href="https://docs.python.org/3/library/functions.html" target="_blank">Built-in Functions</a></span>.</p>
+<h2>Indentation Rule-3: </h2>
+<p><strong>Regardless of your current level of indentation, if you write a colon at the end of the line, you will need to indent.</strong></p>
+<p>In the code below, you will see multiple levels of indentation. It can even go crazier 😅</p>
 
-                        <h2>2Use docstring</h2>
-                        <p>Learn how would you write the purpose and special notes about a function. In that case, using docstring is a convention.</p>
-                        <p>A docstring is written right after the function name. It starts with three double quotes and ends with three double quotes as well. A docstring could be written multiple lines as well.</p>
-    <pre><code>def add (a, b):
-    """ Add two numbers or two strings """
-    return a + b
-</code></pre>
+<pre><code>
+a==1
+b==2
+c==3
+print('start')
+if a==1:
+    print(a)
+    if b==2:
+        print(b)
+        if c==3:
+            print(c)
+print('end')
+</code></pre> 
 
-                        <h2>Anonymous function</h2>
-                        <p>An anonymous function could be considered an advanced topic. It is also known as a lambda function. It is a shortcut way to write a function in one line without giving it a proper name.</p>
+<h2>Indentation Rule-4: </h2>
+<p><strong>Indentation is determined by the depth/level of indentation, not by the line number.</strong></p>
 
-    <pre><code>double = lambda x: x * 2
-# Output: 10
-print(double(5))
-</code></pre>
+<p>Look at the code below. The third line of the code is under the for loop. The fourth line of the code has an if. Hence, the next line will be indented. And we have a break command there. So, if the number becomes an even number, loop will stop.</p>
+<pre><code>
+nums = [5,81,3,47,12,55,87]
+for num in nums:
+    print(num)
+    if num % 2 is 0:
+        break
+</code></pre> 
 
-                        <h2>Access global variable</h2>
-                        <p>This tricks new developers. You can access external variables. However, if you want to set a value to a variable not declared inside the function or is not a parameter, you will get an exception.</p>
+<p>Now, look at the code below. The print(num) line has the same indentation level as the if-condition. This means the print(num) is not inside the if block. Instead, it is still inside the for block. If you run the following code, you will see the number as output until it hits an even number. </p>
+<pre><code>
+nums = [5,81,3,47,12,55,87]
+for num in nums:
+    if num % 2 is 0:
+        break
+     print(num)
+</code></pre> 
 
-    <pre><code>c = 5
-def add (a, b):
-    c = a + b
-    return c
- 
-# will get an exception
-x = add(12, 23)
- 
-# use global
- 
-def add (a, b):
-    global c
-    c = a + b
-    return c
-</code></pre>
+<h2>Indentation Rule-5: </h2>
+<p><strong>If there is no colon, you should not indent the starting of a line.</strong></p>
 
-                        <h2>return more than one value</h2>
-                        <p>In some cases, you will need to return more than one thing from a function. How would you do that?</p>
-                        <p>The answer is: you can use a tuple, list, dictionary, class or, a dataclass.</p>
-    <pre><code>def get_a_lot(x):
-    y0 = x + 1
-    y1 = x * 3
-    y2 = y0 ** y3
-    return (y0, y1, y2)
- 
-things = get_a_lot(5)
-</code></pre>
+<p>In the code below, you didn’t write any specific Python keyword that requires indentation. However, you indent the second line of code. This will give you an Error. Hence, don’t indent if you don’t have any specific reason to do so.</p>
+<pre><code>
+a==1
+    b==3
+</code></pre> 
 
-                        <h2>Variable-length argument</h2>
-                        <p>In some cases, you might not know, how many parameters user will pass. In those cases, what will you do?</p>
+<p>These rules and easier explanation is taken from <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Programming Hero</a>. For more fun content like this, feel free to check out Programming Hero app.</p>
 
-    <pre><code>def add_everything(*args):
-    return sum(args)
- 
-# Calculate the sum
-print(add_everything(1,4,5, 75, 112))
-</code></pre>
 
-                        <h2>Pass by reference vs value</h2>
-                        <p>This is an advanced topic. However, you should check when you pass a variable, list, tuples or a dictionary to a function. What will happen if you change the value and what will happen if you just update one element of the collection</p>
 
-                        <p>using main() function</p>
-                        <p>The main function has special importance to start an app. You should learn about this.</p>
-
-    <pre><code># Define `main()` function
-def main():
-  hello()
-  print("This is a main function")
-  
-# Execute `main()` function 
-if __name__ == '__main__':
-    main()
-</code></pre>
-
-                        <p>If you read up to this point. you must follow me on Quora ( i spend 3 hours to write this answer. Also, you should check out the intermediate and advanced level contents in <span><a href="http://bit.ly/progHero" target="_blank">Programming Hero: Coding Just Got Fun</a></span></p>
 
                     </div>
 						</div>	

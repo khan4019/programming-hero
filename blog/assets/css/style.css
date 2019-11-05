@@ -2926,3 +2926,10 @@ input {
   text-decoration: none;
   cursor: pointer;
 }
+
+#appView .powrMark{
+  display: none!important;
+}
+.powrMark{
+  display: none!important;
+}
