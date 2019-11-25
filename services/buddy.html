@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../assets/img/logo/Programming-Hero-app.png" type="img/favicon" />
+	<title>Coding Buddy | Personal help to win</title>
+	<!-- ========== Google Fonts ========== -->
+	<link href="https://fonts.googleapis.com/css?family=Exo:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Source+Sans+Pro:600,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="../assets/css/libs-support.css" />
+	<link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/responsive.css" />
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=AWiPlLGBeYPBm-jnhzqRNDVI0viaZzDVg58X8lcXxmw4nY0Wr2tNO7wALug2mywzt7G343XyJIMtaZkz"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+  </script>
+	<!-- OLD User review stylesheet -->
+	<!-- <link rel="stylesheet" href="../assets/css/user_review.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"> -->
+
+	<!-- New User review stylesheet -->
+	<link rel="stylesheet" href="../assets/css/user_review/style.css" />
+	<link rel="stylesheet" href="../assets/css/user_review/owl.carousel.min.css" />
+
+	<!-- New User review stylesheet -->
+	<link rel="stylesheet" href="../assets/css/simple-lib-css/simple-lib.css" />
+
+</head>
+
+<body class="ui-transparent-nav">
+
+	<!-- Navbar Fixed + Default -->
+	<nav class="navbar navbar-fixed-top transparent navbar-light bg-white">
+		<div class="container">
+
+			<!-- Navbar Logo -->
+			<a class="ui-variable-logo navbar-brand" href="../index.html" title="Programming Hero">
+				<img class="logo-default" src="../assets/img/logo/logo.png" alt="Programming Hero LOGO"
+				 data-uhd>
+				<img class="logo-transparent" src="../assets/img/logo/logo.png" alt="LOGO" data-uhd>
+			</a>
+
+			<!-- Navbar Navigation -->
+			<div class="ui-navigation navbar-center">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="../blog/Learn-and-Master-Python-in-a-Month.html">Paths be a Hero</a>
+					</li>
+					<li><a href="../blog/index.html">Blog</a></li>
+					<li><a class="letsstart" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Let's start</a></li>
+ 					<li><a class="watchmore" href="#myModal" data-toggle="modal">Watch Video</a></li>
+ 					<li class="letstart"><div><a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank" id="let-start"class="letsStart btn ui-gradient-green">Let's start</a></div></li>
+				 	<li class="load"><div><a href="#myModal" data-toggle="modal"><i class="fa fa-play-circle animated fa-3x fa-3x"></i></a></div></li>
+				</ul>
+			</div>
+				
+			<!-- Navbar Toggle -->
+			
+			<a href="#" class="ui-mobile-nav-toggle pull-right"></a>
+
+		</div>
+	</nav> 
+
+	<!-- Main Wrapper -->
+	<div class="main" role="main">
+		<!-- Waves Hero Slider -->
+		<div class="headerbg">
+			<div class="ui-hero ui-hero-slider slider-pro hero-lg ui-gradient-purple ui-waves hero-svg-layer-1" data-show_arrows="false"
+			 style="margin: 0;">
+				<div class="sp-slides">
+
+					<div class="">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6 headerdiv wow  fadeInLeft  animated" data-wow-duration="1.5s" data-wow-delay="0.35s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeft;">
+									<h1 class="heading sp-layer hero-text">
+										Your personal Coding Buddy
+									</h1>
+									<p class="paragraph sp-layer">
+										Don't give up your dream. We are here to provide<br> answer, support, guideline and mentorship to win.
+									</p>
+									<div class="actions sp-layer wow  fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.3s; animation-name: fadeInUp;">
+											<div id="paypal-button-container"></div>
+											<script>
+												paypal.Buttons({
+													createOrder: function(data, actions) {
+													  // This function sets up the details of the transaction, including the amount and line item details.
+													  return actions.order.create({
+														purchase_units: [{
+														  amount: {
+															value: '99.99'
+														  }
+														}]
+													  });
+													},
+													onApprove: function(data, actions) {
+													  return actions.order.capture().then(function(details) {
+														alert('Transaction completed by ' + details.payer.name.given_name);
+													  });
+													}
+												  }).render('#paypal-button-container');
+											  </script>
+									</div>
+								</div>
+								<div class="col-md-6 sp-layer bounce-animate">
+									<a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank">
+										<img src="../assets/img/hero-header/programming-hero(moc).png" class="responsive-on-sm moc-up" alt="Programming Hero"
+										 data-uhd="" data-max_width="640" style="margin: auto;"></a>
+								</div>
+							</div><!-- .row -->
+						</div><!-- .container -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="bg-second-block">
+			<!-- features-2 -->
+			<div class="featured-section-2">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-8 col-md-offset-2">
+							<div class="section-title text-center wow  fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.35s"
+							 style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.30s; animation-name: fadeInUp;">
+								<h2>Professional Coding Buddy 🚀</h2>
+									<p style="padding-bottom: 25px;font-size: 20px;padding-top: 10px;"> <br><br></p>
+							</div>
+						</div>
+
+						<div class="featured-section-2-details">
+							<div class="col-lg-8 col-lg-offset-2  col-md-6 col-md-offset-3">
+								<div class="featured-bg bounce-animate">
+									<a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank"> <img class="moc-up" 
+										 alt="images" src="../assets/img/mobile-moc/galaxies.png"></a>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 left-featured-details">
+								<div class="featured-details-one wow  fadeInLeft animated" data-wow-duration="1.5s" data-wow-delay="0.30s"
+								 style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.30s; animation-name: fadeInLeft;">
+									<div class="media">
+										<div class="media-body">
+											<h3>Instant Answer </h3>
+											<p>24/7 access to our private discord to ask any question to our professional Programmers.</p>
+										</div>
+										<div class="media-left">
+											<div class="thumb">
+												<img src="../assets/img/mobile-moc/circle-icon/icon(4).png" alt="icon">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="featured-details-two wow  fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".35s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInLeft;">
+									<div class="media">
+										<div class="media-body">
+											<h3>Live Debug</h3>
+											<p>Can't figure out an issue? Get in a live screen share call and we will help you.</p>
+										</div>
+										<div class="media-left">
+											<div class="thumb">
+												<img src="../assets/img/mobile-moc/circle-icon/icon(5).png" alt="icon">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="featured-details-three wow  fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1s; animation-name: fadeInLeft;">
+									<div class="media">
+										<div class="media-body">
+											<h3>Real-world Projects</h3>
+											<p>Not sure which project will help you to build your skill. Don't worry. We will help.</p>
+										</div>
+										<div class="media-left">
+											<div class="thumb">
+												<img src="../assets/img/mobile-moc/circle-icon/icon(1).png" alt="icon">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 right-featured-details">
+								<div class="featured-details-one wow  fadeInRight animated" data-wow-duration="1.5s" data-wow-delay="0.35s"
+								 style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.30s; animation-name: fadeInRight;">
+									<div class="media">
+										<div class="media-left">
+											<div class="thumb">
+												<img src="../assets/img/mobile-moc/circle-icon/icon(2).png" alt="icon">
+											</div>
+										</div>
+										<div class="media-body">
+											<h3>Project Help</h3>
+											<p>Got stuck on a project. We will guide you to finish the project.</p>
+										</div>
+									</div>
+								</div>
+								<div class="featured-details-two wow  fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.35s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.35s; animation-name: fadeInRight;">
+									<div class="media">
+										<div class="media-left">
+											<div class="thumb">
+												<img src="../assets/img/mobile-moc/circle-icon/icon(6).png" alt="icon">
+											</div>
+										</div>
+										<div class="media-body">
+											<h3>Resume Review</h3>
+											<p>We will help you craft the ideal resume.</p>
+										</div>
+									</div>
+								</div>
+								<div class="featured-details-three wow  fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1s; animation-name: fadeInRight;">
+									<div class="media">
+										<div class="media-left">
+											<div class="thumb">
+												<img src="../assets/img/mobile-moc/circle-icon/icon(3).png" alt="icon">
+											</div>
+										</div>
+										<div class="media-body">
+											<h3>Mock Interview</h3>
+											<p>To overcome your fear as a junior developer, we will setup a mock interview.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.features-2-->
+			<div class="bg-second-block">
+				<!-- features-2 -->
+				<div class="featured-section-2">
+					<div class="container">
+						<div class="row">
+								<div id="paypal-button-container"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+  <div class="review-section">
+  <div class="overlay pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+         <div class="cards-5 section-gray">
+
+				<div class="col-lg-12">
+				<div class="user-review-title title-bg">
+					<h2 class="wow fadeInUp" data-wow-duration=".3s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: fadeInUp;">User Reviews!</h2>
+					<p>In just 11 months we got 7,000+ reviews. <br> If you have nothing else to do, read our <a style="color: #389bf4;" target="_blank" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&amp;showAllReviews=true">awesome reviews</a> </p>
+				</div>
+			</div>
+			
+                    <div class="col-md-4">
+                        <div class="card card-profile">
+                            <div class="card-avatar one">
+                                <a href="#"> <img class="img" src="../assets/img/testimonial/user_01.webp"> </a>
+                            </div>
+                            <div class="table">
+                                <h4 class="card-caption">Imanuel Shirima</h4>
+
+                             <ul class="rating list-inline font-14">
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                        </ul>
+                                <p class="card-description">wow!!! amizing up to this time i get experience and more motivated to continuing learning python !!! i will soon become a best programmer in the world!!! this app very usefully.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile">
+                            <div class="card-avatar">
+                                <a href="#"> <img class="img" src="../assets/img/testimonial/user_02.webp"> </a>
+                            </div>
+                            <div class="table">
+                                <h4 class="card-caption">Hardik Jain</h4>
+                             <ul class="rating list-inline font-14">
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                        </ul>
+                                <p class="card-description">YES, i got that pygame thing. thanks for your reply btw and nice app! wanna appreciate and recommend to friends also.. keep it up guys👌</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-profile">
+                            <div class="card-avatar">
+                                <a href="#"> <img class="img" src="../assets/img/testimonial/user_03.webp"> </a>
+                            </div>
+                            <div class="table">
+                                <h4 class="card-caption">Sujata Gupta</h4>
+
+                             <ul class="rating list-inline font-14">
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                        </ul>
+                                <p class="card-description">Absolutely love it..!! Tho I'm a beginner as of now. But your way of presenting everything there is quite impressive and funny which is great step.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+        </div>
+               
+        </div>
+        </div>
+		</div>
+        </div>
+
+			<!--  Waves Footer -->
+			<footer class="ui-footer subscribe-footer ui-waves">
+				<div class="footer-section">
+					<div class="container">
+						<div class="footer-content">
+							<!--  footer touch Section -->
+							<div class="col-md-4 address">
+								<h4 class="headingf">
+									<img class="logo-transparent" src="../assets/img/logo/footer-logo.png" alt="LOGO" data-uhd="">
+								</h4>
+								<p class="footer-p">
+									Programming Hero is a fun, interactive, visual, and friendly way to learn programming.
+								</p>
+							</div>
+
+							<div class="col-md-2 footer-li">
+								<ul class="nav navbar-nav">
+									<li><a href="http://www.codinism.com/" target="_blank">About us</a></li>
+									<li><a href="http://www.codinism.com">Blog</a></li>
+									<li><a href="http://www.codinism.com">Account</a></li>
+									<li><a href="http://www.codinism.com/#contact">Contact</a></li>
+								</ul>
+							</div>
+
+							<div class="col-md-3 footer-li">
+								<ul class="nav navbar-nav">
+									<li><a href="http://www.codinism.com/privacy.html">Terms</a></li>
+									<li><a href="http://www.codinism.com/privacy.html">Privacy</a></li>
+									<li><a href="http://www.codinism.com">Help</a></li>
+									<li><a href="http://www.codinism.com">FAQ</a></li>
+								</ul>
+							</div>
+
+							<!-- Social Icons -->
+							<div class="col-md-3 social-icon">
+								<h4 class="headingf">
+									Follow us
+								</h4>
+
+								<a class="btn ui-gradient-peach btn-circle shadow-md" target="_blank" href="https://www.instagram.com/programminghero/">
+									<span class="fa fa-instagram"></span></a>
+								
+								<a class="btn ui-gradient-green btn-circle shadow-md" target="_blank" href="https://twitter.com/Proghero">
+										<span class="fa fa-twitter"></span></a>
+
+								<a class="btn ui-gradient-blue btn-circle shadow-md" target="_blank" href="https://www.facebook.com/programmingHero">
+									<span class="fa fa-facebook"></span></a>
+
+								<a href="http://www.codinism.com/" class="btn ui-gradient-purple btn-circle shadow-md">
+									<span class="fa fa-globe"></span></a>
+
+							</div>
+						</div>
+
+
+					</div> <!-- .container -->
+				</div>
+			</footer>
+
+			<!-- Modal 
+			<div class="modal fade" id="exModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exeModalLabel">Coming Soon!</h5>
+						</div>
+						<div class="modal-body">
+							We put everything in the app. You don't have to overload your chrome browser.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn mymary"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Can't wait</a></button>
+							<button type="button" class="btn btn closed" data-dismiss="modal">I am boring</button>
+						</div>
+					</div>
+				</div>
+			</div>-->
+
+			    <!-- Video Modal Area -->
+				<div id="myModal" class="modal fade">
+				   <div class="modal-dialog modal-lg">
+				      <div class="modal-content">
+				         <!-- Modal title area -->
+				         <div class="modal-header">
+				            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				         </div>
+				         <div class="modal-body">
+				         	<div class="embed-responsive embed-responsive-16by9">
+				            <iframe src="https://www.youtube.com/embed/Rim14e5_Hwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+				         </div>
+				         <div class="modal-footer">
+        					 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        				     <button type="button" class="btn btn-primary"><a class="video-footer" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Let's Start</a></button>
+				         </div>
+				      </div>
+				   </div>
+				</div>
+
+		</div><!-- .main -->
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="../assets/js/libs/jquery/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../assets/js/libs/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../assets/js/libs/wow.min.js"></script>
+		<script type="text/javascript" src="../assets/js/build/js-build.js"></script>
+		<script type="text/javascript" src="../assets/js/libs/theme.js"></script>
+		<!-- NEW USER REVIEW FILE -->
+		<script type="text/javascript" src="../assets/js/user_review/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="../assets/js/user_review/review.js"></script>
+
+		<!-- OLD USER REVIEW FILE -->
+		<!-- script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="../assets/js/libs/owl_carousel.js"></script> -->
+		<script type="text/javascript" src="../assets/css/simple-lib-css/video.js"></script>
+</body>
+
+</html>
