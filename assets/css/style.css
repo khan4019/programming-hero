@@ -2010,7 +2010,7 @@ background: linear-gradient(45deg, #4289FF 0%, #07F8C3 100%);
    Special featured item styles
 ================================================================== */
 .featured-section-2 {
-	padding-bottom: 150px;
+	padding-bottom: 50px;
 	background-image: url(../img/hero-header/webs.png);
     background-size: cover;
 }
