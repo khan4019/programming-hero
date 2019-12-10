@@ -1,0 +1,82 @@
+
+/*----------------------- Conatct Us ----------------------*/
+.contact-us-section .contact-us-form input[type="text"],
+.contact-us-section .contact-us-form input[type="email"],
+.contact-us-section .contact-us-form textarea {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  border-bottom: 2px solid #f0eff4;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.contact-us-section .contact-us-form input[type="text"]:focus,
+.contact-us-section .contact-us-form input[type="email"]:focus,
+.contact-us-section .contact-us-form textarea:focus {border-bottom-color: #3fdefb;}
+.contact-us-section .contact-us-form input[type="text"],
+.contact-us-section .contact-us-form input[type="email"] {
+  height: 60px;
+  padding-left: 20px;
+  background-color: #f0ebff;
+}
+.contact-us-section .contact-us-form textarea {
+  height: 165px;
+  padding: 15px 20px;
+  background-color: #f0ebff;
+}
+.contact-us-section .contact-us-form .theme-button {
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+}
+.contact-us-section .contact-us-form .theme-button input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  background: linear-gradient( 41deg, rgba(0, 161, 255, 0.48) 0%, rgba(140, 78, 255, 0.57) 100%);
+}
+.contact-us-section .contact-address {margin: 20px 0 60px 0;}
+.contact-us-section .contact-address .theme-title-one h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: inherit;
+}
+.contact-us-section .contact-address .theme-title-one h2 {
+  font-size: 38px;
+  line-height: 55px;
+}
+.contact-us-section .contact-address p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #8c8c8c;
+  margin: 50px 0 10px 0;
+}
+.contact-us-section .contact-address .call {
+  font-weight: 500;
+  font-size: 28px;
+  color: #00000a;
+}
+.tooltip {
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tooltip .tooltip-inner {
+  background-color: #d2d9ff;
+  color: #3f4370;
+  padding: 14px;
+
+}
