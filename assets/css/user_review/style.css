@@ -39,7 +39,9 @@
     font-family: Poppins-Semibold, sans-serif;
 }
 
-
+.review-item{
+    margin: 10px;
+}
 .user-review-title h2:after{
     content: "";
     position: absolute;
@@ -71,7 +73,7 @@ p {
     border-radius: 6px;
     color: rgba(0, 0, 0, 0.87);
     background: #fff;
-    box-shadow: 0 0.2rem 2.8rem rgba(36, 36, 36, .1);
+    box-shadow: 0 0.2rem 2.8rem rgba(36, 36, 36, 0.06);
 }
 .card img {
     width: 100%;
@@ -88,14 +90,14 @@ p {
 }
 
 .card-profile {
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 
 .card-profile .card-avatar,
 .card-testimonial .card-avatar {
-    max-width: 130px;
-    max-height: 130px;
+    max-width: 120px;
+    max-height: 120px;
     margin: -55px auto 0;
     border-radius: 50%;
     overflow: hidden;

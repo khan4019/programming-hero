@@ -17,17 +17,14 @@
     <script
     src="https://www.paypal.com/sdk/js?client-id=AWiPlLGBeYPBm-jnhzqRNDVI0viaZzDVg58X8lcXxmw4nY0Wr2tNO7wALug2mywzt7G343XyJIMtaZkz"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
   </script>
-	<!-- OLD User review stylesheet -->
-	<!-- <link rel="stylesheet" href="../assets/css/user_review.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"> -->
 
-	<!-- New User review stylesheet -->
+	<!-- User review style -->
 	<link rel="stylesheet" href="../assets/css/user_review/style.css" />
-	<link rel="stylesheet" href="../assets/css/user_review/owl.carousel.min.css" />
-
-	<!-- New User review stylesheet -->
 	<link rel="stylesheet" href="../assets/css/simple-lib-css/simple-lib.css" />
+	<!-- usre review carousel library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40601505-6"></script>
 	<script>
@@ -58,6 +55,7 @@
 					<li>
 						<a href="../blog/Learn-and-Master-Python-in-a-Month.html">Paths be a Hero</a>
 					</li>
+					<li><a href="../code-playground/python/index.html">Playground</a></li>
 					<li><a href="../blog/index.html">Blog</a></li>
 					<li><a class="letsstart" href="https://www.paypal.me/codinism/99.99" target="_blank">Let's start</a></li>
  					<li class="letstart"><div><a href="https://www.paypal.me/codinism/99.99" target="_blank" id="let-start"class="letsStart btn ui-gradient-green">Let's start</a></div></li>
@@ -252,6 +250,8 @@
 					</div>
 				</div>
 			</div>
+
+
   <div class="review-section">
   <div class="overlay pt-100 pb-100">
     <div class="container">
@@ -261,14 +261,14 @@
 				<div class="col-lg-12">
 				<div class="user-review-title title-bg">
 					<h2 class="wow fadeInUp" data-wow-duration=".3s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: fadeInUp;">User Reviews!</h2>
-					<p>In just 11 months we got 7,000+ reviews. <br> If you have nothing else to do, read our <a style="color: #389bf4;" target="_blank" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&amp;showAllReviews=true">awesome reviews</a> </p>
+					<p>In just 6 months we got 3,000+ reviews. <br> If you have nothing else to do, read our <a style="color: #389bf4;" target="_blank" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&amp;showAllReviews=true">awesome reviews</a> </p>
 				</div>
 			</div>
-			
-                    <div class="col-md-4">
+			<div id="testimonial-slider" class="owl-carousel">
+                    <div class="review-item">
                         <div class="card card-profile">
                             <div class="card-avatar one">
-                                <a href="#"> <img class="img" src="../assets/img/testimonial/user_01.webp"> </a>
+                                <a href="#"> <img class="img" src="https://ui-avatars.com/api/?name=Imanuel+Shirima&background=85a0ff&color=fff"> </a>
                             </div>
                             <div class="table">
                                 <h4 class="card-caption">Imanuel Shirima</h4>
@@ -284,7 +284,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+
+                    <div class="review-item">
+                        <div class="card card-profile">
+                            <div class="card-avatar" style="background-color: #dbe1fe">
+                                <a href="#"> <img class="img" src="https://avatars.dicebear.com/v2/avataaars/Sunita%20gu.svg"> </a>
+                            </div>
+                            <div class="table">
+                                <h4 class="card-caption">Sujata Gupta</h4>
+
+                             <ul class="rating list-inline font-14">
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                        </ul>
+                                <p class="card-description">Absolutely love it..!! <br>Tho I'm a beginner as of now. But your way of presenting everything there is quite impressive and funny which is great step.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-item">
                         <div class="card card-profile">
                             <div class="card-avatar">
                                 <a href="#"> <img class="img" src="../assets/img/testimonial/user_02.webp"> </a>
@@ -302,13 +323,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+
+                    <div class="review-item">
                         <div class="card card-profile">
                             <div class="card-avatar">
-                                <a href="#"> <img class="img" src="../assets/img/testimonial/user_03.webp"> </a>
+                                <a href="#"> <img class="img" src="https://lh3.googleusercontent.com/-7AZAZZE6tLw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfBtZvndra0WyXlrue98Q7X0ZVEsg/photo.jpg"> </a>
                             </div>
                             <div class="table">
-                                <h4 class="card-caption">Sujata Gupta</h4>
+                                <h4 class="card-caption">Joey Mizell</h4>
 
                              <ul class="rating list-inline font-14">
                             <li class="active"><i class="fa fa-star"></i></li>
@@ -317,13 +339,33 @@
                             <li class="active"><i class="fa fa-star"></i></li>
                             <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
-                                <p class="card-description">Absolutely love it..!! Tho I'm a beginner as of now. But your way of presenting everything there is quite impressive and funny which is great step.</p>
+                                <p class="card-description">I'm a developer/software engineer. This is an easy way for anyone to pick up python3. I am glad to be using this in order to build my foundation for python development and should be sufficient in order to get more in depth concepts in conjunction with it. I plan on adding this language to my resume.</p>
                             </div>
                         </div>
                     </div>
 
+                    <div class="review-item">
+                        <div class="card card-profile">
+                            <div class="card-avatar">
+                                <a href="#"> <img class="img" src="https://ui-avatars.com/api/?name=Asif+Sabbir&background=0876b8&color=fff"> </a>
+                            </div>
+                            <div class="table">
+                                <h4 class="card-caption">Asif Sabbir</h4>
 
-        </div>
+                        <ul class="rating list-inline font-14">
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                            <li class="active"><i class="fa fa-star"></i></li>
+                        </ul>
+                                <p class="card-description">Very nice & helpful app. This app teaches to code in a very friendly way, which is pretty interesting. This app helps to learn coding very effectively and in convenient time. Very GOOD & USEFUL app to learn coding. Thanks to the 'Programming Hero' app developers for this beautiful app. Best of luck!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        	</div>
                
         </div>
         </div>
@@ -348,9 +390,9 @@
 							<div class="col-md-2 footer-li">
 								<ul class="nav navbar-nav">
 									<li><a href="http://www.codinism.com/" target="_blank">About us</a></li>
-									<li><a href="http://www.codinism.com">Blog</a></li>
+									<li><a href="http://www.programming-hero.com/blog/index.html">Blog</a></li>
 									<li><a href="http://www.codinism.com">Account</a></li>
-									<li><a href="http://www.codinism.com/#contact">Contact</a></li>
+									<li><a href="http://www.programming-hero.com/services/contact.html">Contact</a></li>
 								</ul>
 							</div>
 
@@ -435,13 +477,12 @@
 		<script type="text/javascript" src="../assets/js/libs/wow.min.js"></script>
 		<script type="text/javascript" src="../assets/js/build/js-build.js"></script>
 		<script type="text/javascript" src="../assets/js/libs/theme.js"></script>
-		<!-- NEW USER REVIEW FILE -->
-		<script type="text/javascript" src="../assets/js/user_review/owl.carousel.min.js"></script>
+		<!-- USER REVIEW FILE -->
 		<script type="text/javascript" src="../assets/js/user_review/review.js"></script>
+		<script type="text/javascript" src="../assets/js/libs/owl_carousel.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+		
 
-		<!-- OLD USER REVIEW FILE -->
-		<!-- script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-		<script type="text/javascript" src="../assets/js/libs/owl_carousel.js"></script> -->
 		<script type="text/javascript" src="../assets/css/simple-lib-css/video.js"></script>
 </body>
 

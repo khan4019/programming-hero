@@ -1,5 +1,19 @@
 
 /*----------------------- Conatct Us ----------------------*/
+.navbar.transparent, .navbar.transparent.dark, .navbar.transparent.light, .navbar.transparent.bg-primary {
+    padding: 20px!important;
+}
+.contact{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.bg-second-block {
+    padding-top: 145px!important;
+}
 .contact-us-section .contact-us-form input[type="text"],
 .contact-us-section .contact-us-form input[type="email"],
 .contact-us-section .contact-us-form textarea {
@@ -18,12 +32,12 @@
 .contact-us-section .contact-us-form input[type="email"] {
   height: 60px;
   padding-left: 20px;
-  background-color: #f0ebff;
+  background-color: #e3e7fe;
 }
 .contact-us-section .contact-us-form textarea {
   height: 165px;
   padding: 15px 20px;
-  background-color: #f0ebff;
+  background-color: #e3e7fe;
 }
 .contact-us-section .contact-us-form .theme-button {
   width: 190px;
@@ -68,15 +82,16 @@
   font-size: 28px;
   color: #00000a;
 }
+.contact-us-section{
+      padding-left: 10px;
+      padding-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .tooltip {
   font-family: Georgia;
   font-size: 15px;
   font-weight: bold;
-}
-
-.tooltip .tooltip-inner {
-  background-color: #d2d9ff;
-  color: #3f4370;
-  padding: 14px;
-
 }
