@@ -1,5 +1,12 @@
 
 /*----------------------- Conatct Us ----------------------*/
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 70px!important;
+    padding-left: 0;
+    background: #f4f4f4;
+}
 .navbar.transparent, .navbar.transparent.dark, .navbar.transparent.light, .navbar.transparent.bg-primary {
     padding: 20px!important;
 }
