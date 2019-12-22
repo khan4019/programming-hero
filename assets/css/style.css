@@ -1317,7 +1317,7 @@ background: linear-gradient(45deg, #4289FF 0%, #07F8C3 100%);
 
   nav ul li {
   display:inline-block;
-  padding: 10px 0;
+  padding: 18px 0;
 }
 /* Hide Dropdowns by Default */
 nav ul ul {
@@ -1328,7 +1328,16 @@ nav ul ul {
   background: #f4f4f4;
   /* the height of the main nav */
 }
-  
+
+@media (min-width: 320px) and (max-width: 480px) {
+  nav ul ul {
+  top: 0px; 
+  width: 100%;
+    top: 0; 
+    position: relative;
+    overflow: hidden;
+  }
+}
 /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
   display:inherit;
