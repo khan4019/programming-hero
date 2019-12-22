@@ -255,6 +255,52 @@ ul {
   -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); }
 
+
+
+          nav ul li {
+  display:inline-block;
+  padding: 10px 0;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #6c62ff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+  /* the height of the main nav */
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+  list-style: none;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:210px;
+  float:none;
+  display:list-item;
+  position: relative;
+  list-style: none;
+    padding: 0px 20px;
+}
+nav ul ul li a{
+    padding: 10px 0!important;
+}
+.header-area .menu-area.white ul li a{
+    color: #fff;
+    text-align: left;
+}
+.header-area .menu-area.white ul li a:hover {
+    color: #fff;
+    text-align: left;
+}
+nav ul ul li:hover {
+  background-color: #6c62ff;
+}
 /*  
    2. header-area
  */
