@@ -1,0 +1,130 @@
+.navbar-nav li a {
+	color: #fff !important;
+}
+
+.headerbg {
+	background: #fff;
+	background-image: url(../img/hero-header/iphone/header-bg.png);
+	background-size: cover;
+}
+.action-to-app-store img {
+	width: 190px;
+}
+.ui-hero .paragraph {
+	color: #fff;
+}
+
+.hero-text {
+	color: #fff !important;
+}
+
+.moc-up {
+	width: 100%;
+}
+
+.thumb img {
+	width: 80px;
+}
+
+.features-card {
+	padding: 40px;
+}
+
+.features-section-overlay {
+	background: #fff;
+	background-image: url(../img/hero-header/iphone/features-overlay.png);
+	background-size: contain;
+}
+
+.features-section-overlay {
+	margin-bottom: 40px;
+	margin-top: 120px;
+	padding: 20px 0;
+	background-repeat: no-repeat;
+}
+
+.iphone-store {
+	position: relative;
+	top: -125px;
+	text-align: center;
+}
+
+.iphone-store img {
+	width: 225px;
+}
+
+.app-store-actions img {
+	width: 190px;
+}
+
+.app-store-header {
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.app-store-sub-heading {
+	color: #fff;
+	padding-bottom: 20px;
+}
+.footer-section {
+	background-image: url(../img/hero-header/iphone/footer-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer-section {
+	padding: 60px 0;
+}
+.footer-p {
+	color: #fff;
+}
+.headingf {
+	color: #fff;
+}
+.btn.btn-circle {
+	color: #fff;
+}
+.bg-white {
+	background-color: #5c10e3;
+}
+nav ul ul {
+	background: #5f1ee8;
+	border: 1px solid #5e1ae7 !important;
+}
+nav ul ul li {
+	border: 1px solid #5e1ae7 !important;
+}
+nav ul ul li:hover {
+	background-color: #6320e3;
+}
+.featured-2 {
+	background-image: url(../img/hero-header/iphone/bg/features-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 190px 0;
+}
+.featured-1 {
+	background-image: url(../img/hero-header/iphone/bg/features-1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.featured-3 {
+	background-image: url(../img/hero-header/iphone/bg/features-3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.features-mobile-frame {
+	width: 100%;
+}
+@media (min-width: 1200px) {
+	.ui-hero.ui-waves {
+		padding: 5rem 0 10rem 0;
+	}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.app-store-header {
+		color: black !important;
+	}
+	.app-store-sub-heading {
+		color: black !important;
+	}
+}
