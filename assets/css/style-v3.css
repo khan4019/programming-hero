@@ -1,6 +1,10 @@
 .navbar-nav li a {
 	color: #fff !important;
 }
+.transparent .ui-mobile-nav-toggle > div > span,
+.navbar-dark .ui-mobile-nav-toggle > div > span {
+	background-color: #fff;
+}
 
 .headerbg {
 	background: #fff;
@@ -59,12 +63,15 @@
 
 .app-store-header {
 	font-weight: 700;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 
 .app-store-sub-heading {
 	color: #fff;
-	padding-bottom: 20px;
+	padding: 10px 120px 10px 0;
+	font-size: 18px;
+	line-height: 2.1rem;
+	font-family: 'Poppins-light', sans-serif;
 }
 .footer-section {
 	background-image: url(../img/hero-header/iphone/footer-bg.png);
@@ -126,5 +133,45 @@ nav ul ul li:hover {
 	}
 	.app-store-sub-heading {
 		color: black !important;
+		padding: 10px !important;
+	}
+	.bg-second-block {
+		padding-top: 80px;
+	}
+	.featured-section-2 {
+		padding-bottom: 40px;
+	}
+	.iphone-store {
+		top: -60px;
+	}
+	.footer-p {
+		font-weight: 600;
+	}
+}
+
+.ui-mobile-nav-toggle > div > span {
+	background-color: #f5f5f5;
+}
+@media (max-width: 991px) {
+	.navbar .ui-navigation .nav.navbar-nav li {
+		background: #6b27fd;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 1010px) {
+	nav ul li {
+		padding: 0;
+	}
+	.navbar .ui-navigation.navbar-center .navbar-nav {
+		align-items: unset;
+	}
+	.load i {
+		top: 4px;
+		left: 18%;
+	}
+	.load {
+		width: 35px;
+		height: 35px;
+		left: 15px;
 	}
 }
