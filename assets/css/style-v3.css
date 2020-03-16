@@ -175,3 +175,23 @@ nav ul ul li:hover {
 		left: 15px;
 	}
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.iphone-store img {
+		width: 185px;
+	}
+	.headerdiv {
+		padding-top: 0;
+		padding-bottom: 40px;
+	}
+	.app-store-actions img {
+		width: 150px;
+	}
+	.app-store-header {
+		padding-bottom: 5px;
+		color: #000 !important;
+	}
+	.app-store-sub-heading {
+		color: #000;
+	}
+}
