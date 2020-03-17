@@ -1,8 +1,9 @@
 .navbar-nav li a {
 	color: #fff !important;
 }
-.transparent .ui-mobile-nav-toggle > div > span,
-.navbar-dark .ui-mobile-nav-toggle > div > span {
+
+.transparent .ui-mobile-nav-toggle>div>span,
+.navbar-dark .ui-mobile-nav-toggle>div>span {
 	background-color: #fff;
 }
 
@@ -11,9 +12,11 @@
 	background-image: url(../img/hero-header/iphone/header-bg.png);
 	background-size: cover;
 }
+
 .action-to-app-store img {
-	width: 190px;
+	width: 170px;
 }
+
 .ui-hero .paragraph {
 	color: #fff;
 }
@@ -73,85 +76,106 @@
 	line-height: 2.1rem;
 	font-family: 'Poppins-light', sans-serif;
 }
+
 .footer-section {
 	background-image: url(../img/hero-header/iphone/footer-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .footer-section {
 	padding: 60px 0;
 }
+
 .footer-p {
 	color: #fff;
 }
+
 .headingf {
 	color: #fff;
 }
+
 .btn.btn-circle {
 	color: #fff;
 }
+
 .bg-white {
 	background-color: #5c10e3;
 }
+
 nav ul ul {
 	background: #5f1ee8;
 	border: 1px solid #5e1ae7 !important;
 }
+
 nav ul ul li {
 	border: 1px solid #5e1ae7 !important;
 }
+
 nav ul ul li:hover {
 	background-color: #6320e3;
 }
+
 .featured-2 {
 	background-image: url(../img/hero-header/iphone/bg/features-2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 190px 0;
 }
+
 .featured-1 {
 	background-image: url(../img/hero-header/iphone/bg/features-1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .featured-3 {
 	background-image: url(../img/hero-header/iphone/bg/features-3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.features-mobile-frame {
-	width: 100%;
-}
+
 @media (min-width: 1200px) {
 	.ui-hero.ui-waves {
 		padding: 5rem 0 10rem 0;
 	}
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
 	.app-store-header {
 		color: black !important;
 	}
+
 	.app-store-sub-heading {
 		color: black !important;
 		padding: 10px !important;
 	}
+
 	.bg-second-block {
 		padding-top: 80px;
 	}
+
 	.featured-section-2 {
 		padding-bottom: 40px;
 	}
+
 	.iphone-store {
 		top: -60px;
 	}
+
 	.footer-p {
 		font-weight: 600;
 	}
+
+	.features-mobile-frame {
+		width: 100%;
+	}
 }
 
-.ui-mobile-nav-toggle > div > span {
+.ui-mobile-nav-toggle>div>span {
 	background-color: #f5f5f5;
 }
+
 @media (max-width: 991px) {
 	.navbar .ui-navigation .nav.navbar-nav li {
 		background: #6b27fd;
@@ -162,13 +186,16 @@ nav ul ul li:hover {
 	nav ul li {
 		padding: 0;
 	}
+
 	.navbar .ui-navigation.navbar-center .navbar-nav {
 		align-items: unset;
 	}
+
 	.load i {
 		top: 4px;
 		left: 18%;
 	}
+
 	.load {
 		width: 35px;
 		height: 35px;
@@ -180,18 +207,33 @@ nav ul ul li:hover {
 	.iphone-store img {
 		width: 185px;
 	}
+
 	.headerdiv {
 		padding-top: 0;
 		padding-bottom: 40px;
 	}
+
 	.app-store-actions img {
 		width: 150px;
 	}
+
 	.app-store-header {
 		padding-bottom: 5px;
 		color: #000 !important;
 	}
+
 	.app-store-sub-heading {
 		color: #000;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+	.app-store-header {
+		padding-bottom: 5px;
+		color: #fff !important;
+	}
+
+	.app-store-sub-heading {
+		color: #fff;
 	}
 }
