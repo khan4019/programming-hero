@@ -142,13 +142,13 @@ nav ul ul li:hover {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-	.app-store-header {
-		color: black !important;
-	}
 
 	.app-store-sub-heading {
-		color: black !important;
-		padding: 10px !important;
+		padding: 25px !important;
+	}
+
+	.app-store-header {
+		font-size: 28px;
 	}
 
 	.bg-second-block {
@@ -160,7 +160,7 @@ nav ul ul li:hover {
 	}
 
 	.iphone-store {
-		top: -60px;
+		top: 30px;
 	}
 
 	.footer-p {
@@ -169,6 +169,25 @@ nav ul ul li:hover {
 
 	.features-mobile-frame {
 		width: 100%;
+	}
+
+	.features-section-overlay {
+		background-image: url(../img/hero-header/iphone/optz-app-bg.png);
+		background-size: cover;
+	}
+
+	.action-to-app-store img {
+		width: 140px;
+	}
+
+	.iphone-store img {
+		width: 215px;
+	}
+
+	.headerdiv {
+		text-align: center;
+		padding-top: 60px !important;
+		padding-bottom: 44px;
 	}
 }
 
