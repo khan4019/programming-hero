@@ -2,8 +2,8 @@
 	color: #fff !important;
 }
 
-.transparent .ui-mobile-nav-toggle>div>span,
-.navbar-dark .ui-mobile-nav-toggle>div>span {
+.transparent .ui-mobile-nav-toggle > div > span,
+.navbar-dark .ui-mobile-nav-toggle > div > span {
 	background-color: #fff;
 }
 
@@ -142,7 +142,6 @@ nav ul ul li:hover {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
 	.app-store-sub-heading {
 		padding: 25px !important;
 	}
@@ -191,7 +190,7 @@ nav ul ul li:hover {
 	}
 }
 
-.ui-mobile-nav-toggle>div>span {
+.ui-mobile-nav-toggle > div > span {
 	background-color: #f5f5f5;
 }
 
