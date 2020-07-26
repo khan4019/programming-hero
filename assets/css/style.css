@@ -1036,7 +1036,7 @@ h6 {
 .ui-hero.hero-svg-layer-2::before {
 	left: -10%;
 	right: -10%;
-	background-image: url("../img/svg-layers/svg-layer-2.svg");
+	/* background-image: url("../img/svg-layers/svg-layer-2.svg"); */
 	background-position: top center;
 	opacity: 0.1;
 }
@@ -1044,7 +1044,7 @@ h6 {
 .ui-hero.hero-svg-layer-3::before {
 	background-size: 1000px;
 	background-repeat: repeat;
-	background-image: url("../img/svg-layers/svg-layer-3.svg");
+	/* background-image: url("../img/svg-layers/svg-layer-3.svg"); */
 	background-position: center center;
 	opacity: 0.1;
 }
@@ -1053,7 +1053,7 @@ h6 {
 	left: 10%;
 	right: 10%;
 	background-size: contain;
-	background-image: url("../img/svg-layers/svg-layer-4.svg?v-10");
+	/* background-image: url("../img/svg-layers/svg-layer-4.svg?v-10"); */
 	background-position: center center;
 }
 
@@ -1227,7 +1227,7 @@ h6 {
 	display: block;
 	content: '';
 	height: 100%;
-	background: url(../img/svg-layers/curve-layer.svg) bottom no-repeat;
+	/* background: url(../img/svg-layers/curve-layer.svg) bottom no-repeat; */
 	background-size: contain;
 	position: absolute;
 	bottom: -3px;
@@ -1973,7 +1973,7 @@ nav ul ul li:hover {
 	left: -25%;
 	right: -25%;
 	height: 100%;
-	background: url(../img/svg-layers/waves-layer-a.svg) bottom no-repeat;
+	/* background: url(../img/svg-layers/waves-layer-a.svg) bottom no-repeat; */
 	background-size: contain;
 	opacity: 0.75;
 	z-index: 1;
