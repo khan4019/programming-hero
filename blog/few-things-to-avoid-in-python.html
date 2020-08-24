@@ -1,0 +1,621 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Programming Hero">
+    <meta name="description" content="Few Things To Avoid In Python">
+    <meta name="og:title" property="Programming Hero - Blog" content="Few Things To Avoid In Python">
+    <meta property="og:url" content="http://www.programming-hero.com/hero-blog" />
+    <meta property="og:image" content="assets/images/blog/few-things-to-avoid-in-python.png" />
+    <meta name="twitter:card" content="Few Things To Avoid In Python">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- title here -->
+    <title>Few Things To Avoid In Python</title>
+    <!-- Favicon and Touch Icons -->
+    <link rel="shortcut icon" href="assets/images/logo/programming-hero-fav.png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40601505-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-40601505-6');
+    </script>
+    <style>
+        .code {
+            color: rgb(10, 190, 79);
+        }
+
+        .text-highlight {
+            color: #3715FF;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header area start here -->
+    <header class="header-area" id="sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-7">
+                    <div class="log-area">
+                        <div class="header-logo">
+                            <!-- <h2><a href="#">Programming Hero</a></h2> -->
+                            <a href="../index.html"><img src="assets/images/logo/programming-hero.png"
+                                    alt="Programming-Hero.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="menu-area white">
+                        <nav>
+                            <ul>
+                                <li class="active sub"><a href="index.html">home</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#exModal">Paths be a Hero</a></li>
+                                <li><a href="#">Playground</a>
+                                    <ul class="sub_menu">
+                                        <li>
+                                            <a href="../code-playground/python/index.html">Python Playground</a>
+                                        </li>
+                                        <li>
+                                            <a href="../code-playground/web/index.html">Web Playground</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://www.programming-hero.com/hoc/index.html">Hour of Code</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-1 col-xs-5">
+                    <div class="humbargar-area">
+                        <div class="menu-icon text-right">
+                            <span class="flaticon-menu humbargar color"></span>
+                        </div>
+                        <div class="close-area">
+                            <span class="close"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar-menu ">
+        <div class="close-area">
+            <span class="close"><i class="icon fa fa-times-circle"></i></span>
+        </div>
+        <div class="main-menu">
+            <nav>
+                <ul>
+                    <li class="active sub"><a href="index.html">home</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#exModal">Paths be a Hero</a></li>
+                    <li><a href="../code-playground/python/index.html">Playground</a></li>
+                    <li><a href="http://www.programming-hero.com/hoc/index.html">Hour of Code</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Check
+                            version</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="breadcrumb-title">
+                        <h2>Few Things To Avoid In Python</h2>
+                    </div>
+                    <!-- <div class="breadcrumb-sibtitle">
+                        <h4>8 Things You Must Know Before Learning Programming.</h4>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-details-area section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-post box-shadow">
+                        <div class="post-thumnile">
+                            <div class="slide-thumbnile">
+                                <div class="single-image">
+                                    <img src="assets/images/blog/few-things-to-avoid-in-python.png" alt="blog">
+                                    <div class="post-date">
+                                        <span>01</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/few-things-to-avoid-in-python.png" alt="blog">
+                                    <div class="post-date two">
+                                        <span>02</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/few-things-to-avoid-in-python.png" alt="blog">
+                                    <div class="post-date three">
+                                        <span>03</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/few-things-to-avoid-in-python.png" alt="blog">
+                                    <div class="post-date four">
+                                        <span>04</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/few-things-to-avoid-in-python.png" alt="blog">
+                                    <div class="post-date five">
+                                        <span>05</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <h1>Few Things To Avoid In Python</h1>
+                        </div>
+                        <div class="blog-meta">
+                            <ul>
+                                <li> <span class="flaticon-man-user user"></span>
+                                    <p>By <a href="#">Jhankar Mahbub</a> </p>
+                                </li>
+                                <li> <span class="flaticon-calendar clendar"></span>
+                                    <p>25 Aug 2020</p>
+                                </li>
+                                <li> <span class="flaticon-chat comment"></span>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog-content">
+
+                            <p>
+                                Python is <span class="text-highlight">easy to use, easy to learn</span> , and a
+                                general-purpose high-level programming language that is one of the top choices for a
+                                beginner these days. If you are a python developer, below are <span
+                                    class="easy to use, easy to learn">some common</span> python programming <span
+                                    class="text-highlight">mistakes</span> that you should probably avoid to make you
+                                Mumma proud.
+                            </p>
+
+                            <img src="./assets/images/blog/pasted image-1.png" alt="Blog">
+                            <br><br>
+
+                            <h2>1) Use Class Variables Carefully</h2>
+
+                            <p>
+                                Before we discuss, check out the below example,
+                            </p>
+
+                            <code class="code">
+                                class A(): <br>
+                                num = 1 <br>
+                                class B(A): <br>
+                                pass <br>
+                                class C(A): <br>
+                                pass <br>
+                                print(A.num, B.num, C.num) <br>
+                                >>> 1 1 1
+                            </code>
+
+                            <br><br>
+
+                            <p>
+                                So above is a simple example of multiple inheritances in Python. And the code looks
+                                fine. Now let’s try and modify this variable using a child class
+                            </p>
+
+                            <code class="code">
+                                B.num = 2 <br>
+                                print(A.num, B.num, C.num) <br>
+                                >>>1 2 1
+                            </code>
+                            <br><br>
+                            <p>
+                                This also looks completely fine and we can appreciate that we can modify the value of
+                                the variable “num” <br>
+                                Now, check this,
+                            </p>
+
+                            <code class="code">
+                                A.num = 3 <br>
+                                print(A.num, B.num, C.num) <br>
+                                >>> 3 2 3
+                            </code>
+                            <br><br>
+                            <p>
+                                Amm, strange! How did the value of C.num change?
+                                So in the above code, since the attribute “num” is not found in class C, it will be
+                                looked up in its base class A. In other words, C doesn’t have its own “num” property,
+                                independent of A. Thus, references to C.num are in fact references to A.num. This causes
+                                a Python problem unless it’s handled properly.
+                            </p>
+
+                            <p>
+                                So beware when you work with class variables in Python😅
+                            </p>
+
+                            <h2>2) Case sensitiveness</h2>
+
+                            <p>
+                                Python is Case sensitive! This means variables “num” and “Num” are different. And this
+                                is one of the most common mistakes that beginners in python come across and as a result,
+                                it flushes out errors… <br>
+                                Check this out,
+                            </p>
+
+                            <code class="code">
+                                num= 1 <br>
+                                print(Num) <br>
+                                Output: <br>
+                                Traceback (most recent call last): <br>
+                                File "< stdin>", line 1, in < module> <br>
+                                        NameError: name 'Num’ is not defined
+                            </code>
+
+                            <h2>3) Incorrect Indentation</h2>
+
+                            <p>
+                                In python it's all about indentation. To create a block of code, Python uses indentation
+                                online Java, C++, etc that uses curly braces. Many characteristics depend on
+                                indentation. Some indentation errors in Python are harder to spot than others.Thus one
+                                should always follow a consistent indentation pattern because many Python features rely
+                                on indentation. Thus, Indentation plays an important role in Python.
+                            </p>
+
+                            <h2>4) Variable Binding</h2>
+
+                            <p>
+                                This is a concept that beginners fail to understand and appreciate. Python has
+                                late-binding behavior. There is often confusion among Python developers regarding how
+                                Python binds its variables. What it means is that it binds its variables enclosures or
+                                in the surrounding global scope and hence the values of variables used in closures are
+                                looked up at the time the inner function is called.
+                            </p>
+
+                            <h2>5) Misusing __init__</h2>
+
+                            <p>
+                                In Python, constructors are represented by something called the __init__ method.
+                                Whenever an object is created, the __init__ method is called and thus it allocated
+                                memory and initialized the attributes of the class. Thus, trying to explicitly return a
+                                value from the init method can throw a bunch of errors and create problems in the code.
+                            </p>
+
+                            <p>
+                                Check this,
+                            </p>
+
+                            <code class="code">
+                                class Student: <br>
+                                def __init__(self, name, marks): <br>
+                                self.name = name <br>
+                                self.marks = marks <br>
+                                self.avgmarks= marks*1.5*100 <br>
+                                return self.avgsal <br>
+                                std = Student("John", 67)
+                            </code>
+                            <br><br>
+                            <p>
+                                In this example, the code is trying to return the average marks of an employee from the
+                                __init__ method.And thus, It’ll result in an error “TypeError: __init__() should return
+                                None”. So, to resolve this problem, one can either create a new method that will return
+                                this or create a getter property.
+                            </p>
+
+                            <h2>6) Copy Carefully</h2>
+
+                            <p>Check this example,</p>
+
+                            <code class="code">
+                                a = [2, 4, 8] <br>
+                                b = a <br>
+                                a[1] = 10 <br>
+                                b <br>
+                                [2, 10, 8]
+                            </code>
+                            <br><br>
+
+                            <p>Problem solved💯</p>
+
+                            <h2>7) Function calls with default arguments</h2>
+
+                            <p>
+                                Functions with default arguments are an amazing feature in Python, For beginners.
+                                arguments are tricky to use. Since Python evaluates the expression in default arguments
+                                every time function is defined, you need to dynamically generate default arguments.
+                                Thus, one should take care of this…
+                            </p>
+
+                            <h2>8) Not using Comments and Doc Strings</h2>
+
+                            <p>
+                                Comments are an integral part of programming. Comments make code more readable and
+                                self-explained. What if you don’t use comments and docstrings? It can be a nightmare! In
+                                no time, code can go from 10 lines to 10,000 lines, and then debugging can be a pain.
+                                Thus, using comments and docstrings can be a lifesaver
+                            </p>
+
+                            <p>
+                                Making mistakes is a part of life and programming. And mistakes can happen, but knowing
+                                what mistakes can occur and how to solve them is really important.
+                            </p>
+
+                            <p>
+                                Want to learn Python? Try <a href="https://www.programming-hero.com/">Programming
+                                    Hero,</a> a new way to learn to code
+                            </p>
+
+
+
+
+
+                            <div class=" pagination-area ">
+                                <div class=" pagination ">
+                                    <ul>
+                                        <li class=" prev "><a href="the-hidden-features-of-python.html">PRev</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <script src=" https://www.powr.io/powr.js?platform=html"> </script>
+                            <div class="powr-comments" id="3bbc2c1f_1571226073">
+                            </div>
+
+                            <div class="related-post box-shadow mt-70 ">
+                                <div class="section-title ">
+                                    <h3>Related Post</h3>
+                                </div>
+                                <div class="related-slide-post ">
+                                    <div class="single-blog ">
+                                        <div class="post-thumbnile ">
+                                            <a href="Learn-Python-in-a-week.html"><img
+                                                    src="assets/images/blog/Learn-Python-In-A-Week.png"
+                                                    alt="related post "></a>
+                                            <div class="cetagory-icon ">
+                                                <span class="flaticon-video-player "></span>
+                                            </div>
+                                        </div>
+                                        <div class="blog-info ">
+                                            <div class="blog-title ">
+                                                <h3><a href="Learn-Python-in-a-week.html">Learn Python In A Week</a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-content ">
+                                                <p>If you spend 3–4 hours daily for 7 days, you will become a Junior
+                                                    Python
+                                                    Developer. I am providing this guideline using this android app
+                                                    called:
+                                                    Programming Hero.</p>
+                                            </div>
+                                            <div class="blog-meta fix ">
+                                                <div class="meta-left pull-left ">
+                                                    <ul>
+                                                        <li> <span class="flaticon-man-user user "></span>
+                                                            <p>By <a href="# ">Jhankar Mahbub</a> </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="post-readmore pull-right ">
+                                                    <a href="Learn-Python-in-a-week.html" class="readmore-btn ">Read
+                                                        More
+                                                        <span>+</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-blog ">
+                                        <div class="post-thumbnile ">
+                                            <a
+                                                href="12-function-related-exercise-every-python-developer-should-learn.html"><img
+                                                    src="assets/images/blog/12-function-related-exercise-every-python-developer-should-learn.png "
+                                                    alt="related post "></a>
+                                            <div class="cetagory-icon ">
+                                                <span class="flaticon-video-player "></span>
+                                            </div>
+                                        </div>
+                                        <div class="blog-info ">
+                                            <div class="blog-title ">
+                                                <h3><a
+                                                        href="12-function-related-exercise-every-python-developer-should-learn.html">12
+                                                        function related exercise every python developer should
+                                                        learn</a>
+                                                </h3>
+                                            </div>
+                                            <div class="blog-content ">
+                                                <p>I am taking all the examples from the Python learning app called
+                                                    Programming Hero: Coding Just Got Fun</p>
+                                            </div>
+                                            <div class="blog-meta fix ">
+                                                <div class="meta-left pull-left ">
+                                                    <ul>
+                                                        <li> <span class="flaticon-man-user user "></span>
+                                                            <p>By <a href="# ">Jhankar Mahbub</a> </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="post-readmore pull-right ">
+                                                    <a href="12-function-related-exercise-every-python-developer-should-learn.html"
+                                                        class="readmore-btn ">Read More <span>+</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!--  
+            <div class="leaf-left ">
+                <img src="assets/images/leaf-left.png " alt="leaf-right ">
+            </div>
+            <div class="leaf-right ">
+                <img src="assets/images/leaf-right.png " alt="leaf-right ">
+            </div> -->
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exeModalLabel">Coming Soon!</h5>
+                        </div>
+                        <div class="modal-body">
+                            We put everything in the app. You don't have to overload your chrome browser.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn mymary"><a target="_blank"
+                                    href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Can't
+                                    wait</a></button>
+                            <button type="button" class="btn btn closed" data-dismiss="modal">I am boring</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer-area ">
+                <div class="footer-top ">
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-md-4 ">
+                                <div class="footer-widget widget-text ">
+                                    <div class="footer-logo ">
+                                        <h2><a href="# ">Programming Hero </a></h2>
+                                    </div>
+                                    <div class="widget-content ">
+                                        <p>Programming Hero is a fun, interactive, visual, and friendly way to learn
+                                            programming. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 ">
+                                <div class="footer-widget widget-nave ">
+                                    <div class="widget-title ">
+                                        <h3>Quick Link</h3>
+                                    </div>
+                                    <div class="widget-nave-list ">
+                                        <ul>
+                                            <li><a href="../team/">About Us </a></li>
+                                            <li><a href="../terms/terms.html">Terms</a></li>
+                                            <li><a href="../terms/privacy.html">Privacy</a></li>
+                                            <li><a
+                                                    href="http://www.programming-hero.com/services/contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 ">
+                                <div class="footer-widget widget-recent-post ">
+                                    <div class="widget-title ">
+                                        <h3>Recent Post</h3>
+                                    </div>
+                                    <div class="recent-post-list ">
+                                        <div class="single-post ">
+                                            <p><a href="# ">Few Things To Avoid In Python</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 ">
+                                <div class="footer-widget widget-Subscribe ">
+                                    <div class="widget-title ">
+                                        <h3>Subscribe Us</h3>
+                                    </div>
+                                    <div class="widget-Subscribe-form ">
+
+                                        <form
+                                            action="https://ProgrammerRasel.us19.list-manage.com/subscribe/post?u=f036da4e2ef8402dbcad30d3b&amp;id=2276250890&c=callback "
+                                            method="post " target="_blank " novalidate>
+                                            <div id="js-form-inputs ">
+                                                <div>
+                                                    <input type="email " name="EMAIL " id="mce-EMAIL " value=" "
+                                                        placeholder="Email Address ">
+                                                </div>
+                                            </div>
+
+                                            <!-- honeypot -->
+                                            <div style="position: absolute; left: -5000px; " aria-hidden="true ">
+                                                <input type="text " id="js-validate-robot "
+                                                    name="b_a4752870f583bb49a02427b3c_143fa46c21 " tabindex="-1 "
+                                                    value=" ">
+                                            </div>
+
+                                            <!-- submit -->
+                                            <button type="submit " name="subscribe "
+                                                class="btn btn-secondary btn-lg btn-block "
+                                                id="mc-embedded-subscribe ">SUBMIT</button>
+
+                                            <!-- response -->
+                                            <p id="js-subscribe-response "></p>
+                                        </form>
+
+                                    </div>
+                                    <div class="widget-content ">
+                                        <p>Do you want to receive our blog notification? Don’t Hesitate to Subscribe
+                                            with
+                                            us.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom ">
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-md-6 ">
+                                <div class="copyright-area ">
+                                    <p>&copy; 2019 Programming Hero . All rights Reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer area end here -->
+            <!-- js file start -->
+            <script src="assets/js/vendor/jquery-1.12.0.min.js "></script>
+            <script src="assets/js/plugins.js "></script>
+            <script src="assets/js/Popper.js "></script>
+            <script src="assets/js/bootstrap.min.js "></script>
+            <script src="assets/js/owl.carousel.min.js "></script>
+            <script src="assets/js/imagesloaded.pkgd.min.js "></script>
+            <script src="assets/js/scrollup.js "></script>
+            <script src="assets/js/jquery.appear.js "></script>
+            <script src="assets/js/main.js "></script>
+            <script src="assets/js/mailchimpAjax-callback.js "></script>
+            <!-- End js file -->
+</body>
+
+</html>
