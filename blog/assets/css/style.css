@@ -4036,3 +4036,19 @@ button {
 .powrMark {
   display: none !important;
 }
+
+
+
+/* Updated by Shrikanta */
+.code {
+  color: rgb(10, 190, 79);
+}
+.highlight {
+  color: blue
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
