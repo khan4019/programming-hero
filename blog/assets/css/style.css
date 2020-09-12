@@ -4044,7 +4044,7 @@ button {
   color: rgb(10, 190, 79);
 }
 .highlight {
-  color: blue
+  color: blue !important;
 }
 .center {
   display: block;
