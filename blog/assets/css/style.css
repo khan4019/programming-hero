@@ -4052,3 +4052,7 @@ button {
   margin-right: auto;
   width: 50%;
 }
+
+.text-indent {
+  text-indent: 30px;
+}
