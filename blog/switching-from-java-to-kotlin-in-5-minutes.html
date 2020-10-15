@@ -1,0 +1,761 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Programming Hero">
+    <meta name="description" content="Switching from Java to Kotlin in 5 Minutes">
+    <meta name="og:title" property="Programming Hero - Blog" content="Switching from Java to Kotlin in 5 Minutes">
+    <meta property="og:url" content="http://www.programming-hero.com/hero-blog" />
+    <meta property="og:image" content="assets/images/blog/switching-from-java-to-kotlin-in-5-minutes.png" />
+    <meta name="twitter:card" content="Switching from Java to Kotlin in 5 Minutes">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- title here -->
+    <title>Switching from Java to Kotlin in 5 Minutes</title>
+    <!-- Favicon and Touch Icons -->
+    <link rel="shortcut icon" href="assets/images/logo/programming-hero-fav.png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/highlight/monokai-sublime.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40601505-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-40601505-6');
+    </script>
+</head>
+
+<body>
+    <!-- header area start here -->
+    <header class="header-area" id="sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-7">
+                    <div class="log-area">
+                        <div class="header-logo">
+                            <!-- <h2><a href="#">Programming Hero</a></h2> -->
+                            <a href="../index.html"><img src="assets/images/logo/programming-hero.png"
+                                    alt="Programming-Hero.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="menu-area white">
+                        <nav>
+                            <ul>
+                                <li class="active sub"><a href="index.html">home</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#exModal">Paths be a Hero</a></li>
+                                <li><a href="#">Playground</a>
+                                    <ul class="sub_menu">
+                                        <li>
+                                            <a href="../code-playground/python/index.html">Python Playground</a>
+                                        </li>
+                                        <li>
+                                            <a href="../code-playground/web/index.html">Web Playground</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://www.programming-hero.com/hoc/index.html">Hour of Code</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-1 col-xs-5">
+                    <div class="humbargar-area">
+                        <div class="menu-icon text-right">
+                            <span class="flaticon-menu humbargar color"></span>
+                        </div>
+                        <div class="close-area">
+                            <span class="close"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar-menu ">
+        <div class="close-area">
+            <span class="close"><i class="icon fa fa-times-circle"></i></span>
+        </div>
+        <div class="main-menu">
+            <nav>
+                <ul>
+                    <li class="active sub"><a href="index.html">home</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#exModal">Paths be a Hero</a></li>
+                    <li><a href="../code-playground/python/index.html">Playground</a></li>
+                    <li><a href="http://www.programming-hero.com/hoc/index.html">Hour of Code</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Check
+                            version</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="breadcrumb-title">
+                        <h2>Switching from Java to Kotlin in 5 Minutes</h2>
+                    </div>
+                    <!-- <div class="breadcrumb-sibtitle">
+                        <h4>8 Things You Must Know Before Learning Programming.</h4>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-details-area section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-post box-shadow">
+                        <div class="post-thumnile">
+                            <div class="slide-thumbnile">
+                                <div class="single-image">
+                                    <img src="assets/images/blog/switching-from-java-to-kotlin-in-5-minutes.png"
+                                        alt="blog">
+                                    <div class="post-date">
+                                        <span>01</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/switching-from-java-to-kotlin-in-5-minutes.png"
+                                        alt="blog">
+                                    <div class="post-date two">
+                                        <span>02</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/switching-from-java-to-kotlin-in-5-minutes.png"
+                                        alt="blog">
+                                    <div class="post-date three">
+                                        <span>03</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/switching-from-java-to-kotlin-in-5-minutes.png"
+                                        alt="blog">
+                                    <div class="post-date four">
+                                        <span>04</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/switching-from-java-to-kotlin-in-5-minutes.png"
+                                        alt="blog">
+                                    <div class="post-date five">
+                                        <span>05</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <h1>Switching from Java to Kotlin in 5 Minutes</h1>
+                        </div>
+                        <div class="blog-meta">
+                            <ul>
+                                <li> <span class="flaticon-man-user user"></span>
+                                    <p>By <a href="#">Jhankar Mahbub</a> </p>
+                                </li>
+                                <li> <span class="flaticon-calendar clendar"></span>
+                                    <p>15 Oct 2020</p>
+                                </li>
+                                <li> <span class="flaticon-chat comment"></span>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog-content">
+
+                            <p>
+                                Java vs Kotlin has been one of the most common debates over the past year. As an android app developer, you know that <span class="highlight">Kotlin</span> seems to be <span class="highlight">the future</span>. Yes, I know it is tough to leave a programming language like Java that we have been using since the start for android development, but at some point, we have to! It’s just another bitter truth. Well, in this article, I will help you switch from Java to <span class="highlight">Kotlin in 5 minutes.</span> 
+  
+                            </p>
+
+                            <img class="center" src="assets/images/blog/blog-26-1.png" alt="Flutter">
+                                <br><br>
+
+                            <p>
+                                But before that, let’s have a look at Kotlin, and simple <span class="highlight">3 reasons</span> to switch from Java to Kotlin -   
+                            </p>
+
+                            <h2>What is Kotlin? </h2>
+
+                            <p>
+                                Developed by <span class="highlight">Jetbrains</span>, Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Similar to Java, Kotlin has become a top choice for developing Android applications. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its <span class="highlight">syntax to be more concise</span>.  
+                            </p>
+
+                            <img class="center" src="assets/images/blog/blog-26-kotlin.png" alt="Flutter">
+                                <br><br>
+
+                            <p>
+                                Well, Kotlin is yet another language like Java but has managed to gain quite more attraction and <span class="highlight">love by the developers</span>. Android app developers around the globe have started moving towards Kotlin. Below are three simple reasons why you should switch to Kotlin right away, 
+                            </p>
+
+                            <h2>Official Language for Android Development </h2>
+
+                            <p>
+                                Recently, Google announced <span class="highlight">Kotlin as the official</span> language for Android Development. That came as a bit of a surprise, given that Java had long been the preferred language for Android app development, but few announcements at that year’s I/O got more applause. Over the course of the last two years, Kotlin’s popularity has only increased. More than 50% of professional Android developers now use the language to develop their apps. 
+                                Sounds convincing, right?
+
+                            </p>
+
+                            <h2>New Libraries are in Kotlin </h2>
+
+                            <p>
+                                Well, with the rise of Kotlin and its increasing popularity, Kotlin is one of the most preferred languages for Android developers. All the new libraries that come up are generally <span class="highlight">written in Kotlin</span>. Ofcourse, they support Java and have a Java version as well. But, Kotlin has now become the core choice and the default language for the development of various libraries and plugins. 
+                            </p>
+
+                            <h2>Less Code and Concise Syntax </h2>
+
+                            <p>
+                                As a developer, you would surely prefer something that gets done in a few lines of code. Well, this is one of the main reasons for the rise of Kotlin. Kotlin takes around <span class="highlight">30% less code than Java</span> to get the things code. Amazing right? Even Kotlin’s syntax is far much simpler and concise. Thus, Kotlin provides you with clean and concise code with fewer lines 
+                            </p>
+
+                            <p>
+                                And the list goes on if we start comparing Java and Kotlin. Well, that might be a discussion for some other time, but these three reasons are strong and convincing itself. 
+                            </p>
+                            <p>
+                                Now let’s start with Kotlin and learn how to switch for Java to Kotlin. 
+                            </p>
+
+                            <h2>Switching from Java to Kotlin</h2>
+
+                            <p>
+                                Well, we will see some of the most common programming syntax and concepts and learn how to write them using Kotlin.
+                            </p>
+
+                            <h2>Print Statement - Hello World</h2>
+
+                            <p>
+                                Well, there is not much difference here while printing, but Kotlin syntax is much more readable and English like. Even it has a bit <span class="highlight">less syntactic sugar</span> that makes you a bit more comfortable with the language. 
+                                Let’s have a look,
+
+                            </p>
+
+                            <h2>Java - </h2>
+
+                            <pre>
+                                <code>
+                                    public class Demo{
+                                        public static void main(String [ ] args){
+                                               System.out.println(“Hello World”);
+                                        }
+                                    }                                    
+                                </code>
+                            </pre>
+
+                            <h2>Kotlin -</h2>
+                            
+                            <pre>
+                                <code>
+                                   fun main() {
+                                        println("Hello, World!")
+                                    } 
+                                </code>
+                            </pre>
+
+                            <h2>2) Variable Deceleration</h2>
+
+                            <p>
+                                Well, variable deceleration is pretty simple in Kotlin. In Kotlin, we don’t need to mention the data type explicitly, it automatically determines it. Also, Kotlin uses two keywords namely, <span class="highlight">val and var</span>. The val keyword will make your variable immutable, just like the final keyword in Java and the var keyword makes a variable mutable. One more thing to note here in Kotlin is, it does not use semicolons. Oh, that’s a big relief😇 <br>
+                                Let’s have a look, 
+
+                            </p>
+
+                           <h2> Java -</h2>
+                           <pre>
+                               <code>
+                                    int number = 5;
+                                    final String name = “John”; 
+                               </code>
+                           </pre>
+
+                           <h2>Kotlin -</h2> 
+
+                           <pre>
+                               <code>
+                                    var number = 5
+                                    val name = “John”
+                               </code>
+                           </pre>
+                        
+                           <h2>3) Loops </h2>
+
+                           <p>
+                            There are no traditional loops in Kotlin unlike Java and other languages.
+                            In Kotlin, loops are used to iterate through ranges, arrays, maps, and so on (anything that provides an iterator). Just like in Python. 
+                            Kotlin provides a <span class="highlight">concept of range</span>. The range goes from one number to another. <br>
+                            Below is how it looks,
+                            
+                           </p>
+
+                           <h2>Java -</h2> 
+
+                           <pre>
+                               <code>
+                                    for(int i = 0; i <5; i++){
+                                        System.out.println(“ ”+ i);
+                                        }
+                               </code>
+                           </pre>
+
+                           <h2>Kotlin -</h2>
+
+                           <pre>
+                               <code>
+                                for(i in 1..5){
+                                    println(i)
+                                }
+                               </code>
+                           </pre>
+
+                           <h2>4) The Switch Case </h2>
+
+                           <p>
+                            Well, Kotlin does not have a switch <span class="highlight">statement</span>. Kotlin provides a when statement instead. The when construct in Kotlin can be thought of as a replacement for Java switch Statement. It evaluates a section of code among many alternatives.
+                            For Example, <br>
+                            
+                           </p>
+
+                           <h2>Java -</h2>
+
+                           <pre>
+                               <code>
+                                int x = 2;
+                                switch(x){
+                                    case 1: 
+                                    System.out.println(“1”);
+                                    break;
+                                    case 2: 
+                                    System.out.println(“2”);
+                                    break;
+                                    default: 
+                                    System.out.println(“None”);
+                                }                                
+                               </code>
+                           </pre>
+
+                           <h2>Kotlin -</h2>
+
+                           <pre>
+                               <code>
+                                val x = 2
+
+                                when(x) {
+                                     1 -> println(“1”)
+                                     2 -> println(“2”)
+                                    else -> println(“None”)
+                                 }                             
+                               </code>
+                           </pre>
+
+                           <p>Much simple and better, right?</p>
+
+                           <h2>5) Functions</h2>
+
+                           <p>
+                            Defining functions in Kotlin is a bit different. To define a function in Kotlin, <span class="highlight">a fun keyword</span> is used. Then comes the name of the function. In Kotlin, arguments are separated using commas. Also, the type of formal argument must be explicitly typed. 
+                            Also, we can optionally, write the data type of the returned value. 
+                            Below is how it looks,                            
+                           </p>
+
+                           <h2>Java - </h2>
+
+                           <pre>
+                               <code>
+                                int add(int a, int b){
+                                    int sum = a + b;
+                                    return sum;
+                               }                               
+                               </code>
+                           </pre>
+
+                           <h2>Kotlin - </h2>
+
+                           <pre>
+                               <code>
+                                fun add(n1: Int , n2: Int): Int {
+                                    val sum = n1 + n2
+                                    return sum
+                                }                                
+                               </code>
+                           </pre>
+
+                           <h2>6) Classes and Objects</h2>
+
+                            <p>
+                                Well, the syntax to define a <span class="highlight">class</span> in Kotlin is <span class="highlight">pretty similar</span>. The difference is when we define a new object. In Kotlin, we <span class="highlight">do not need the ‘new’ keyword</span> to create a new object.
+                            </p>
+
+                            <h2>Java - </h2>
+
+                            <pre>
+                                <code>
+                                    class User() {
+                                        ----
+                                        }
+                                        User newUser = new User();                                        
+                                </code>
+                            </pre>
+
+                            <h2>Kotlin - </h2>
+
+                            <pre>
+                                <code>
+                                    class User() {
+                                        ----
+                                        }
+                                        var newUser = User()                                        
+                                </code>
+                            </pre>
+
+                            <h2>7) Inheritance in Kotlin</h2>
+
+                            <p>
+                                Inheritance is one of the important concepts of programming. By default, classes in Kotlin are final. If you are familiar with Java, you know that a final class cannot be subclassed. By using the <span class="highlight">open annotation</span> on a class, the compiler allows you to derive new classes from it. Also, there is <span class="highlight">no ‘extends’</span> keyword in Kotlin, we use a simple colon.
+                            </p>
+
+                            <h2>Java -</h2> 
+
+                            <pre>
+                                <code>
+                                    class Demo1(){
+                                        -----
+                                        }
+                                        class Demo2 extends Demo1(){
+                                        ---
+                                        }
+                                </code>
+                            </pre>
+
+                            <h2>Kotlin - </h2>
+
+                            <pre>
+                                <code>
+                                    open class Demo1(){
+                                        ----
+                                        }
+                                        class Demo2: Demo1(){
+                                        ---
+                                        }                                        
+                                </code>
+                            </pre>
+
+                            <h2>8) Getters and Setters - POJO Objects</h2>
+
+                            <p>
+                                Getter and Setter are some of the important concepts when it comes to android development. It is pretty simple in Kotlin though. In Kotlin we don’t define getters and setters, they are automatically <span class="highlight">generated behind the scenes</span>. The primary constructor is also generated behind the scenes. Thus, it makes our job pretty simple. 
+                                Let’s have a look at how it works, 
+
+                            </p>
+
+                            <h2>Java -</h2> 
+
+                            <pre>
+                                <code>
+                                    class Person{
+                                        private String name;
+                                        private int age;
+                                   
+                                        public Person(String name, int age){
+                                              this.name=name;
+                                              this.age=age;
+                                        }
+                                        
+                                        public void setName(String name){
+                                              this.name = name;
+                                        }
+                                        public String getName(){
+                                              return name;
+                                        }
+                                        public void setAge(int age){
+                                              this.age = age;
+                                        }
+                                        public int getAge(){
+                                              return age;
+                                        }
+                                   }
+                                </code>
+                            </pre>
+
+                            <h2>Kotlin - </h2>
+
+                            <pre>
+                                <code>
+                                    data class Person{
+                                        val name: String;
+                                        val age: int;
+                                   }
+                                </code>
+                            </pre>
+
+                            <p>
+                                Well, that’s why developers love Kotlin!
+                                It is not possible to cover everything in an article, but all the above are the generally used concepts in Android and will help you switch from Java to Kotlin.
+                                Want to dive deep in Java and Kotlin? And want to learn Android development? 
+                                Try <a href="https://www.programming-hero.com/">Programming Hero</a> , a fun way to learn to code.
+                            </p>
+
+						</div>	
+						<div class=" pagination-area ">
+							<div class="pagination ">
+								<ul>
+									<li class=" prev "><a href="is-flutter-the-next-big-thing-lets-find-out.html">Prev</a></li>
+
+								</ul>
+							</div>
+						</div>	
+
+                        <script src=" https://www.powr.io/powr.js?platform=html"> </script> <div class="powr-comments"
+                                    id="3bbc2c1f_1571226073">
+                        </div>
+
+                        <div class="related-post box-shadow mt-70 ">
+                            <div class="section-title ">
+                                <h3>Related Post</h3>
+                            </div>
+                            <div class="related-slide-post ">
+                                <div class="single-blog ">
+                                    <div class="post-thumbnile ">
+                                        <a href="Learn-Python-in-a-week.html"><img
+                                                src="assets/images/blog/Learn-Python-In-A-Week.png"
+                                                alt="related post "></a>
+                                        <div class="cetagory-icon ">
+                                            <span class="flaticon-video-player "></span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-info ">
+                                        <div class="blog-title ">
+                                            <h3><a href="Learn-Python-in-a-week.html">Learn Python In A Week</a></h3>
+                                        </div>
+                                        <div class="blog-content ">
+                                            <p>If you spend 3–4 hours daily for 7 days, you will become a Junior Python
+                                                Developer. I am providing this guideline using this android app called:
+                                                Programming Hero.</p>
+                                        </div>
+                                        <div class="blog-meta fix ">
+                                            <div class="meta-left pull-left ">
+                                                <ul>
+                                                    <li> <span class="flaticon-man-user user "></span>
+                                                        <p>By <a href="# ">Jhankar Mahbub</a> </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="post-readmore pull-right ">
+                                                <a href="Learn-Python-in-a-week.html" class="readmore-btn ">Read More
+                                                    <span>+</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-blog ">
+                                    <div class="post-thumbnile ">
+                                        <a href="12-function-related-exercise-every-python-developer-should-learn.html"><img
+                                                src="assets/images/blog/12-function-related-exercise-every-python-developer-should-learn.png "
+                                                alt="related post "></a>
+                                        <div class="cetagory-icon ">
+                                            <span class="flaticon-video-player "></span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-info ">
+                                        <div class="blog-title ">
+                                            <h3><a
+                                                    href="12-function-related-exercise-every-python-developer-should-learn.html">12
+                                                    function related exercise every python developer should learn</a>
+                                            </h3>
+                                        </div>
+                                        <div class="blog-content ">
+                                            <p>I am taking all the examples from the Python learning app called
+                                                Programming Hero: Coding Just Got Fun</p>
+                                        </div>
+                                        <div class="blog-meta fix ">
+                                            <div class="meta-left pull-left ">
+                                                <ul>
+                                                    <li> <span class="flaticon-man-user user "></span>
+                                                        <p>By <a href="# ">Jhankar Mahbub</a> </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="post-readmore pull-right ">
+                                                <a href="12-function-related-exercise-every-python-developer-should-learn.html"
+                                                    class="readmore-btn ">Read More <span>+</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!--  
+            <div class="leaf-left ">
+                <img src="assets/images/leaf-left.png " alt="leaf-right ">
+            </div>
+            <div class="leaf-right ">
+                <img src="assets/images/leaf-right.png " alt="leaf-right ">
+            </div> -->
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exeModalLabel">Coming Soon!</h5>
+                    </div>
+                    <div class="modal-body">
+                        We put everything in the app. You don't have to overload your chrome browser.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn mymary"><a target="_blank"
+                                href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Can't
+                                wait</a></button>
+                        <button type="button" class="btn btn closed" data-dismiss="modal">I am boring</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-area ">
+            <div class="footer-top ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-4 ">
+                            <div class="footer-widget widget-text ">
+                                <div class="footer-logo ">
+                                    <h2><a href="# ">Programming Hero </a></h2>
+                                </div>
+                                <div class="widget-content ">
+                                    <p>Programming Hero is a fun, interactive, visual, and friendly way to learn
+                                        programming. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 ">
+                            <div class="footer-widget widget-nave ">
+                                <div class="widget-title ">
+                                    <h3>Quick Link</h3>
+                                </div>
+                                <div class="widget-nave-list ">
+                                    <ul>
+                                        <li><a href="../team/">About Us </a></li>
+                                        <li><a href="../terms/terms.html">Terms</a></li>
+                                        <li><a href="../terms/privacy.html">Privacy</a></li>
+                                        <li><a href="http://www.programming-hero.com/services/contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="footer-widget widget-recent-post ">
+                                <div class="widget-title ">
+                                    <h3>Recent Post</h3>
+                                </div>
+                                <div class="recent-post-list ">
+                                    <div class="single-post ">
+                                        <p><a href="# ">Switching from Java to Kotlin in 5 Minutes</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <div class="footer-widget widget-Subscribe ">
+                                <div class="widget-title ">
+                                    <h3>Subscribe Us</h3>
+                                </div>
+                                <div class="widget-Subscribe-form ">
+
+                                    <form
+                                        action="https://ProgrammerRasel.us19.list-manage.com/subscribe/post?u=f036da4e2ef8402dbcad30d3b&amp;id=2276250890&c=callback "
+                                        method="post " target="_blank " novalidate>
+                                        <div id="js-form-inputs ">
+                                            <div>
+                                                <input type="email " name="EMAIL " id="mce-EMAIL " value=" "
+                                                    placeholder="Email Address ">
+                                            </div>
+                                        </div>
+
+                                        <!-- honeypot -->
+                                        <div style="position: absolute; left: -5000px; " aria-hidden="true ">
+                                            <input type="text " id="js-validate-robot "
+                                                name="b_a4752870f583bb49a02427b3c_143fa46c21 " tabindex="-1 " value=" ">
+                                        </div>
+
+                                        <!-- submit -->
+                                        <button type="submit " name="subscribe "
+                                            class="btn btn-secondary btn-lg btn-block "
+                                            id="mc-embedded-subscribe ">SUBMIT</button>
+
+                                        <!-- response -->
+                                        <p id="js-subscribe-response "></p>
+                                    </form>
+
+                                </div>
+                                <div class="widget-content ">
+                                    <p>Do you want to receive our blog notification? Don’t Hesitate to Subscribe with
+                                        us.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="copyright-area ">
+                                <p>&copy; 2020 Programming Hero . All rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end here -->
+        <!-- js file start -->
+        <script src="assets/js/vendor/jquery-1.12.0.min.js "></script>
+		<script src="assets/js/plugins.js "></script>
+		<script src="assets/js/Popper.js "></script>
+		<script src="assets/js/bootstrap.min.js "></script>
+		<script src="assets/js/owl.carousel.min.js "></script>
+		<script src="assets/js/imagesloaded.pkgd.min.js "></script>
+		<script src="assets/js/scrollup.js "></script>			
+		<script src="assets/js/jquery.appear.js "></script>
+		<script src="assets/js/main.js "></script>
+		<script src="assets/js/mailchimpAjax-callback.js "></script>	
+        <script src="assets/js/highlight/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <!-- End js file -->
+</body>
+
+</html>
