@@ -1,0 +1,927 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Programming Hero">
+    <meta name="description" content="20 Python Tips and Tricks for New Python Developers">
+    <meta name="og:title" property="Programming Hero - Blog"
+        content="20 Python Tips and Tricks for New Python Developers">
+    <meta property="og:url" content="http://www.programming-hero.com/hero-blog" />
+    <meta property="og:image" content="assets/images/blog/20-python-tips-and-tricks-for-new-python-developers.png" />
+    <meta name="twitter:card" content="20 Python Tips and Tricks for New Python Developers">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- title here -->
+    <title>20 Python Tips and Tricks for New Python Developers</title>
+    <!-- Favicon and Touch Icons -->
+    <link rel="shortcut icon" href="assets/images/logo/programming-hero-fav.png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/highlight/monokai-sublime.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40601505-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-40601505-6');
+    </script>
+</head>
+
+<body>
+    <!-- header area start here -->
+    <header class="header-area" id="sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-7">
+                    <div class="log-area">
+                        <div class="header-logo">
+                            <!-- <h2><a href="#">Programming Hero</a></h2> -->
+                            <a href="../index.html"><img src="assets/images/logo/programming-hero.png"
+                                    alt="Programming-Hero.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="menu-area white">
+                        <nav>
+                            <ul>
+                                <li class="active sub"><a href="index.html">home</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#exModal">Paths be a Hero</a></li>
+                                <li><a href="#">Playground</a>
+                                    <ul class="sub_menu">
+                                        <li>
+                                            <a href="../code-playground/python/index.html">Python Playground</a>
+                                        </li>
+                                        <li>
+                                            <a href="../code-playground/web/index.html">Web Playground</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://www.programming-hero.com/hoc/index.html">Hour of Code</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-1 col-xs-5">
+                    <div class="humbargar-area">
+                        <div class="menu-icon text-right">
+                            <span class="flaticon-menu humbargar color"></span>
+                        </div>
+                        <div class="close-area">
+                            <span class="close"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar-menu ">
+        <div class="close-area">
+            <span class="close"><i class="icon fa fa-times-circle"></i></span>
+        </div>
+        <div class="main-menu">
+            <nav>
+                <ul>
+                    <li class="active sub"><a href="index.html">home</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#exModal">Paths be a Hero</a></li>
+                    <li><a href="../code-playground/python/index.html">Playground</a></li>
+                    <li><a href="http://www.programming-hero.com/hoc/index.html">Hour of Code</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Check
+                            version</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="breadcrumb-title">
+                        <h2>20 Python Tips and Tricks for New Python Developers</span></h2>
+                    </div>
+                    <!-- <div class="breadcrumb-sibtitle">
+                        <h4>8 Things You Must Know Before Learning Programming.</h4>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-details-area section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-post box-shadow">
+                        <div class="post-thumnile">
+                            <div class="slide-thumbnile">
+                                <div class="single-image">
+                                    <img src="assets/images/blog/20-python-tips-and-tricks-for-new-python-developers.png"
+                                        alt="20 Python Tips and Tricks for New Python Developers">
+                                    <div class="post-date">
+                                        <span>01</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/20-python-tips-and-tricks-for-new-python-developers.png"
+                                        alt="20 Python Tips and Tricks for New Python Developers">
+                                    <div class="post-date two">
+                                        <span>02</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/20-python-tips-and-tricks-for-new-python-developers.png"
+                                        alt="20 Python Tips and Tricks for New Python Developers">
+                                    <div class="post-date three">
+                                        <span>03</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/20-python-tips-and-tricks-for-new-python-developers.png"
+                                        alt="20 Python Tips and Tricks for New Python Developers">
+                                    <div class="post-date four">
+                                        <span>04</span>
+                                    </div>
+                                </div>
+                                <div class="single-image">
+                                    <img src="assets/images/blog/20-python-tips-and-tricks-for-new-python-developers.png"
+                                        alt="20 Python Tips and Tricks for New Python Developers">
+                                    <div class="post-date five">
+                                        <span>05</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <h1>20 Python Tips and Tricks for New Python Developers</h1>
+                        </div>
+                        <div class="blog-meta">
+                            <ul>
+                                <li> <span class="flaticon-man-user user"></span>
+                                    <p>By <a href="#">Jhankar Mahbub</a> </p>
+                                </li>
+                                <li> <span class="flaticon-calendar clendar"></span>
+                                    <p>09 Nov 2020</p>
+                                </li>
+                                <li> <span class="flaticon-chat comment"></span>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog-content">
+
+                            <p>
+                                There are two types of developers - Good developers and Smart Developers. Today I will
+                                discuss 20 Python tips and Tricks that will help to become Smart Developers. So let’s
+                                start with any further delays.
+                            </p>
+
+                            <img class="center" src="assets/images/blog/Alien science-rafiki.png" alt="data science">
+                            <br><br>
+
+                            <h2>1) Swapping numbers :</span></h2>
+
+                            <p>
+                                Swapping is an important concept when it comes to data structures and algorithms.
+                                Let’s see how we can swap numbers in Python,
+
+                            </p>
+
+                            <p>
+                                Normal Way: <br>
+                                Here we will need to create a temporary variable that we use to store value temporarily
+                                so that the other one gets empty and we can swap the values.
+
+                            </p>
+
+                            <pre>
+                                <code>
+                                    x=5
+                                    y=10
+                                    temp=x
+                                    x=y
+                                    y=temp
+                                    print(“The value of x after swapping is”,x)
+                                    print(“The value of y after swapping is”,y)
+                                </code>
+                            </pre>
+
+                            <p>
+                                Now let me show you a simple trick to swap numbers in Python,
+                            </p>
+
+                            <pre>
+                                <code>
+                                    x = 5
+                                    y = 10
+                                    x, y = y, x
+                                    print(“The value of x after swapping is”,x)
+                                    print(“The value of y after swapping is”,y)
+                                </code>
+                            </pre>
+
+                            <p>Wasn’t that simple?</p>
+
+                            <h2>2) Concatenating Strings</h2>
+
+                            <p>
+                                This is one of the useful and handy tricks. Let’s see how we can create a string from a
+                                list of characters. We will be using the join() method. Let’s check how it works,
+                            </p>
+
+                            <pre>
+                                <code>
+                                    characters = [‘p’, ‘y’, ‘t’, ‘h’, ‘o’, ‘n’]
+                                    word = “”.join(characters)
+                                    print(word)
+                                </code>
+                            </pre>
+
+                            <p>
+                                Output: 
+                            </p>
+                            <pre>
+                                <code>
+                                    Python
+                                </code>
+                            </pre>
+
+                            <h2>3) Reversing a String</h2>
+
+                            <p>
+                                Trust me reversing a string can’t be much simpler than this, Watch out….
+                                We will use a simple concept of string slicing and negative indexing. We know that
+                                python can have a negative index, we just slice it and don’t provide any starting and
+                                ending value, just give the range of -1, i.e it will start from the last index till the
+                                first one, thus will reverse it.
+                                .
+                            </p>
+
+                            <pre>
+                                <code>
+                                    word = “orehgnimmargorp”
+                                    print(word[: : -1])
+                                </code>
+                            </pre>
+
+                            <p>
+                                Output: <br>
+                                programming hero
+                            </p>
+
+                            <p>
+                                Wasn’t that simple? Just simple slicing can get the work done.
+                            </p>
+
+                            <h2>4) Using ZIP with lists</h2>
+
+                            <p>
+                                Use the zip() function to combine several lists of the same length and print out the
+                                result.
+                            </p>
+
+                            <pre>
+                                <code>
+                                    language = [“python”, “java”, “c”]
+                                    creators = [“guido van rossum”, “james gosling”, “denis ricthie”]
+                                    for language, creators in zip(language, creators):
+                                        print(language, creators)
+                                </code>
+                            </pre>
+
+                            <p>
+                                Output:
+                            </p>
+
+                            <pre>
+                                <code>
+                                    python guido van rossum 
+                                    java james gosling
+                                    c denis ricthie
+                                </code>
+                            </pre>
+
+                            <h2>5) Converting lists into dictionary</h2>
+
+                            <p>
+                                This is one of the really useful tricks when you work on real projects on Django and
+                                Machine learning and more. Use zip() function like before, this time just invoke it in
+                                the dictionary constructor.
+                            </p>
+
+                            <pre>
+                                <code>
+                                    user = [“Peter”, “John”, “Sam”]
+                                    age = [23,19,34]
+                                    dictionary = dict(zip(user, age))
+                                    print(dictionary)
+                                </code>
+                            </pre>
+
+                            <p>
+                                Output :
+                            </p>
+
+                            <pre>
+                                <code>
+                                    {“Peter” : 23, “John” : 23, “Sam” : 34}
+                                </code>
+                            </pre>
+
+                            <h2>6) The _ Operator</h2>
+
+                            <p>
+                                The _ operator might be something that you might not have heard of. Here _ is the output
+                                of the last executed expression. Let’s check how it works.
+                            </p>
+
+                            <pre>
+                                <code>
+                                    >>> 2+ 3
+                                    5
+                                    >>> _    # the _ operator, it will return the output of the last executed statement.
+                                    >>> 5
+
+                                </code>
+                            </pre>
+
+                            <h2>7) Opening a website</h2>
+
+                            <p>
+                                Python is all about cool stuff. Here is one of the coolest tricks: open a website using
+                                a python script. Sounds interesting?
+                            </p>
+
+                            <pre>
+                                <code>
+                                    import webbrowser 
+                                    webbrowser.open(“https://www.programming-hero.com/”)
+
+                                </code>
+                            </pre>
+
+                            <p>
+                                This is how we can open a website with just a single line of code.
+                            </p>
+
+                            <h2>8) Multiple user input</h2>
+
+                            <p>
+                                If you are thinking, it’s simple, just use two input functions and we are done.
+                                But I have another cooler way of doing it, first let’s check the old school way…
+                            </p>
+
+                            <pre>
+                                        <code>
+                                            x = input(“Enter a number”)
+                                            y = input (“Enter another number”)
+                                            print(x)
+                                            print(y)
+
+                                        </code>
+                                    </pre>
+
+                            <p>
+                                The cooler way,
+                            </p>
+
+                            <pre>
+                                        <code>
+                                            x, y = input("Enter a two values: ").split()
+                                            print("value of x ", x)
+                                            print("value of y: ", y)
+                                        </code>
+                                    </pre>
+
+                            <p>
+                                split() function helps in getting multiple inputs from the user . It breaks the
+                                given input by the specified separator. If a separator is not provided then any
+                                white space is a separator.
+                            </p>
+                            <h2>9) Colored Text </h2>
+                            <p>
+                                Bored with the old black and white console? This trick is to rescue you.
+                            </p>
+                            <pre>
+                                <code>
+                                    from termcolor import colored
+                                    print(colored(“Programming Hero”, “yellow”))
+                                    print(colored(“Programming Hero”, “red”))
+                                </code>
+                            </pre>
+                            <p>Output :</p>
+                            <p style="background-color: black; text-align: center;">
+                               
+                                    <span style="color: yellow;">Programming Hero</span> <br>
+                                    <span style="color: red;">Programming Hero</span>
+                               
+                            </p>
+                            <h2>10) The Walrus(:=) Operator</h2>
+                            <p>
+                                Walrus operators is one of the latest additions to Python. It was recently added to Python in Python version 3.8. It is an assignment expression that allows assignment directly in the expression.
+                            </p>
+                            <p>
+                                Normal Way :
+                            </p>
+                            <pre>
+                                <code>
+                                    xs = [1,2,3]
+                                    n=len(xs)
+                                    if n>2:
+                                        print(n)
+                                </code>
+                            </pre>
+                            <p>
+                                Here in this example, we declare a list and then declare a variable ‘n’ to assign the value of length of the list.
+                            </p>
+                            <p>
+                                Using walrus operators,
+                            </p>
+                            <pre>
+                                <code>
+                                    xs = [1,2,3]
+                                    if (n:=len(xs)>2):
+                                        print(n)
+                                </code>
+                            </pre>
+                            <p>
+                                Here, we declare and assign the value at the same time. That’s the power of the Walrus operator.
+                            </p>
+                            <h2>11) Shutting down a computer</h2>
+                            <p>
+                                Let’s check how we can shutdown a computer using just one line of code. For this we will use the OS module. It is one of the really important modules in python with many other functionalities.
+                            </p>
+                            <pre>
+                                <code>
+                                    import os
+                                    os.system(‘shutdown -s’)
+
+                                </code>
+                            </pre>
+                            <p>That’s it!</p>
+                            <h2>12) List comprehension
+                            </h2>
+                            <p>
+                                List comprehension is an elegant way to define and create lists in python. We can create lists just like mathematical statements and in one line only. The syntax of list comprehension is easier to grasp. It’s a smart way to work with lists…
+                            </p>
+                            <p>Normal Way:</p>
+                            <p>Below code creates a list of odd square values,</p>
+
+                            <pre>
+                                <code>
+                                    odd_square = []
+                                    for x in range(1, 11):
+                                        if x % 2 == 1:
+                                            odd_square.append(x**2)
+                                    print (odd_square)
+
+                                </code>
+                            </pre>
+                            <p>Using List Comprehension:
+                            </p>
+                            <pre>
+                                <code>
+                                    odd_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
+                                    (print odd_square)
+                                </code>
+                            </pre>
+                            <p>
+                                We can have an expression, loop and condition in the same line. 5 lines of code in just 1 line. That’s List comprehension.
+                            </p>
+                            <h2>13) Multi-args Function:</h2>
+                            <p>
+                                It is one of the coolest Python tricks. Let’s say you are creating a function and you don’t know what will be the number of arguments that will be coming from the user side. Then how can we declare the parameters of the function?
+                                Here comes Multi-args functions, Check the below example that will add any number of values passed by the user. 
+                            </p>
+                            <pre>
+                                <code>
+                                    def add(*num):
+                                        result=0
+                                        for i in num:
+                                            result=result+i
+                                        return result
+                                    
+                                    print(add(1,2))
+                                    print(add(1,2,3,4,5))
+                                </code>
+                            </pre>
+                            <p>
+                                Output:
+                            </p>
+                            <pre>
+                                <code>
+                                    3
+                                    15
+                                </code>
+                            </pre>
+                            <p>
+                                Thus, multi-args function creates a list of parameters and then performs the operation. 
+                            </p>
+                            <h2>14) Reading passwords as user input</h2>
+                            <p>
+                                Give users a great experience in simple menu based applications as well. Use the getpass module to read in passwords from the users in the console applications. 
+                            </p>
+                            <pre>
+                                <code>
+                                    from getpass import getpass
+
+                                    username = input(‘username : ’)
+                                    password = getpass(‘password : ’ )
+                                </code>
+                            </pre>
+                            <p>
+                                Output :
+                            </p>
+                            <pre>
+                                <code>
+                                    username : john23
+                                    password : *******
+                                </code>
+                            </pre>
+                            <p>
+                                This hides the user input for the password field on the console.
+                            </p>
+                            <h2>15) Palindrome</h2>
+                            <p>
+                                I am sure you might have come across this problem. It is one of the university's favourite problems. Ever thought you could do that in just a single line of code? Check this out…
+                            </p>
+                            <pre>
+                                <code>
+                                    word = “wow”
+                                    palindrome = bool(word.find(word[: : -1]) + 1)
+                                    print(palindrome)
+                                </code>
+                            </pre>
+                            <p>
+                                Output :
+                            </p>
+                            <pre>
+                                <code>
+                                    True
+                                </code>
+                            </pre>
+                            <h2>16) Fibonacci series</h2>
+                            <p>
+                                Oh, that’s another university’s favorite coding problem. And again I have a simple one line solution for you. Throw this code at your teacher and amaze him/her.
+                            </p>
+                            <pre>
+                                <code>
+                                    fibo = lambda n : n if n <= 1 else fibo(n-1) + fibo(n-2)
+                                    result = fibo(10)
+                                    print(result)
+                                </code>
+                            </pre>
+                            <p>
+                                Wasn’t that simple?
+                            </p>
+                            <h2>17) Lambda Function</h2>
+                            <p>
+                                These are also called as anonymous functions because these functions don’t have names. These are rigorously used in Data Science, ML, Backend using Django and more. Let’s check an example to add two numbers.
+                            </p>
+                            <p>Normal Function :</p>
+                            <pre>
+                                <code>
+                                    def add(a,b):
+                                        return a + b
+                                    
+                                    add(2,3)
+                                </code>
+                            </pre>
+                            <p>Lambda Function :</p>
+                            <pre>
+                                <code>
+                                    add = lambda a,b : a+b
+                                    add(2,3)
+
+                                </code>
+                            </pre>
+                            <h2>18) Measuring Execution Time </h2>
+                            <p>
+                                Want to test your program? Want to track the performance and the execution time? This feature is really gonna be helpful. Let’s check it out.
+                            </p>
+                            <pre>
+                                <code>
+                                    import time
+                                    startTime = time.time()
+
+                                    # your code
+
+                                    endTime = time.time()
+                                    totalTime = endTime - startTime
+                                    print("Execute code is= ", totalTime)
+
+                                </code>
+                            </pre>
+                            <p>
+                                Output will be the milliseconds taken by the program to execute, Thus this will help to make the performance better and modify the code accordingly.
+                            </p>
+                            <h2>19) Removing duplicates from a List</h2>
+                            <p>
+                                Lists can have duplicate elements. But there are instances where we don’t want duplicate elements in the list. Let’s check how that can be done… 
+                            </p>
+                            <pre>
+                                <code>
+                                    listNumbers = [20, 22, 24, 26, 28, 28, 20, 30, 24]
+                                    print("Original= ", listNumbers) 
+                                    listNumbers = list(set(listNumbers))
+                                    print("After removing duplicate= ", listNumbers)
+                                </code>
+                            </pre>
+                            <p>Output:</p>
+                            <pre>
+                                <code>
+                                    Original = [20, 22, 24, 26, 28, 28, 20, 30, 24]
+                                    After removing duplicate = [20, 22, 24, 26, 28, 30]                                    
+                                </code>
+                            </pre>
+                            <h2>20) Manipulating Tuples</h2>
+                            <p>
+                                What’s that? How can we do that? We know tuples are immutable, then how can we manipulate it? We can! We are programmers and we can find ways for all problems. Check out below example,
+                            </p>
+                            <pre>
+                                <code>
+                                    tuple1=(1,2,3,4,5)
+                                    list1=list(tuple1)
+                                    list1.append(6)
+                                    tuple2=tuple(list1)
+                                    print(tuple2)
+                                </code>
+                            </pre>
+                            <p>
+                                Output:
+                            </p>
+                            <pre>
+                                <code>
+                                    (1,2,3,4,5,6)
+                                </code>
+                            </pre>
+                            <P>
+                                Simple? Just use list() and tuple() constructors and it’s done…
+                            </P>
+                            <P>
+                                I hope these tricks will help you to get better at Python and it was super fun! <br>
+                                Want to learn Python is such a fun way? Try our app <a href="https://www.programming-hero.com/">Programming Hero | Personalized Way To Learn Programming</a> right now…
+
+                            </P>
+
+                        </div>
+                        <div class=" pagination-area ">
+                            <div class="pagination ">
+                                <ul>
+                                    <li class=" prev "><a href="how-to-get-started-with-data-science.html">Prev</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <script src=" https://www.powr.io/powr.js?platform=html"> </script>
+                        <div class="powr-comments" id="3bbc2c1f_1571226073">
+                        </div>
+
+                        <div class="related-post box-shadow mt-70 ">
+                            <div class="section-title ">
+                                <h3>Related Post</h3>
+                            </div>
+                            <div class="related-slide-post ">
+                                <div class="single-blog ">
+                                    <div class="post-thumbnile ">
+                                        <a href="Learn-Python-in-a-week.html"><img
+                                                src="assets/images/blog/Learn-Python-In-A-Week.png"
+                                                alt="related post "></a>
+                                        <div class="cetagory-icon ">
+                                            <span class="flaticon-video-player "></span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-info ">
+                                        <div class="blog-title ">
+                                            <h3><a href="Learn-Python-in-a-week.html">Learn Python In A Week</a></h3>
+                                        </div>
+                                        <div class="blog-content ">
+                                            <p>If you spend 3–4 hours daily for 7 days, you will become a Junior Python
+                                                Developer. I am providing this guideline using this android app called:
+                                                Programming Hero.</p>
+                                        </div>
+                                        <div class="blog-meta fix ">
+                                            <div class="meta-left pull-left ">
+                                                <ul>
+                                                    <li> <span class="flaticon-man-user user "></span>
+                                                        <p>By <a href="# ">Jhankar Mahbub</a> </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="post-readmore pull-right ">
+                                                <a href="Learn-Python-in-a-week.html" class="readmore-btn ">Read More
+                                                    <span>+</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-blog ">
+                                    <div class="post-thumbnile ">
+                                        <a href="12-function-related-exercise-every-python-developer-should-learn.html"><img
+                                                src="assets/images/blog/12-function-related-exercise-every-python-developer-should-learn.png "
+                                                alt="related post "></a>
+                                        <div class="cetagory-icon ">
+                                            <span class="flaticon-video-player "></span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-info ">
+                                        <div class="blog-title ">
+                                            <h3><a
+                                                    href="12-function-related-exercise-every-python-developer-should-learn.html">12
+                                                    function related exercise every python developer should learn</a>
+                                            </h3>
+                                        </div>
+                                        <div class="blog-content ">
+                                            <p>I am taking all the examples from the Python learning app called
+                                                Programming Hero: Coding Just Got Fun</p>
+                                        </div>
+                                        <div class="blog-meta fix ">
+                                            <div class="meta-left pull-left ">
+                                                <ul>
+                                                    <li> <span class="flaticon-man-user user "></span>
+                                                        <p>By <a href="# ">Jhankar Mahbub</a> </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="post-readmore pull-right ">
+                                                <a href="12-function-related-exercise-every-python-developer-should-learn.html"
+                                                    class="readmore-btn ">Read More <span>+</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!--  
+            <div class="leaf-left ">
+                <img src="assets/images/leaf-left.png " alt="leaf-right ">
+            </div>
+            <div class="leaf-right ">
+                <img src="assets/images/leaf-right.png " alt="leaf-right ">
+            </div> -->
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exeModalLabel">Coming Soon!</h5>
+                    </div>
+                    <div class="modal-body">
+                        We put everything in the app. You don't have to overload your chrome browser.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn mymary"><a target="_blank"
+                                href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">Can't
+                                wait</a></button>
+                        <button type="button" class="btn btn closed" data-dismiss="modal">I am boring</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-area ">
+            <div class="footer-top ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-4 ">
+                            <div class="footer-widget widget-text ">
+                                <div class="footer-logo ">
+                                    <h2><a href="# ">Programming Hero </a></h2>
+                                </div>
+                                <div class="widget-content ">
+                                    <p>Programming Hero is a fun, interactive, visual, and friendly way to learn
+                                        programming. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 ">
+                            <div class="footer-widget widget-nave ">
+                                <div class="widget-title ">
+                                    <h3>Quick Link</h3>
+                                </div>
+                                <div class="widget-nave-list ">
+                                    <ul>
+                                        <li><a href="../team/">About Us </a></li>
+                                        <li><a href="../terms/terms.html">Terms</a></li>
+                                        <li><a href="../terms/privacy.html">Privacy</a></li>
+                                        <li><a href="http://www.programming-hero.com/services/contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="footer-widget widget-recent-post ">
+                                <div class="widget-title ">
+                                    <h3>Recent Post</h3>
+                                </div>
+                                <div class="recent-post-list ">
+                                    <div class="single-post ">
+                                        <p><a href="# ">20 Python Tips and Tricks for New Python Developers</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <div class="footer-widget widget-Subscribe ">
+                                <div class="widget-title ">
+                                    <h3>Subscribe Us</h3>
+                                </div>
+                                <div class="widget-Subscribe-form ">
+
+                                    <form
+                                        action="https://ProgrammerRasel.us19.list-manage.com/subscribe/post?u=f036da4e2ef8402dbcad30d3b&amp;id=2276250890&c=callback "
+                                        method="post " target="_blank " novalidate>
+                                        <div id="js-form-inputs ">
+                                            <div>
+                                                <input type="email " name="EMAIL " id="mce-EMAIL " value=" "
+                                                    placeholder="Email Address ">
+                                            </div>
+                                        </div>
+
+                                        <!-- honeypot -->
+                                        <div style="position: absolute; left: -5000px; " aria-hidden="true ">
+                                            <input type="text " id="js-validate-robot "
+                                                name="b_a4752870f583bb49a02427b3c_143fa46c21 " tabindex="-1 " value=" ">
+                                        </div>
+
+                                        <!-- submit -->
+                                        <button type="submit " name="subscribe "
+                                            class="btn btn-secondary btn-lg btn-block "
+                                            id="mc-embedded-subscribe ">SUBMIT</button>
+
+                                        <!-- response -->
+                                        <p id="js-subscribe-response "></p>
+                                    </form>
+
+                                </div>
+                                <div class="widget-content ">
+                                    <p>Do you want to receive our blog notification? Don’t Hesitate to Subscribe with
+                                        us.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="copyright-area ">
+                                <p>&copy; 2020 Programming Hero . All rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end here -->
+        <!-- js file start -->
+        <script src="assets/js/vendor/jquery-1.12.0.min.js "></script>
+        <script src="assets/js/plugins.js "></script>
+        <script src="assets/js/Popper.js "></script>
+        <script src="assets/js/bootstrap.min.js "></script>
+        <script src="assets/js/owl.carousel.min.js "></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js "></script>
+        <script src="assets/js/scrollup.js "></script>
+        <script src="assets/js/jquery.appear.js "></script>
+        <script src="assets/js/main.js "></script>
+        <script src="assets/js/mailchimpAjax-callback.js "></script>
+        <script src="assets/js/highlight/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <!-- End js file -->
+</body>
+
+</html>
