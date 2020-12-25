@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/style-v3.css" />
 	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 	<!-- usre review carousel library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
@@ -37,6 +38,16 @@
 
 		gtag('config', 'UA-40601505-6');
 	</script>
+	<style>
+		.christmas-modal{
+			background-color: rgb(155, 42, 155);
+		}
+		.christmas-content{
+			width: 60%;
+			margin: 0 auto;
+			color: #ffffff;
+		}
+	</style>
 </head>
 
 <body class="ui-transparent-nav">
@@ -97,6 +108,28 @@
 
 	<!-- Main Wrapper -->
 	<div class="main" role="main">
+
+		<!-- Modal -->
+		<div id="myPopup" class="modal fade " role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content christmas-modal">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="christmas-content">
+							<img height="400px" width="400px" src="./images/christmas.png" alt="">
+							<p><a href="./language-recommender/index.html">Click</a> to get you Christmas present</p>
+						</div>
+					</div>
+					<!--<div class="modal-footer">
+		  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>-->
+				</div>
+
+			</div>
+		</div>
 		<!-- Waves Hero Slider -->
 		<div class="headerbg">
 			<div class="ui-hero ui-hero-slider slider-pro hero-lg ui-gradient-purple ui-waves hero-svg-layer-1"
@@ -784,7 +817,8 @@
 									<div class="embed-responsive embed-responsive-16by9">
 										<iframe src="https://www.youtube.com/embed/Rim14e5_Hwc" frameborder="0"
 											allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-											allowfullscreen></iframe></div>
+											allowfullscreen></iframe>
+									</div>
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -798,6 +832,7 @@
 
 				</div><!-- .main -->
 
+
 				<!-- Scripts -->
 				<script type="text/javascript" src="assets/js/libs/jquery/jquery-3.3.1.min.js"></script>
 				<script type="text/javascript" src="assets/js/libs/bootstrap.min.js"></script>
@@ -810,9 +845,26 @@
 				<script type="text/javascript" src="assets/js/libs/owl_carousel.js"></script>
 				<script type="text/javascript"
 					src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
-				</script>
+					</script>
 
 				<script type="text/javascript" src="assets/css/simple-lib-css/video.js"></script>
+				<script>
+					// A $( document ).ready() block.
+					$(document).ready(function () {
+						$('#myPopup').modal({ show: true });
+						if (document.cookie.indexOf('visited=true') == -1) {
+							// load the overlay
+
+
+							var year = 1000 * 60 * 60 * 24 * 1;
+							var expires = new Date((new Date()).valueOf() + year);
+							document.cookie = "visited=true;expires=" + expires.toUTCString();
+
+						}
+					}); 
+				</script>
+
+
 </body>
 
 </html>
