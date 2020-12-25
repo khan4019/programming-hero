@@ -11,12 +11,12 @@ body{
    
     margin: 50px auto;
     width: 50%;
-    background: #1e2d40;
+    background: #341f97;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 
 }
  h1{
-    background-color: #1e2d40;
+    background: linear-gradient(right, #341f97, #7158e2);
     margin-top: 20px;
     font-size: 2em;
     color:#00ffc3;
@@ -47,7 +47,7 @@ label span{
     margin: 10px 0px;
     padding: 6px 7px;
     width: 200px;
-    border:3px solid #00ffc3;
+    border:3px solid #5B0CE1;
     border-radius: 50px; 
     color:white;
     /* font-weight: 600; */
