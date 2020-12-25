@@ -2,9 +2,9 @@ body{
 
     font-family: sans-serif;
     color: white;
-    background: #007991;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #007991);
+    background: #9d0191;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9d0191,#ce31c1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#6027E8,#5B08E0);
 }
 
 .container{
