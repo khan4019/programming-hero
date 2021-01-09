@@ -10,7 +10,7 @@
 	<meta name="description"
 		content="Enjoy a personalized, fun, and interactive learning process while becoming a Programming Hero.">
 
-	<meta property="og:image" content="./assets/img/Programming-Hero-app.png" />
+	<meta property="og:image" content="http://www.programming-hero.com/thumbnail.png" />
 	<meta property="og:description"
 		content="Enjoy a personalized, fun, and interactive learning process while becoming a Programming Hero.">
 	<meta property="og:url" content="http://www.programming-hero.com">
@@ -46,17 +46,6 @@
 
 		gtag('config', 'UA-40601505-6');
 	</script>
-	<style>
-		.christmas-modal {
-			background-color: rgb(155, 42, 155);
-		}
-
-		.christmas-content {
-			width: 60%;
-			margin: 0 auto;
-			color: #ffffff;
-		}
-	</style>
 </head>
 
 <body class="ui-transparent-nav">
@@ -117,30 +106,6 @@
 
 	<!-- Main Wrapper -->
 	<div class="main" role="main">
-		<!-- CHristmas modal
-		
-		<div id="myPopup" class="modal fade " role="dialog">
-			<div class="modal-dialog">
-				
-				<div class="modal-content christmas-modal">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-					<div class="modal-body">
-						<div class="christmas-content">
-							<img height="400px" width="400px" src="./images/christmas.png" alt="">
-							<p><a href="./language-recommender/index.html">Click</a> to get your Christmas present</p>
-						</div>
-					</div>
-					
-		  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		</div>
-				</div>
-
-			</div>
-		</div>
-	-->
-
 		<!-- Waves Hero Slider -->
 		<div class="headerbg">
 			<div class="ui-hero ui-hero-slider slider-pro hero-lg ui-gradient-purple ui-waves hero-svg-layer-1"
@@ -859,20 +824,7 @@
 					</script>
 
 				<script type="text/javascript" src="assets/css/simple-lib-css/video.js"></script>
-				<script>
-					// A $( document ).ready() block.
-					$(document).ready(function () {
-						$('#myPopup').modal({ show: true });
-						if (document.cookie.indexOf('visited=true') == -1) {
-							// load the overlay
-							// $('#myPopup').modal({ show: true });
-							var year = 1000 * 60 * 60 * 24 * 1;
-							var expires = new Date((new Date()).valueOf() + year);
-							document.cookie = "visited=true;expires=" + expires.toUTCString();
 
-						}
-					}); 
-				</script>
 
 
 </body>
