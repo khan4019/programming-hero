@@ -94,19 +94,37 @@
                         style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
 
                         <div class="contact-us-section">
-                            <form action="https://formspree.io/Programming.Hero1@gmail.com" method="POST" id="form"
-                                class="contact-us-form form-validation">
-                                <input class="hover-tooltip" name="email" type="email" placeholder="Email Address*"
-                                    data-toggle="tooltip" data-placement="left" title="*Enter Your Email"
-                                    required="true">
-                                <input type="text" placeholder="Subject*" name="sub" required="true">
-                                <textarea placeholder="Your Message*" name="message" required="true"></textarea>
-                                <div class="theme-button">
-                                    <span></span>
-                                    <input id="submit" type="submit" value="Submit">
-                                </div>
+                            <form class="contact-us-form form-validation">
+                              <input
+                                class="hover-tooltip"
+                                name="email"
+                                type="email"
+                                placeholder="Email Address*"
+                                data-toggle="tooltip"
+                                data-placement="left"
+                                title="*Enter Your Email"
+                                required="true"
+                                id="email"
+                              />
+                              <input
+                                type="text"
+                                placeholder="Subject*"
+                                id="subject"
+                                name="sub"
+                                required="true"
+                              />
+                              <textarea
+                                placeholder="Your Message*"
+                                id="message"
+                                name="message"
+                                required="true"
+                              ></textarea>
+                              <div class="theme-button">
+                                <span></span>
+                                <input id="submit" type="submit" value="Submit" />
+                              </div>
                             </form>
-                        </div>
+                          </div>
 
                     </div>
                 </div>
@@ -203,7 +221,6 @@
 
         </div>
         <!-- .main -->
-
         <!-- Scripts -->
         <script type="text/javascript" src="../assets/js/libs/jquery/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="../assets/js/libs/bootstrap.min.js"></script>
@@ -211,6 +228,39 @@
         <script type="text/javascript" src="../assets/js/build/js-build.js"></script>
         <script type="text/javascript" src="../assets/js/libs/theme.js"></script>
         <script type="text/javascript" src="../assets/css/simple-lib-css/video.js"></script>
+        <script>
+            const emailIsValid = (email) =>
+              /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+            const submitBtn = document.getElementById("submit");
+            submitBtn.addEventListener("click", function (e) {
+              e.preventDefault();
+    
+              const email = document.getElementById("email").value;
+              const subject = document.getElementById("subject").value;
+              const message = document.getElementById("message").value;
+              if (emailIsValid(email)) {
+                fetch("https://app.programming-hero.com/api/contact-us", {
+                  method: "POST",
+                  body: JSON.stringify({ email, subject, message }),
+                  headers: {
+                    "Content-type": "application/json; charset=UTF-8",
+                  },
+                })
+                  .then((response) => response.json())
+                  .then((json) => {
+                    document.getElementById("email").value = "";
+                    document.getElementById("subject").value = "";
+                    document.getElementById("message").value = "";
+                    alert("Email send Successfully");
+                  })
+                  .catch((err) => {
+                    alert("Email not send try again!");
+                  });
+              } else {
+                alert("Try With a valid email address.");
+              }
+            });
+          </script>
     </div>
 </body>
 
