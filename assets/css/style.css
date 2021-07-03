@@ -1485,9 +1485,9 @@ nav ul ul li:hover {
 		flex: 1;
 	}
 }
-@media (max-width: 1025px) {
-	.navbar .navbar-brand {
-		flex: 1;
+@media (min-width: 1024px) and (max-width: 1199px) {
+	#let-start {
+		display: none;
 	}
 }
 .navbar a {
