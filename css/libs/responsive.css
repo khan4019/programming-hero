@@ -1,0 +1,226 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .logo {
+    padding-top: 30px;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    padding-top: 30px;
+  }
+  .banner-area {
+    min-height: 736px;
+  }
+  .course-info-footer {
+    flex-flow: column;
+  }
+  .course-info-footer .item {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .banner-btn a {
+    margin-bottom: 15px;
+    margin-left: 0 !important;
+  }
+  h2.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  h1.banner-title {
+    font-size: 40px;
+  }
+  .banner-container h1.banner-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .banner-container.startup h1.banner-title {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  .web-course-details {
+    flex-direction: column;
+  }
+  .web-course-details .web-course-right h3 {
+    line-height: 24px;
+  }
+  .web-course-details .course-thumbnail .card {
+    background-color: transparent;
+    width: 100%;
+  }
+  .web-course-details .course-thumbnail img {
+    max-width: 370px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .banner-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .logo {
+    padding-top: 30px;
+  }
+  .banner-btn a {
+    padding: 15px;
+  }
+
+  .banner-image img {
+    width: 80%;
+  }
+  .banner-image {
+    padding-top: 50px;
+  }
+  img.shape.banner-bottom {
+    left: 15px;
+    bottom: 50px;
+  }
+
+  img.shape.banner-top {
+    bottom: 285px;
+    right: 40px;
+    top: inherit;
+  }
+
+  .banner-text {
+    text-align: center;
+  }
+
+  .web-banner.banner-container,
+  .app-container {
+    margin-top: 42px;
+  }
+  .app-text-content {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+.overview-item{
+  display: inline-block;
+}
+  .course-info .course-info-item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .course-info-footer .item {
+    width: 50%;
+    text-align: left;
+    padding: 8px 14px;
+    margin: 5px -5px;
+  }
+  .course-info-footer .item span {
+    font-size: 12px;
+  }
+
+  .course-text-content.pl-2.pr-5.mr-2 {
+    padding-right: 0 !important;
+    padding-bottom: 40px;
+    margin-top: 0;
+  }
+
+  .circle4 {
+    right: 0;
+  }
+  .circle6 {
+    left: 0;
+  }
+
+  .circle1 {
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .shape {
+    display: none;
+  }
+  .shape-python {
+    right: 3%;
+    bottom: 18%;
+    top: inherit;
+  }
+  .course {
+    margin-left: 5px;
+  }
+  .footer-area {
+    font-size: 16px;
+  }
+  .footer-nav {
+    margin-top: 16px;
+  }
+  .footer-item {
+    margin-top: 30px;
+  }
+  .job-image {
+    margin-bottom: 10px;
+  }
+  .switch-container {
+    display: none;
+  }
+  .best-apps-areas .content.right-bottom .text-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .web-course-details .web-course-right {
+    padding-bottom: 15px;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+
+  .banner-image {
+    padding: 150px 60px 60px 60px;
+  }
+
+  .shape-1 {
+    top: 10%;
+    left: inherit;
+    right: 15%;
+  }
+
+  .shape-python {
+    right: 0;
+    bottom: 25%;
+    top: inherit;
+  }
+
+  .shape-react {
+    top: 55%;
+  }
+  .shape-js {
+    right: 76px;
+    left: 0;
+    bottom: 10px;
+    margin: 0 auto;
+  }
+}
