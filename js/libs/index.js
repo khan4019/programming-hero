@@ -7,8 +7,8 @@ $(document).ready(function () {
     pagination: false,
     navigation: false,
     // navigationText:["",""],
-    slideSpeed: 1000,
-    autoPlay: false,
+    slideSpeed: 1500,
+    autoPlay: true,
   });
 
   $(".assignments").owlCarousel({
@@ -19,7 +19,7 @@ $(document).ready(function () {
     pagination: false,
     navigation: false,
     // navigationText:["",""],
-    slideSpeed: 1000,
+    slideSpeed: 1500,
     autoPlay: true,
   });
   // $(".assignments").slick({

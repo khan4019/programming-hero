@@ -33,13 +33,38 @@
   h2.banner-title {
     font-size: 50px;
     font-weight: 700;
-  }
+  }  
 }
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
   h1.banner-title {
     font-size: 40px;
+  }
+  .job-single-item {
+    background: #201548;
+    border-radius: 28.9667px;
+    padding: 43px 84px;
+    margin-bottom: 20px;
+  }
+  .job-single-item h3{
+    padding: 10px;
+    margin-top:15px!important;
+  }
+  .job-placement {
+    margin-top: 80px;
+  }
+  .web-course {
+    margin-top: 80px;
+  }
+  .best-apps-areas {
+    margin-top: 100px;
+  }
+  .footer-area {
+    margin-top: 80px;
+  }
+  .job-placement-features{
+    margin-top:0px;
   }
   .banner-container h1.banner-title {
     font-size: 26px;
