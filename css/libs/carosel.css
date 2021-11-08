@@ -1,0 +1,104 @@
+.demo {
+  background: #f8f7f6;
+}
+#testimonial-slider {
+  padding: 20px 20px 35px 20px;
+}
+.testimonial .description {
+  font-size: 16px;
+  color: #fff;
+  line-height: 26px;
+  text-indent: 30px;
+  position: relative;
+}
+.testimonial .description:before {
+  content: "“";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+.testimonial .description::after {
+  content: "”";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+.testimonial .title {
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0;
+  text-align: center;
+}
+.testimonial .post {
+  display: block;
+  font-size: 15px;
+  color: #363636;
+  font-family: "Poppins"
+}
+.owl-buttons {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  left: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+.owl-next {
+  left: auto;
+  right: 0;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  background: transparent;
+}
+.owl-theme .owl-controls {
+  position: absolute;
+  top: -50px;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid #ccc;
+  background: url("../img/review/review2.png") no-repeat;
+  background-size: cover;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* .owl-theme .owl-controls .owl-page.active span {
+    width: 70px;
+    height: 70px;
+} */
+.owl-theme .owl-controls .owl-page:nth-child(2) span {
+  background: url("../img/review/review1.png") no-repeat;
+  background-size: cover;
+}
+.owl-theme .owl-controls .owl-page:nth-child(3) span {
+  background: url("../img/review/review3.png") no-repeat;
+  background-size: cover;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active:hover span {
+  border-color: #d133ff;
+  opacity: 1;
+}
+@media only screen and (max-width: 479px) {
+  .owl-buttons {
+    bottom: 30%;
+  }
+}
