@@ -9,7 +9,13 @@ body {
   font-style: normal;
   background-color: #0f0826;
 }
-
+html, body{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
+  }
 .img {
   max-width: 100%;
   transition: all 0.3s ease-out 0s;
@@ -419,7 +425,7 @@ img.shape.js {
   margin: 86px 0 100px 0;
 }
 
-.app-overview .container {
+.app-overview{
   background: #211548;
   border-radius: 16px;
   padding: 25px 15px;
@@ -478,10 +484,10 @@ background: #1f1248;
 .course-info-footer .item {
   background: #ffffff;
   border-radius: 57.2653px;
-  padding: 7px 10px;
+  padding: 5px 10px;
 }
 .course-info-footer .item span {
-  font-size: 14px;
+  font-size: 13px;
 }
 .course-feature-item.left {
   background: linear-gradient(156.49deg, #5f5fff 1.87%, #5222d0 84.84%);

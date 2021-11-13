@@ -156,12 +156,16 @@
   .course-info-footer .item {
     width: 50%;
     text-align: left;
-    padding: 8px 14px;
+    padding: 8px 12px;
     margin: 5px -5px;
   }
   .course-info-footer .item span {
-    font-size: 12px;
+    font-size: 11px;
   }
+.course-feature-item.left h3 {
+  font-size: 35px;
+  line-height: 37px;
+}
 
   .course-text-content.pl-2.pr-5.mr-2 {
     padding-right: 0 !important;
