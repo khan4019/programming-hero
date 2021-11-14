@@ -149,6 +149,10 @@
 .overview-item{
   display: inline-block;
 }
+.web-course-details .web-course-right {
+  padding-left: 10px;
+  padding-right: 10px;
+}
   .course-info .course-info-item {
     margin-bottom: 10px;
     text-align: center;
@@ -156,9 +160,13 @@
   .course-info-footer .item {
     width: 50%;
     text-align: left;
-    padding: 8px 12px;
+    padding: 6px 8px;
     margin: 5px -5px;
   }
+.planet-img{
+  max-width: 85%;
+  transition: all 0.3s ease-out 0s;
+}
   .course-info-footer .item span {
     font-size: 11px;
   }
