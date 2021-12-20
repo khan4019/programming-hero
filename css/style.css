@@ -171,14 +171,18 @@ p {
   z-index: 1;
 }
 .main-menu ul li {
-  display: inline-block;
+  display: inline-flex;
   margin: 0 13px;
   position: relative;
+  margin: 0 13px;
+}
+.main-menu ul li:last-child {
+  border: none;
 }
 
 .main-menu ul li a {
   text-transform: uppercase;
-  padding: 40px 0;
+  padding: 0 0;
   display: block;
   color: #f1f1f1;
   font-size: 15px;
@@ -691,4 +695,50 @@ background: #1f1248;
   background: linear-gradient(1.09deg, #6e1fea -11.78%, #4289ff 198.26%);
   bottom: -50px;
   left: -55px;
+}
+.main-menu{
+  padding: 40px 0 0 0;
+  width: 100%;
+}
+.navbar-nav{
+  width: 100%;
+  float: right;
+  padding: 20px 10px;
+}
+.menulist{
+  width: 100%;
+  float: right;
+}
+.menu-list{  
+  float: right;
+}
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .main-menu ul li{
+      position: relative;
+      padding: 8px 0;
+      border-bottom: 1px solid #141543;
+    }
+    .menu-list{  
+      background: rgb(18, 16, 57);
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .navbar-nav{
+      padding: 20px 10px;
+    }
+    .menu-list {
+      width: 100%;
+      float: right;
+  }
+  .menu-icon{
+    color: #3e8ee2ed;
+    padding-right: 10px;
+    font-size: 17px;
+    width: 30px;
+    display: block!important;
+  }
+}
+.menu-icon{
+  display: none;
 }
