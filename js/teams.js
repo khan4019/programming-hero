@@ -1,13 +1,14 @@
-const apiUrl = "https://web.programming-hero.com/api/team-member/team-members";
+const apiUrl = "https://hq.programming-hero.com/api/v1/team-members";
 const main = document.getElementById("main");
 
-teamsURL(apiUrl);
-function teamsURL(url) {
+teams(apiUrl);
+function teams(url) {
   fetch(url)
     .then((res) => res.json())
     .then(function (data) {
       teamData = data.data;
-      teamData.forEach((member) => {
+      console.log(teamData)
+      teamData.forEach((users) => {
 
         //create elements dom
         const el = document.createElement("div");
@@ -15,12 +16,13 @@ function teamsURL(url) {
         const name = document.createElement("h2");
         const designation = document.createElement("p");
 
-        var imagePrefix = "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/";
+//        var imagePrefix = "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/";
 
         //set data element
-        name.innerHTML = `${member.name}`;
-        designation.innerHTML = `${member.designation}`;
-        image.src = `${imagePrefix}${member.image}`
+        name.innerHTML = `${users.fullName}`;
+        designation.innerHTML = `${users.designation}`;
+        image.src = `${users.profileImage}`
+        //image.src = `${imagePrefix}${member.profileImage}`
 
         //append data dom
         el.appendChild(image);
